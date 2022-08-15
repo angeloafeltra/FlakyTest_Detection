@@ -1,0 +1,9 @@
+idProject,nameProject,testCase
+2,as2-lib,com.helger.as2demo.SPITest.testBasic
+2,as2-lib,com.helger.as2lib.SPITest.testBasic
+2,as2-lib,com.helger.as2lib.crypto.ECryptoAlgorithmCryptTest.testBasic
+2,as2-lib,com.helger.as2lib.crypto.ECryptoAlgorithmSignTest.testBasic
+2,as2-lib,com.helger.as2lib.supplementary.functest.MimeBodyPartFuncTest.testWriteContentTransferEncoding8Bit
+2,as2-lib,com.helger.as2lib.supplementary.functest.MimeBodyPartFuncTest.testWriteContentTransferEncodingBase64
+2,as2-lib,com.helger.as2lib.supplementary.functest.MimeBodyPartFuncTest.testReadContentTransferEncodingBase64
+2,as2-lib,com.helger.as2servlet.SPITest.testBasic

@@ -1,0 +1,225 @@
+[1] "tloc"
+
+Cliff's Delta
+
+delta estimate: -0.2331037 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.2846456 -0.1802179 
+
+[1] "tmcCabe"
+
+Cliff's Delta
+
+delta estimate: -0.2308809 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.2704473 -0.1905360 
+
+[1] "assertionDensity"
+
+Cliff's Delta
+
+delta estimate: -0.07381916 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.11637387 -0.03099392 
+
+[1] "assertionRoulette"
+
+Cliff's Delta
+
+delta estimate: -0.06242582 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.11179431 -0.01274995 
+
+[1] "mysteryGuest"
+
+Cliff's Delta
+
+delta estimate: -0.1667697 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.1989726 -0.1342071 
+
+[1] "eagerTest"
+
+Cliff's Delta
+
+delta estimate: 0.001691388 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.04627727  0.04965227 
+
+[1] "sensitiveEquality"
+
+Cliff's Delta
+
+delta estimate: -0.01599988 (negligible)
+95 percent confidence interval:
+        lower         upper 
+-0.0317205526 -0.0002712863 
+
+[1] "resourceOptimism"
+
+Cliff's Delta
+
+delta estimate: -0.007831163 (negligible)
+95 percent confidence interval:
+       lower        upper 
+-0.019226789  0.003566497 
+
+[1] "conditionalTestLogic"
+
+Cliff's Delta
+
+delta estimate: -0.09771407 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.13941655 -0.05566561 
+
+[1] "fireAndForget"
+
+Cliff's Delta
+
+delta estimate: -0.0264325 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.03999617 -0.01285910 
+
+[1] "loc"
+
+Cliff's Delta
+
+delta estimate: -0.2072991 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.2580469 -0.1554107 
+
+[1] "lcom2"
+
+Cliff's Delta
+
+delta estimate: -0.2291024 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.2770900 -0.1799747 
+
+[1] "lcom5"
+
+Cliff's Delta
+
+delta estimate: 0.1404207 (negligible)
+95 percent confidence interval:
+    lower     upper 
+0.0980050 0.1823272 
+
+[1] "cbo"
+
+Cliff's Delta
+
+delta estimate: -0.2387754 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.2863717 -0.1900035 
+
+[1] "wmc"
+
+Cliff's Delta
+
+delta estimate: -0.2824668 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.3301336 -0.2333630 
+
+[1] "rfc"
+
+Cliff's Delta
+
+delta estimate: -0.2696822 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.3167444 -0.2212954 
+
+[1] "mpc"
+
+Cliff's Delta
+
+delta estimate: -0.2756384 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.3215181 -0.2284674 
+
+[1] "halsteadVocabulary"
+
+Cliff's Delta
+
+delta estimate: -0.2820898 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.3300087 -0.2327208 
+
+[1] "halsteadLength"
+
+Cliff's Delta
+
+delta estimate: -0.2281622 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.2760537 -0.1791405 
+
+[1] "halsteadVolume"
+
+Cliff's Delta
+
+delta estimate: -0.2364732 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.2844599 -0.1873045 
+
+[1] "classDataShouldBePrivate"
+
+Cliff's Delta
+
+delta estimate: -0.005068926 (negligible)
+95 percent confidence interval:
+       lower        upper 
+-0.017714960  0.007578729 
+
+[1] "complexClass"
+
+Cliff's Delta
+
+delta estimate: -0.08195106 (negligible)
+95 percent confidence interval:
+      lower       upper 
+-0.10503861 -0.05877523 
+
+[1] "functionalDecomposition"
+
+Cliff's Delta
+
+delta estimate: 0.02052479 (negligible)
+95 percent confidence interval:
+      lower       upper 
+0.002362451 0.038673601 
+
+[1] "godClass"
+
+Cliff's Delta
+
+delta estimate: 0.06702946 (negligible)
+95 percent confidence interval:
+     lower      upper 
+0.02824012 0.10561723 
+
+[1] "spaghettiCode"
+
+Cliff's Delta
+
+delta estimate: -0.152929 (small)
+95 percent confidence interval:
+     lower      upper 
+-0.1827366 -0.1228405 
+

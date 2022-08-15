@@ -1,0 +1,7 @@
+idProject,nameProject,testCase
+53,oci-java-sdk,com.oracle.bmc.RealmTest.noDuplicateRealmId
+53,oci-java-sdk,com.oracle.bmc.objectstorage.transfer.ProgressTrackingInputStreamTest.nullProgressTracker
+53,oci-java-sdk,com.oracle.bmc.objectstorage.transfer.ProgressTrackingInputStreamTest.nonDuplicatableStream
+53,oci-java-sdk,com.oracle.bmc.objectstorage.transfer.ProgressTrackingInputStreamTest.duplicatableStream
+53,oci-java-sdk,com.oracle.bmc.objectstorage.transfer.ProgressTrackingInputStreamTest.duplicatableStream_duplicate
+53,oci-java-sdk,com.oracle.bmc.objectstorage.transfer.ProgressTrackingInputStreamTest.duplicatableStream_readAndDuplicate

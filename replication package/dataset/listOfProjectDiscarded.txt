@@ -1,0 +1,93 @@
+List of Project Discarded in RQ1 and RQ2
+
+iDFlakies dataset:
+Sos, https://github.com/odrotbohm/sos
+Arangodb-tinkerpop-provider, https://github.com/arangodb-community/arangodb-tinkerpop-provider
+Web Collector, https://github.com/crawlscript/webcollector
+Spring-data-envers, https://github.com/spring-projects/spring-data-envers
+Excelastic, https://github.com/codingchili/excelastic
+Balala, https://github.com/wso2/balana
+Fluent-logger-java, https://github.com/fluent/fluent-logger-java
+Gooddata-cl, https://github.com/gooddata/gooddata-cl
+Vertx-rabbitmq-client,https://github.com/vert-x3/vertx-rabbitmq-client
+Noxy, https://github.com/spinn3r/noxy
+Vertx-mqtt, https://github.com/vert-x3/vertx-mqtt
+As2-lib, https://github.com/phax/as2-lib
+Spring-data-ebean, https://github.com/hexagonframework/spring-data-ebean
+Otto, https://github.com/square/otto
+Dbean, https://github.com/spotify/dbeam
+Redpipe, https://github.com/fromage/redpipe
+Vertx-completable-future, https://github.com/cescoffier/vertx-completable-future
+Wildfly-maven-plugin, https://github.com/wildfly/wildfly-maven-plugin
+Luwak, https://github.com/flaxsearch/luwak
+Nify-registry, https://github.com/apache/nifi-registry
+Yawp, https://github.com/feroult/yawp
+Unix4j, https://github.com/tools4j/unix4j
+DnsJava, https://github.com/dnsjava/dnsjava
+Wikidata-toolkit, https://github.com/wikidata/wikidata-toolkit
+JUnit-quickcheck, https://github.com/pholser/junit-quickcheck
+Carbon-apimgt, https://github.com/wso2/carbon-apimgt
+Whois, https://github.com/ripe-ncc/whois
+Joda-time, https://github.com/jodaorg/joda-time
+Jimfs, https://github.com/google/jimfs
+Spring-boot, https://github.com/spring-projects/spring-boot
+Jackrabbit-oak, https://github.com/apache/jackrabbit-oak
+
+FlakeFlagger dataset:
+Commons-exec, https://github.com/apache/commons-exec
+Handlebars.java, https://github.com/jknack/handlebars.java
+Jimfs, https://github.com/google/jimfs
+Zxing, https://github.com/zxing/zxing
+Wildfly, https://github.com/wildfly/wildfly
+
+______________________________________________________________________________________________________________________________
+
+
+List of Project Discarded in RQ3
+
+iDFlakies dataset:
+Achilles, https://github.com/doanduyhai/achilles
+Alien4Cloud, https://github.com/alien4cloud/alien4cloud
+C2mon, https://github.com/c2mon/c2mon
+Cukes, https://github.com/ctco/cukes
+DbScheduler, https://github.com/kagkarlsson/db-scheduler
+Delight-nashorn-sandbox, https://github.com/javadelight/delight-nashorn-sandbox
+Disconf, https://github.com/knightliao/disconf
+Dropwizard, https://github.com/dropwizard/dropwizard
+Esper, https://github.com/espertechinc/esper
+HBase, https://github.com/apache/hbase
+Helios, https://github.com/spotify/helios
+Hsac-fitnesse-fixture, https://github.com/fhoeben/hsac-fitnesse-fixtures
+Hutool, https://github.com/looly/hutool
+Java-cas-client, https://github.com/apereo/java-cas-client 
+JFreeChart, https://github.com/jfree/jfreechart
+JHipsterRegistry, https://github.com/jhipster/jhipster-registry
+Marine-api, https://github.com/ktuukkan/marine-api
+Nexus-repository-helm, https://github.com/sonatype-nexus-community/nexus-repository-helm
+Oci-java-sdk, https://github.com/oracle/oci-java-sdk
+One, https://github.com/lcw2004/one
+Openpojo, https://github.com/openpojo/openpojo
+Orbit, https://github.com/orbit/orbit
+Oryx, https://github.com/oryxproject/oryx
+Recast4j, https://github.com/ppiastucki/recast4j
+Retrofit, https://github.com/square/retrofit
+Riptide, https://github.com/zalando/riptide
+Rxjava2-extras, https://github.com/davidmoten/rxjava2-extras
+Sawmill, https://github.com/logzio/sawmill
+Search-highlighter, https://github.com/wikimedia/search-highlighter
+Spring-cloud-aws, https://github.com/spring-cloud/spring-cloud-aws
+Spring-cloud-zuul-ratelimit, https://github.com/marcosbarbero/spring-cloud-zuul-ratelimit
+Spring-ws, https://github.com/spring-projects/spring-ws
+Timely, https://github.com/nationalsecurityagency/timely
+Tyrus, https://github.com/eclipse-ee4j/tyrus
+Undertow, https://github.com/undertow-io/undertow
+Vertexium, https://github.com/visallo/vertexium
+Wro4j, https://github.com/wro4j/wro4j
+
+
+
+FlakeFlagger dataset:
+Assertj-core, https://github.com/joel-costigliola/assertj-core
+
+
+

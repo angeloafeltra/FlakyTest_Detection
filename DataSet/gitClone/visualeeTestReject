@@ -1,0 +1,10 @@
+idProject,nameProject,testCase
+86,visualee,de.strullerbaumann.visualee.dependency.entity.DependencyTypeTest.DependencyTypeTest
+86,visualee,de.strullerbaumann.visualee.dependency.entity.DependencyTypeTest.testIsInverseDirection
+86,visualee,de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.JPAExaminerTest
+86,visualee,de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.testIsRelevantType
+86,visualee,de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.testFindAndSetAttributesManyToOne
+86,visualee,de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.testFindAndSetAttributesManyToMany
+86,visualee,de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.testFindAndSetAttributesIgnoreComments
+86,visualee,de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.testFindAndSetAttributesIgnoreCommentBlocks
+86,visualee,de.strullerbaumann.visualee.maven.PluginTest.testCreateDirs

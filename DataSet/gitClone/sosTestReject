@@ -1,0 +1,11 @@
+idProject,nameProject,testCase
+83,sos,example.sos.monolith.orders.OrderManagerIntegrationTests.completingAnOrderUpdatesInventory
+83,sos,example.sos.monolith.orders.OrderManagerIntegrationTests.throwsExceptionInCaseProductIsOutOfStock
+83,sos,example.sos.modulith.orders.EmailNotificationTest.completingAnOrderUpdatesInventory
+83,sos,example.sos.modulith.orders.EmailNotificationTest.systemCrashDuringTransactionalListenerExecutionKeepsPublicationRegistration
+83,sos,example.sos.modulith.orders.OrderManagerIntegrationTests.completingAnOrderUpdatesInventory
+83,sos,example.sos.modulith.orders.OrderManagerIntegrationTests.throwsExceptionInCaseProductIsOutOfStock
+83,sos,example.sos.messaging.orders.OrderSerializationTests.testname
+83,sos,example.sos.rest.events.EventRepositoryIntegrationTests.persistsEvents
+83,sos,example.sos.rest.events.EventRepositoryIntegrationTests.findsEventsByAggregateType
+83,sos,example.sos.rest.events.EventRepositoryIntegrationTests.findsEventsByEventType

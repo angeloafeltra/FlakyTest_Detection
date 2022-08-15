@@ -1,0 +1,5 @@
+idProject,nameProject,testCase
+68,pippo,ro.pippo.weld.ControllerInterceptorTest.testControllerWithInterceptor
+68,pippo,ro.pippo.core.route.PathTraversalResourceHandlerTest.classpathResourceHandlerTest
+68,pippo,ro.pippo.core.route.PathTraversalResourceHandlerTest.webjarResourceHandlerTest
+68,pippo,ro.pippo.core.route.PathTraversalResourceHandlerTest.publicResourceHandlerTest

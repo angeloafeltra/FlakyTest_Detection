@@ -1,0 +1,14 @@
+idProject,nameProject,testCase
+78,jsonex,org.jsonex.core.charsource.BaseCharSourceTest.createCharSource
+78,jsonex,org.jsonex.core.charsource.BaseCharSourceTest.createCharSource
+78,jsonex,org.jsonex.core.charsource.BaseCharSourceTest.testCharArraySource
+78,jsonex,org.jsonex.core.charsource.BaseCharSourceTest.testParseText
+78,jsonex,org.jsonex.core.charsource.BaseCharSourceTest.testReadQuotedString
+78,jsonex,org.jsonex.core.charsource.BaseCharSourceTest.testReadQuotedStringWithOctEscape
+78,jsonex,org.jsonex.core.charsource.BaseCharSourceTest.assertReadQuotedString
+78,jsonex,org.jsonex.core.charsource.BaseCharSourceTest.testReadQuotedStringError
+78,jsonex,org.jsonex.csv.CSVTest.testParseAndWriter
+78,jsonex,org.jsonex.csv.CSVTest.testReadField
+78,jsonex,org.jsonex.csv.CSVTest.testReadFieldMissingQuote
+78,jsonex,org.jsonex.jsoncoder.JSONCoderBulkTest.log
+78,jsonex,org.jsonex.jsoncoder.JSONCoderBulkTest.testBulkDecode

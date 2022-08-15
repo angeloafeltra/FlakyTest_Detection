@@ -1,0 +1,7 @@
+idProject,nameProject,testCase
+19,http-request,com.github.kevinsawicki.http.EncodeTest.encode
+19,http-request,com.github.kevinsawicki.http.EncodeTest.encodeMalformedUri
+19,http-request,com.github.kevinsawicki.http.ServerTestCase.setUp
+19,http-request,com.github.kevinsawicki.http.ServerTestCase.handle
+19,http-request,com.github.kevinsawicki.http.ServerTestCase.clearProxyHitCount
+19,http-request,com.github.kevinsawicki.http.ServerTestCase.tearDown

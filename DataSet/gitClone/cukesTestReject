@@ -1,0 +1,16 @@
+idProject,nameProject,testCase
+22,cukes,lv.ctco.cukes.core.di.SingletonObjectFactoryTests.setup
+22,cukes,lv.ctco.cukes.core.di.SingletonObjectFactoryTests.tearDown
+22,cukes,lv.ctco.cukes.core.di.SingletonObjectFactoryTests.shouldThrowExceptionWhenAlreadyUsed
+22,cukes,lv.ctco.cukes.core.di.SingletonObjectFactoryTests.shouldSupportScenarioScope
+22,cukes,lv.ctco.cukes.core.di.SingletonObjectFactoryTests.simulateCucumberScenarioStart
+22,cukes,lv.ctco.cukes.core.di.SingletonObjectFactoryTests.simulateCucumberScenarioStop
+22,cukes,lv.ctco.cukes.rabbitmq.RunCukesRabbmitMQTest.setUp
+22,cukes,lv.ctco.cukes.rabbitmq.RunCukesRabbmitMQTest.tearDown
+22,cukes,lv.ctco.cukes.rabbitmq.RunCukesRabbmitMQTest.name
+22,cukes,lv.ctco.cukes.rest.run.RunCukesTest.setUp
+22,cukes,lv.ctco.cukes.rest.run.RunCustomCukesTest.setUp
+22,cukes,lv.ctco.cukes.ldap.sample.RunCukesLDAPTest.setUp
+22,cukes,lv.ctco.cukes.ldap.sample.RunCukesLDAPTest.tearDown
+22,cukes,lv.ctco.cukes.oauth.sample.RunCukesOAuthTest.setUp
+22,cukes,lv.ctco.cukes.oauth.sample.RunCukesOAuthTest.tearDown

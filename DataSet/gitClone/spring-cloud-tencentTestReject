@@ -1,0 +1,7 @@
+idProject,nameProject,testCase
+57,spring-cloud-tencent,com.tencent.cloud.polaris.ribbon.PolarisRibbonServerListAutoConfigurationTest.testProperties
+57,spring-cloud-tencent,com.tencent.cloud.polaris.ratelimit.controller.CalleeControllerTests.beforeClass
+57,spring-cloud-tencent,com.tencent.cloud.polaris.ratelimit.controller.CalleeControllerTests.afterClass
+57,spring-cloud-tencent,com.tencent.cloud.polaris.ratelimit.controller.CalleeControllerTests.setUp
+57,spring-cloud-tencent,com.tencent.cloud.polaris.ratelimit.controller.CalleeControllerTests.test1
+57,spring-cloud-tencent,com.tencent.cloud.polaris.context.PolarisContextGetHostTest.testGetConfigHost

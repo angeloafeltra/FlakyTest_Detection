@@ -1,0 +1,11 @@
+idProject,nameProject,testCase
+37,facebook-java-business-sdk,com.facebook.ads.ServerSideNormalizationTest.NameNormalizeTest
+37,facebook-java-business-sdk,com.facebook.ads.ServerSideNormalizationTest.CityNormalizeTest
+37,facebook-java-business-sdk,com.facebook.ads.ServerSideNormalizationTest.StateNormalizeTest
+37,facebook-java-business-sdk,com.facebook.ads.ServerSideNormalizationTest.CountryNormalizeTest
+37,facebook-java-business-sdk,com.facebook.ads.ServerSideNormalizationTest.ZipNormalizeTest
+37,facebook-java-business-sdk,com.facebook.ads.ServerSideNormalizationTest.CurrencyNormalizeTest
+37,facebook-java-business-sdk,com.facebook.ads.ServerSideNormalizationTest.PhoneNumberNormalizeTest
+37,facebook-java-business-sdk,com.facebook.ads.ServerSideNormalizationTest.EmailNormalizeTest
+37,facebook-java-business-sdk,com.facebook.ads.ServerSideTest.CustomDataParametersTest
+37,facebook-java-business-sdk,com.facebook.ads.SignalTest.EventRequestTest

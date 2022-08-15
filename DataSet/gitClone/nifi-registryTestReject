@@ -1,0 +1,8 @@
+idProject,nameProject,testCase
+58,nifi-registry,org.apache.nifi.registry.web.api.IntegrationTestBase.initialize
+58,nifi-registry,org.apache.nifi.registry.web.api.IntegrationTestBase.createURL
+58,nifi-registry,org.apache.nifi.registry.web.api.IntegrationTestBase.createBaseURL
+58,nifi-registry,org.apache.nifi.registry.web.api.IntegrationTestBase.createClientConfig
+58,nifi-registry,org.apache.nifi.registry.web.api.IntegrationTestBase.loadNiFiRegistryProperties
+58,nifi-registry,org.apache.nifi.registry.web.api.IntegrationTestBase.createClientFromConfig
+58,nifi-registry,org.apache.nifi.registry.web.api.IntegrationTestBase.jacksonJaxbJsonProvider

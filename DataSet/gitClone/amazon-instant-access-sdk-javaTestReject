@@ -1,0 +1,10 @@
+idProject,nameProject,testCase
+7,amazon-instant-access-sdk-java,com.amazon.dtasdk.connection.SignatureVerificationTest.startServer
+7,amazon-instant-access-sdk-java,com.amazon.dtasdk.connection.SignatureVerificationTest.stopServer
+7,amazon-instant-access-sdk-java,com.amazon.dtasdk.connection.SignatureVerificationTest.serverUrl
+7,amazon-instant-access-sdk-java,com.amazon.dtasdk.connection.SignatureVerificationTest.setDefaultHeaders
+7,amazon-instant-access-sdk-java,com.amazon.dtasdk.connection.SignatureVerificationTest.copyHeaders
+7,amazon-instant-access-sdk-java,com.amazon.dtasdk.connection.SignatureVerificationTest.before
+7,amazon-instant-access-sdk-java,com.amazon.dtasdk.connection.SignatureVerificationTest.roundTripServer_withBareUrl
+7,amazon-instant-access-sdk-java,com.amazon.dtasdk.connection.SignatureVerificationTest.roundTrip_withPath
+7,amazon-instant-access-sdk-java,com.amazon.dtasdk.connection.SignatureVerificationTest.roundTrip_NoAuth

@@ -1,0 +1,3 @@
+idProject,nameProject,testCase
+34,jReddit,com.github.jreddit.parser.entity.KindTest.testMatchSuccess
+34,jReddit,com.github.jreddit.parser.entity.KindTest.testMatchFailure

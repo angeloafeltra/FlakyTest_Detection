@@ -1,0 +1,15 @@
+                 tmcCabe  0.061123
+        assertionDensity  0.408513
+            mysteryGuest       0.0
+               eagerTest  0.048329
+       sensitiveEquality  0.012265
+        resourceOptimism       0.0
+    conditionalTestLogic   0.09563
+           fireAndForget       0.0
+                   lcom2  0.155234
+                   lcom5  0.070317
+          halsteadLength  0.327347
+classDataShouldBePrivate       0.0
+            complexClass       0.0
+ functionalDecomposition   0.08277
+           spaghettiCode       0.0

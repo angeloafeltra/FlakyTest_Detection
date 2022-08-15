@@ -1,0 +1,16 @@
+                 tmcCabe  0.067451
+        assertionDensity  0.061067
+       assertionRoulette  0.018228
+            mysteryGuest  0.000902
+               eagerTest  0.024942
+       sensitiveEquality  0.001086
+        resourceOptimism  0.000538
+    conditionalTestLogic  0.028971
+           fireAndForget  0.006935
+                   lcom2  0.079385
+                   lcom5  0.046202
+                     cbo  0.072411
+classDataShouldBePrivate       0.0
+            complexClass       0.0
+ functionalDecomposition  0.002281
+           spaghettiCode       0.0

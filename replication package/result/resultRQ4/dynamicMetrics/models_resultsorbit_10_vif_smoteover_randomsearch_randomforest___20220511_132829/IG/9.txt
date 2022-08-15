@@ -1,0 +1,10 @@
+                    conditional-test-logic       0.0
+                                eager-test  0.024513
+                          indirect-testing  0.025976
+                             mystery-guest       0.0
+                         resource-optimism       0.0
+                              test-run-war  0.015934
+                                testLength  0.450561
+               projectSourceClassesCovered  0.266746
+hIndexModificationsPerCoveredLine_window10  0.101571
+                      num_third_party_libs  0.007776

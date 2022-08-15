@@ -1,0 +1,11 @@
+idProject,nameProject,testCase
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.setUp
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.tearDown
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.getPort
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.createRecord
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.createSchema
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.createOtherSchema
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.createOtherRecord
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.verifySearchResults
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.verifySearchResults
+79,kafka-connect-elasticsearch,io.confluent.connect.elasticsearch.ElasticsearchSinkTestBase.nodeSettings

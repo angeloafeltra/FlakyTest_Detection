@@ -1,0 +1,14 @@
+idProject,nameProject,testCase
+91,vCenter_Plugin_DME,com.huawei.vmware.mo.DiskControllerTypeTest.setUp
+91,vCenter_Plugin_DME,com.huawei.vmware.mo.DiskControllerTypeTest.getType
+91,vCenter_Plugin_DME,com.huawei.vmware.SpringBootConnectionHelperTest.setUp
+91,vCenter_Plugin_DME,com.huawei.vmware.SpringBootConnectionHelperTest.getvCenterInfoService
+91,vCenter_Plugin_DME,com.huawei.vmware.SpringBootConnectionHelperTest.setvCenterInfoService
+91,vCenter_Plugin_DME,com.huawei.vmware.SpringBootConnectionHelperTest.getServerContext
+91,vCenter_Plugin_DME,com.huawei.vmware.SpringBootConnectionHelperTest.getAllContext
+91,vCenter_Plugin_DME,com.huawei.vmware.VmwarePluginConnectionHelperTest.setUp
+91,vCenter_Plugin_DME,com.huawei.vmware.VmwarePluginConnectionHelperTest.getServerContext
+91,vCenter_Plugin_DME,com.huawei.vmware.VmwarePluginConnectionHelperTest.getAllContext
+91,vCenter_Plugin_DME,com.huawei.vmware.util.TestVmwareContextFactoryTest.setUp
+91,vCenter_Plugin_DME,com.huawei.vmware.util.TestVmwareContextFactoryTest.create
+91,vCenter_Plugin_DME,com.huawei.vmware.util.TestVmwareContextFactoryTest.getContext

@@ -1,0 +1,175 @@
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  tloc by isFlaky
+W = 2635460, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  tmcCabe by isFlaky
+W = 2643098, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  assertionDensity by isFlaky
+W = 3182845, p-value = 0.0005099
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  assertionRoulette by isFlaky
+W = 3221998, p-value = 0.004284
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  mysteryGuest by isFlaky
+W = 2863418, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  eagerTest by isFlaky
+W = 3442339, p-value = 0.9396
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  sensitiveEquality by isFlaky
+W = 3381542, p-value = 0.01534
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  resourceOptimism by isFlaky
+W = 3409614, p-value = 0.1052
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  conditionalTestLogic by isFlaky
+W = 3100730, p-value = 0.0000003911
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  fireAndForget by isFlaky
+W = 3345690, p-value = 0.00000000000008733
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  loc by isFlaky
+W = 2724138, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  lcom2 by isFlaky
+W = 2649210, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  lcom5 by isFlaky
+W = 3919086, p-value = 0.0000000005449
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  cbo by isFlaky
+W = 2615968, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  wmc by isFlaky
+W = 2465822, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  rfc by isFlaky
+W = 2509756, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  mpc by isFlaky
+W = 2489288, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  halsteadVocabulary by isFlaky
+W = 2467118, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  halsteadLength by isFlaky
+W = 2652441, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  halsteadVolume by isFlaky
+W = 2623880, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  classDataShouldBePrivate by isFlaky
+W = 3419107, p-value = 0.3887
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  complexClass by isFlaky
+W = 3154900, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  functionalDecomposition by isFlaky
+W = 3507060, p-value = 0.04933
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  godClass by isFlaky
+W = 3666875, p-value = 0.0007689
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  spaghettiCode by isFlaky
+W = 2910982, p-value < 0.00000000000000022
+alternative hypothesis: true location shift is not equal to 0
+

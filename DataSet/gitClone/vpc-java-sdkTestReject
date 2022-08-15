@@ -1,0 +1,5 @@
+idProject,nameProject,testCase
+92,vpc-java-sdk,com.ibm.cloud.is.test.SdkIntegrationTestBase.skipTests
+92,vpc-java-sdk,com.ibm.cloud.is.test.SdkIntegrationTestBase.getConfigFilename
+92,vpc-java-sdk,com.ibm.cloud.is.test.SdkIntegrationTestBase.setUpConfig
+92,vpc-java-sdk,com.ibm.cloud.is.test.SdkIntegrationTestBase.shouldSkipTest

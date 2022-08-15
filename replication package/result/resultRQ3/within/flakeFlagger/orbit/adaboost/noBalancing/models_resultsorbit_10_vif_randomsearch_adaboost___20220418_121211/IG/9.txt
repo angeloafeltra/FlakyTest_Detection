@@ -1,0 +1,13 @@
+                 tmcCabe  0.183552
+        assertionDensity  0.249381
+            mysteryGuest       0.0
+               eagerTest   0.29748
+       sensitiveEquality       0.0
+        resourceOptimism       0.0
+    conditionalTestLogic  0.117618
+           fireAndForget  0.007776
+      halsteadVocabulary  0.291433
+classDataShouldBePrivate       0.0
+            complexClass       0.0
+ functionalDecomposition  0.033559
+           spaghettiCode       0.0

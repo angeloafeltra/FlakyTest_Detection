@@ -1,0 +1,10 @@
+       assertion-roulette   0.00771
+   conditional-test-logic  0.039764
+               eager-test  0.002498
+          fire-and-forget  0.108241
+         indirect-testing  0.071794
+        resource-optimism   0.07851
+             test-run-war  0.007585
+               numAsserts  0.221796
+            ExecutionTime  0.641905
+projectSourceLinesCovered  0.641905

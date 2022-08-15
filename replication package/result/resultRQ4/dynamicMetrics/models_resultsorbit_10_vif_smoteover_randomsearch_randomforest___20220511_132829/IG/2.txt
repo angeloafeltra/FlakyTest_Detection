@@ -1,0 +1,12 @@
+                    conditional-test-logic       0.0
+                                eager-test  0.026904
+                           fire-and-forget   0.09382
+                          indirect-testing  0.016365
+                             mystery-guest       0.0
+                         resource-optimism       0.0
+                              test-run-war  0.012758
+                                numAsserts  0.100176
+                             ExecutionTime  0.387212
+               projectSourceClassesCovered  0.229141
+hIndexModificationsPerCoveredLine_window10   0.09382
+                      num_third_party_libs       0.0

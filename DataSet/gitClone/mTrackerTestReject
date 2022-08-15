@@ -1,0 +1,6 @@
+idProject,nameProject,testCase
+82,mTracker,com.ccoe.build.core.readers.MobileWebTest.testProcess
+82,mTracker,com.ccoe.build.profiler.util.GitUtilsTest.testIsValidGitDir
+82,mTracker,com.ccoe.build.profile.LifecycleProfilerTest.testSessionProfile
+82,mTracker,com.ccoe.build.profile.LifecycleProfilerTest.project
+82,mTracker,com.ccoe.build.profile.LifecycleProfilerTest.mojoExecution

@@ -1,0 +1,10 @@
+idProject,nameProject,testCase
+38,facebook-java-business-sdk(4d9fd05f8d3909d23093fbd65c6b2b84c32f1ba9),com.facebook.ads.ServerSideNormalizationTest.NameNormalizeTest
+38,facebook-java-business-sdk(4d9fd05f8d3909d23093fbd65c6b2b84c32f1ba9),com.facebook.ads.ServerSideNormalizationTest.CityNormalizeTest
+38,facebook-java-business-sdk(4d9fd05f8d3909d23093fbd65c6b2b84c32f1ba9),com.facebook.ads.ServerSideNormalizationTest.StateNormalizeTest
+38,facebook-java-business-sdk(4d9fd05f8d3909d23093fbd65c6b2b84c32f1ba9),com.facebook.ads.ServerSideNormalizationTest.CountryNormalizeTest
+38,facebook-java-business-sdk(4d9fd05f8d3909d23093fbd65c6b2b84c32f1ba9),com.facebook.ads.ServerSideNormalizationTest.ZipNormalizeTest
+38,facebook-java-business-sdk(4d9fd05f8d3909d23093fbd65c6b2b84c32f1ba9),com.facebook.ads.ServerSideNormalizationTest.CurrencyNormalizeTest
+38,facebook-java-business-sdk(4d9fd05f8d3909d23093fbd65c6b2b84c32f1ba9),com.facebook.ads.ServerSideNormalizationTest.PhoneNumberNormalizeTest
+38,facebook-java-business-sdk(4d9fd05f8d3909d23093fbd65c6b2b84c32f1ba9),com.facebook.ads.ServerSideNormalizationTest.EmailNormalizeTest
+38,facebook-java-business-sdk(4d9fd05f8d3909d23093fbd65c6b2b84c32f1ba9),com.facebook.ads.ServerSideTest.CustomDataParametersTest

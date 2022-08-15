@@ -1,0 +1,4 @@
+idProject,nameProject,testCase,tloc,tmcCabe,assertionDensity,assertionRoulette,mysteryGuest,eagerTest,sensitiveEquality,resourceOptimism,conditionalTestLogic,fireAndForget,testRunWar,loc,lcom2,lcom5,cbo,wmc,rfc,mpc,halsteadVocabulary,halsteadLength,halsteadVolume,classDataShouldBePrivate,complexClass,functionalDecomposition,godClass,spaghettiCode
+95,webdrivermanager,io.github.bonigarcia.wdm.test.cache.ResolutionCacheTest.testEmptyTtl,6.0,1.0,0.0,1.0,2.0,0,0.0,0,0.0,0.0,0.0,194.0,0.0,1.0,17.0,33.0,55.0,43.0,775.0,194.0,1290.6554276945494,0,0,0,0.0,0.0
+95,webdrivermanager,io.github.bonigarcia.wdm.test.interactive.ShellTest.data,3.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,104.0,26.0,0.0,8.0,22.0,34.0,26.0,347.0,106.0,620.0284266743671,0,0,0,0.0,0.0
+95,webdrivermanager,io.github.bonigarcia.wdm.test.interactive.ShellTest.versionFromPosixOutputTest,4.0,1.0,0.0,1.0,0.0,1,0.0,0,0.0,0.0,0.0,104.0,26.0,0.0,8.0,22.0,34.0,26.0,347.0,106.0,620.0284266743671,0,0,0,0.0,0.0

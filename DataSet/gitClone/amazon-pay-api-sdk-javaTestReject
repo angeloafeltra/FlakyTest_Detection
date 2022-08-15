@@ -1,0 +1,11 @@
+idProject,nameProject,testCase
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.CreateStringToSignTest.readTestCasesFromFile
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.CreateStringToSignTest.ValidateAllTestCases
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.CreateStringToSignTest.mockedPreSignedHeaders
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.CreateStringToSignTest.getParameters
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.GenerateButtonSignatureTest.setUp
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.GenerateButtonSignatureTest.testButtonSignatureWithString
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.GenerateButtonSignatureTest.testButtonSignatureWithJSONObject
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.RequestSignerWithHeaderTest.setUp
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.RequestSignerWithHeaderTest.setUpMockValues
+8,amazon-pay-api-sdk-java,com.amazon.pay.api.RequestSignerWithHeaderTest.signRequestWithHeader

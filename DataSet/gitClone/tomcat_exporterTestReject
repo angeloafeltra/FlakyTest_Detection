@@ -1,0 +1,4 @@
+idProject,nameProject,testCase
+87,tomcat_exporter,nl.nlighten.prometheus.tomcat.TomcatJDbcp2PoolExportsTest.setUp
+87,tomcat_exporter,nl.nlighten.prometheus.tomcat.TomcatJDbcp2PoolExportsTest.tearDown
+87,tomcat_exporter,nl.nlighten.prometheus.tomcat.TomcatJDbcp2PoolExportsTest.testJDbcp2PoolMetrics

@@ -1,0 +1,7 @@
+idProject,nameProject,testCase
+2,altus-sdk-java,com.cloudera.altus.authentication.credentials.DefaultCredentialsProviderChainTest.setEnvVariables
+2,altus-sdk-java,com.cloudera.altus.authentication.credentials.DefaultCredentialsProviderChainTest.resetEnvVariables
+2,altus-sdk-java,com.cloudera.altus.authentication.credentials.DefaultCredentialsProviderChainTest.testNoCredentials
+2,altus-sdk-java,com.cloudera.altus.authentication.credentials.DefaultCredentialsProviderChainTest.testValidEnvironmentVariableCredentials
+2,altus-sdk-java,com.cloudera.altus.authentication.credentials.DefaultCredentialsProviderChainTest.testValidSystemPropertiesCredentials
+2,altus-sdk-java,com.cloudera.altus.authentication.credentials.DefaultCredentialsProviderChainTest.testValidProfileCredentials

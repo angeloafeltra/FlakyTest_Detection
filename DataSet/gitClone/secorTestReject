@@ -1,0 +1,12 @@
+idProject,nameProject,testCase
+79,secor,com.pinterest.secor.monitoring.PrometheusTest.testPrometheusIntegration
+79,secor,com.pinterest.secor.monitoring.PrometheusTest.render
+79,secor,com.pinterest.secor.parser.Iso8601ParserTest.setUp
+79,secor,com.pinterest.secor.parser.Iso8601ParserTest.testExtractTimestampMillis
+79,secor,com.pinterest.secor.parser.Iso8601ParserTest.testExtractNestedTimestampMillis
+79,secor,com.pinterest.secor.parser.ProtobufTimestampParserTest.buildMessage
+79,secor,com.pinterest.secor.parser.ProtobufTimestampParserTest.setUp
+79,secor,com.pinterest.secor.parser.ProtobufTimestampParserTest.testExtractTimestampMillisFromKafkaTimestamp
+79,secor,com.pinterest.secor.parser.ProtobufTimestampParserTest.testExtractTimestampMillis
+79,secor,com.pinterest.secor.parser.ProtobufTimestampParserTest.testExtractPathTimestampMillis
+79,secor,com.pinterest.secor.parser.ProtobufTimestampParserTest.testExtractNestedTimestampMillis

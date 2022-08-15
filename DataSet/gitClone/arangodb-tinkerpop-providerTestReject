@@ -1,0 +1,13 @@
+idProject,nameProject,testCase
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.BaseTestCase.setUp
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.BaseTestCase.tearDown
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.setUp
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.tearDown
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.test_RestritedUserNewDatabase
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.test_AuthorizedUserNewDatabase
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.test_RestritedUserExistingDb
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.test_ReadAccessUserCreateGraph
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.test_ServerVersion
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.test_CreateSimpleGraph
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.test_CreateMultiVertexGraph
+6,arangodb-tinkerpop-provider,com.arangodb.tinkerpop.gremlin.client.test.ClientTest.test_CreateMultiVertexMultiEdgeGraph

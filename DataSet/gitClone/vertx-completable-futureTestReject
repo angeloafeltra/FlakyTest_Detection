@@ -1,0 +1,17 @@
+idProject,nameProject,testCase
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.CompletableFutureOperatorTest.setUp
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.CompletableFutureOperatorTest.tearDown
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.CompletableFutureOperatorTest.testAllOf
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.CompletableFutureOperatorTest.testAnyOf
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest.setUp
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest.tearDown
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest.testSupplyAsync
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest.testSupplyBlockingAsync
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest.testSupplyAsyncWithExecutor
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest.testRunAsync
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest.testRunBlockingAsync
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest.testSupplyBlockingAsyncOn
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest.testRunBlockingAsyncOn
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.examples.HttpClientTest.setUp
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.examples.HttpClientTest.tearDown
+93,vertx-completable-future,me.escoffier.vertx.completablefuture.examples.HttpClientTest.test

@@ -1,0 +1,5 @@
+idProject,nameProject,testCase
+87,vjtools,com.vip.vjtools.vjkit.io.URLResourceTest.resource
+87,vjtools,com.vip.vjtools.vjkit.io.URLResourceTest.file
+87,vjtools,com.vip.vjtools.vjkit.logging.PerformanceUtilsTest.test
+87,vjtools,com.vip.vjtools.vjkit.time.CachingDatFormatterTest.test

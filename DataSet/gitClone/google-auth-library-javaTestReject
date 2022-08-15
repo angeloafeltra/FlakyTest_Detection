@@ -1,0 +1,6 @@
+idProject,nameProject,testCase
+42,google-auth-library-java,com.google.auth.SigningExceptionTest.constructor
+42,google-auth-library-java,com.google.auth.SigningExceptionTest.equals_true
+42,google-auth-library-java,com.google.auth.SigningExceptionTest.equals_false_message
+42,google-auth-library-java,com.google.auth.SigningExceptionTest.equals_false_cause
+42,google-auth-library-java,com.google.auth.SigningExceptionTest.hashCode_equals

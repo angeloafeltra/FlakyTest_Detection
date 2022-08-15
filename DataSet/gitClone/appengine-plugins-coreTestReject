@@ -1,0 +1,14 @@
+idProject,nameProject,testCase
+5,appengine-plugins-core,com.google.cloud.tools.appengine.operations.DevServersRunnerTest.setUp
+5,appengine-plugins-core,com.google.cloud.tools.appengine.operations.DevServersRunnerTest.testRun
+5,appengine-plugins-core,com.google.cloud.tools.libraries.LibrariesTest.parseJson
+5,appengine-plugins-core,com.google.cloud.tools.libraries.LibrariesTest.tearDown
+5,appengine-plugins-core,com.google.cloud.tools.libraries.LibrariesTest.testJson
+5,appengine-plugins-core,com.google.cloud.tools.libraries.LibrariesTest.assertApi
+5,appengine-plugins-core,com.google.cloud.tools.libraries.LibrariesTest.assertReachable
+5,appengine-plugins-core,com.google.cloud.tools.libraries.LibrariesTest.testDuplicates
+5,appengine-plugins-core,com.google.cloud.tools.libraries.LibrariesTest.testServiceRoleMapping_hasNoDuplicateRoles
+5,appengine-plugins-core,com.google.cloud.tools.libraries.LibrariesTest.testVersionExists
+5,appengine-plugins-core,com.google.cloud.tools.libraries.LibrariesTest.testOrder
+5,appengine-plugins-core,com.google.cloud.tools.managedcloudsdk.command.CollectingByteHandlerTest.testByteHandler_smokeTest
+5,appengine-plugins-core,com.google.cloud.tools.managedcloudsdk.command.CollectingByteHandlerTest.testByteHandler_junkIgnored

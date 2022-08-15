@@ -1,0 +1,17 @@
+idProject,nameProject,testCase
+84,para,com.erudika.para.i18n.CurrencyUtilsTest.CurrencyUtilsTest
+84,para,com.erudika.para.i18n.CurrencyUtilsTest.testGetInstance
+84,para,com.erudika.para.i18n.CurrencyUtilsTest.testFormatPrice
+84,para,com.erudika.para.i18n.CurrencyUtilsTest.testGetCurrencyName
+84,para,com.erudika.para.i18n.CurrencyUtilsTest.testGetLocaleForCountry
+84,para,com.erudika.para.i18n.CurrencyUtilsTest.testGetCurrency
+84,para,com.erudika.para.i18n.CurrencyUtilsTest.testGetCurrenciesMap
+84,para,com.erudika.para.i18n.CurrencyUtilsTest.testIsValidCurrency
+84,para,com.erudika.para.utils.IdGenTest.setup
+84,para,com.erudika.para.utils.IdGenTest.testGetNewId
+84,para,com.erudika.para.utils.IdGenTest.tearDown
+84,para,com.erudika.para.security.LdapAuthTest.setUpClass
+84,para,com.erudika.para.security.LdapAuthTest.tearDownClass
+84,para,com.erudika.para.security.LdapAuthTest.testAuthenticationWithCorrectPasswordSucceeds
+84,para,com.erudika.para.security.LdapAuthTest.testAuthenticationWithInvalidUserNameFails
+84,para,com.erudika.para.security.LdapAuthTest.testAuthenticationWithUserSearch

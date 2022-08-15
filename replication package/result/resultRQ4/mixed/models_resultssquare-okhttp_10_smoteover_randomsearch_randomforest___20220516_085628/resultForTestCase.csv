@@ -1,0 +1,783 @@
+,id,id,projectName,test_name,isFlaky,java_keywords,prediction
+12,6057.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.clearbits_variablecapacity,0.0,"['new', 'public', 'void']",False
+29,6077.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.cancelingreadyjobpreventsitfromstarting,0.0,"['public', 'void', 'throws']",False
+40,6092.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.doesnotfollow21redirects,0.0,"['for', 'int', 'new', 'new', 'public', 'void', 'throws']",False
+44,6101.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.postbodyretransmittedonredirect,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+53,6112.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.differentaddressconnectionnotreturned,0.0,"['new', 'public', 'void', 'throws']",False
+54,6113.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.gettingspdyconnectionpromotesittofrontofqueue,0.0,"['new', 'public', 'void', 'throws']",False
+70,6130.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testmultiplecharsets,0.0,"['try', 'catch', 'public', 'void']",False
+72,6132.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testunsupportedcharset,0.0,"['try', 'catch', 'public', 'void']",False
+76,6143.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_requestheaderspartlyunavailable,0.0,"['final', 'new', 'new', 'public', 'throws', 'try', 'catch', 'return', 'null', 'public', 'void', 'throws']",False
+85,6163.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_https_extrahttpsmethods,0.0,"['final', 'new', 'new', 'public', 'throws', 'return', 'null', 'public', 'void', 'throws']",False
+87,6173.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.singleroute,0.0,"['new', 'null', 'null', 'null', 'new', 'new', 'false', 'try', 'catch', 'public', 'void', 'throws']",False
+90,6176.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.explicitdirectproxy,0.0,"['new', 'null', 'null', 'new', 'new', 'false', 'false', 'public', 'void', 'throws']",False
+93,6179.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.proxyselectorreturnsmultipleproxies,0.0,"['new', 'null', 'null', 'null', 'new', 'new', 'false', 'false', 'false', 'false', 'public', 'void', 'throws']",False
+116,6207.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.chunkedconnectionsarepooled,0.0,"['new', 'public', 'void', 'throws']",False
+124,6216.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.fixedlengthupload_bytebybyte,0.0,"['public', 'void', 'throws']",True
+133,6226.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.sslfallbacknotusedwhenrecycledconnectionfails,0.0,"['false', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+144,6239.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpproxytohttpsusinghttpsproxysystemproperty,0.0,"['public', 'void', 'throws']",False
+152,6249.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.defaultrequestproperty,0.0,"['public', 'void', 'throws']",False
+158,6257.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.missingchunkbody,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",True
+161,6260.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.gzipandconnectionreusewithfixedlength,0.0,"['false', 'public', 'void', 'throws']",False
+165,6264.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.clientconfiguredcustomcontentencoding,1.0,"['new', 'public', 'void', 'throws']",False
+174,6276.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.digestauthentication,1.0,"['public', 'void', 'throws']",False
+199,6306.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirectedfromhttptohttpsfollowingprotocolredirects,0.0,"['new', 'false', 'new', 'new', 'new', 'true', 'instanceof', 'public', 'void', 'throws']",False
+220,6329.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.setchunkedencodingasrequestproperty,0.0,"['new', 'true', 'new', 'public', 'void', 'throws']",False
+221,6330.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectioncloseinrequest,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+222,6331.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectioncloseinresponse,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+228,6337.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.flushafterstreamtransmittedwithfixedlength,0.0,"['public', 'void', 'throws']",False
+229,6338.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.flushafterstreamtransmittedwithnolengthheaders,0.0,"['public', 'void', 'throws']",False
+248,6362.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.inputstreamavailablewithnolengthheaders,1.0,"['public', 'void', 'throws']",False
+255,6371.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.fullybufferedpostistooshort,1.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",True
+261,6385.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.customauthenticator,0.0,"['new', 'protected', 'new', 'new', 'private', 'private', 'protected', 'public', 'void', 'throws']",False
+277,6432.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.statuslinetest.emptymessage,0.0,"['int', 'int', 'new', 'public', 'void', 'throws']",False
+280,6435.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.statuslinetest.missingprotocol,0.0,"['public', 'void', 'throws']",False
+281,6436.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.statuslinetest.protocolversions,0.0,"['public', 'void', 'throws']",False
+301,6463.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.serverdisconnectsprematurelywithcontentlengthheader,0.0,"['public', 'void', 'throws']",False
+304,6467.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.clientprematuredisconnectwithcontentlengthheader,1.0,"['public', 'void', 'throws']",False
+323,6487.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsecachecancache,0.0,"['true', 'public', 'void', 'throws']",False
+326,6491.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.etag,1.0,"['new', 'public', 'void', 'throws']",False
+337,6502.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.nonidentityencodingandconditionalcache,0.0,"['new', 'public', 'void', 'throws']",False
+358,6525.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.authorizationresponsecachedwithmustrevalidate,1.0,"['new', 'public', 'void', 'throws']",False
+360,6528.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.usecachesfalsedoesnotwritetocache,0.0,"['new', 'new', 'false', 'public', 'void', 'throws']",False
+379,6579.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsecaching_410,1.0,"['true', 'public', 'void', 'throws']",False
+392,6599.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.serverdisconnectsprematurelywithcontentlengthheader,0.0,"['public', 'void', 'throws']",False
+395,6603.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.clientprematuredisconnectwithcontentlengthheader,0.0,"['public', 'void', 'throws']",False
+398,6607.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.defaultexpirationdatefullycachedforlessthan24hours,0.0,"['new', 'public', 'void', 'throws']",False
+416,6625.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmethodheadisnotcached,0.0,"['false', 'public', 'void', 'throws']",False
+420,6629.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmethodtraceisnotcached,0.0,"['false', 'public', 'void', 'throws']",False
+437,6648.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.nonidentityencodingandfullcache,0.0,"['new', 'public', 'void', 'throws']",False
+438,6650.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.notmodifiedspecifiesencoding,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+442,6654.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmaxstale,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+443,6655.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmaxstalenothonoredwithmustrevalidate,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+446,6658.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestonlyifcachedwithconditionalresponsecached,0.0,"['new', 'public', 'void', 'throws']",False
+455,6668.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.authorizationrequestheaderpreventscaching,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+458,6671.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.authorizationresponsecachedwithmustrevalidate,0.0,"['new', 'public', 'void', 'throws']",False
+461,6675.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.usecachesfalsedoesnotreadfromcache,0.0,"['new', 'new', 'false', 'public', 'void', 'throws']",False
+464,6678.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.statisticsconditionalcachemiss,1.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+477,6691.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varyasterisk,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+514,6758.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientpingsserverhttp2,0.0,"['false', 'true', 'public', 'void', 'throws']",False
+516,6760.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.unexpectedpingisnotreturned,0.0,"['false', 'true', 'false', 'public', 'void', 'throws']",False
+524,6768.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serverclosesclientoutputstream,0.0,"['true', 'true', 'true', 'try', 'catch', 'try', 'catch', 'public', 'void', 'throws']",False
+527,6771.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serverclosesclientinputstream,1.0,"['false', 'true', 'new', 'false', 'true', 'public', 'void', 'throws']",False
+552,6794.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serversendsemptydataclientdoesntsendwindowupdate,0.0,"['public', 'void', 'throws']",False
+611,6888.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.writemultibyteint,0.0,"['public', 'void', 'throws']",False
+655,6948.0,0.0,square-okhttp,okio.okbuffertest.writeprefixdoesntsplitbutrequirescompact,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+671,6964.0,0.0,square-okhttp,okio.okbuffertest.readint,0.0,"['new', 'new', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'public', 'void', 'throws']",False
+677,6970.0,0.0,square-okhttp,okio.okbuffertest.clonedoesnotobservewritestooriginal,0.0,"['new', 'public', 'void', 'throws']",False
+678,6971.0,0.0,square-okhttp,okio.okbuffertest.clonedoesnotobservereadsfromoriginal,0.0,"['new', 'public', 'void', 'throws']",False
+681,6974.0,0.0,square-okhttp,okio.okbuffertest.clonemultiplesegments,0.0,"['new', 'public', 'void', 'throws']",False
+691,6983.0,0.0,square-okhttp,okio.inflatersourcetest.inflatepoorlycompressed,0.0,"['public', 'void', 'throws']",False
+696,6991.0,0.0,square-okhttp,okio.gzipsourcetest.gunzip_withhcrc,0.0,"['new', 'byte', 'new', 'short', 'public', 'void', 'throws']",False
+697,6992.0,0.0,square-okhttp,okio.gzipsourcetest.gunzip_withextra,0.0,"['new', 'byte', 'short', 'public', 'void', 'throws']",False
+699,6994.0,0.0,square-okhttp,okio.gzipsourcetest.gunzip_withcomment,0.0,"['new', 'byte', 'public', 'void', 'throws']",False
+704,7000.0,0.0,square-okhttp,okio.gzipsourcetest.gunzipexhaustssource,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+720,7018.0,0.0,square-okhttp,okio.bytestringtest.decodebase64withwhitespace,0.0,"['public', 'void']",False
+725,7023.0,0.0,square-okhttp,okio.bytestringtest.tostringonemptybytestring,0.0,"['public', 'void']",False
+735,7038.0,0.0,square-okhttp,okio.realbufferedsinktest.outputstreamfromsink,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+751,7057.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.redirect,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+755,7061.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.postbyteentity,0.0,"['new', 'final', 'new', 'byte', 'new', 'public', 'void', 'throws']",False
+776,7084.0,0.0,square-okhttp,com.squareup.okhttp.curl.maintest.put,0.0,"['public', 'void']",False
+8,6053.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.shiftleftexpandsdata_variablecapacity,0.0,"['new', 'public', 'void']",False
+14,6060.0,0.0,square-okhttp,com.squareup.okhttp.requesttest.string,0.0,"['public', 'void', 'throws']",False
+16,6062.0,0.0,square-okhttp,com.squareup.okhttp.requesttest.stringwithnondefaultcharsetspecified,0.0,"['public', 'void', 'throws']",False
+18,6064.0,0.0,square-okhttp,com.squareup.okhttp.requesttest.file,0.0,"['new', 'public', 'void', 'throws']",False
+21,6069.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.enqueuedjobsrunimmediately,0.0,"['public', 'void', 'throws']",False
+26,6074.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.oldjobfinishesnewjobcanrundifferenthost,0.0,"['public', 'void', 'throws']",False
+39,6091.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.follow20redirects,0.0,"['for', 'int', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+45,6104.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.poolsinglehttpconnection,0.0,"['new', 'new', 'null', 'new', 'true', 'null', 'public', 'void', 'throws']",False
+63,6122.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.evictallconnections,0.0,"['new', 'int', 'public', 'void']",False
+64,6124.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testparse,0.0,"['public', 'void', 'throws']",False
+67,6127.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testparsewithspecialcharacters,0.0,"['public', 'void', 'throws']",False
+73,6133.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testdefaultcharset,0.0,"['public', 'void', 'throws']",False
+77,6145.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_requestchangesforbidden,0.0,"['final', 'new', 'new', 'public', 'throws', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'return', 'null', 'public', 'void', 'throws']",False
+97,6183.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.sslerroraddsonlyfailedtlsmodetofailedroute,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+98,6184.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.multipleproxiesmultipleinetaddressesmultipletlsmodes,0.0,"['new', 'null', 'new', 'new', 'true', 'false', 'true', 'false', 'true', 'false', 'true', 'false', 'true', 'false', 'true', 'false', 'public', 'void', 'throws']",False
+105,6195.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.serversendsinvalidcodenotanumber,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+120,6211.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.invalidhost,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+130,6223.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpsreusingconnections,0.0,"['false', 'new', 'this', 'new', 'new', 'this', 'public', 'void', 'throws']",False
+141,6235.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpproxytohttpsusinghttpproxysystemproperty,0.0,"['public', 'void', 'throws']",False
+143,6238.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpproxytohttpsusingproxysystemproperty,0.0,"['public', 'void', 'throws']",False
+145,6241.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpproxytohttpsusingbadproxyandhttpresponsecache,1.0,"['true', 'new', 'for', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+150,6247.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.disconnectedconnection,1.0,"['new', 'char', 'try', 'catch', 'public', 'void', 'throws']",False
+190,6296.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.authenticatewithget,0.0,"['new', 'protected', 'new', 'new', 'for', 'int', 'public', 'void', 'throws']",False
+192,6298.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirectedwithchunkedencoding,1.0,"['true', 'public', 'void', 'throws']",False
+193,6299.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirectedwithcontentlengthheader,0.0,"['true', 'public', 'void', 'throws']",False
+200,6307.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirecttoanotheroriginserver,1.0,"['false', 'public', 'void', 'throws']",True
+204,6308.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirecttoanotheroriginserverwithhttps,0.0,"['true', 'public', 'void', 'throws']",False
+209,6316.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.response303seeotherwithpost,1.0,"['public', 'void', 'throws']",False
+223,6332.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectionclosewithredirect,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+246,6360.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.inputstreamavailablewithchunkedencoding,0.0,"['public', 'void', 'throws']",True
+256,6372.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.fullybufferedpostistoolong,1.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",True
+259,6380.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.emptyrequestheadernameisstrict,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+267,6392.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.zerolengthput,1.0,"['public', 'void', 'throws']",True
+286,6442.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.headerstest.readnamevalueblockdropsforbiddenheadersspdy3,0.0,"['new', 'public', 'void', 'throws']",False
+295,6455.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.cachereturnsinsecureresponseforsecurerequest,0.0,"['false', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+311,6475.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.expirationdateinthepastwithlastmodifiedheader,0.0,"['new', 'public', 'void', 'throws']",False
+313,6477.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.expirationdateinthefuture,0.0,"['new', 'public', 'void', 'throws']",False
+316,6480.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.maxageinthepastwithdateheaderbutnolastmodifiedheader,0.0,"['new', 'public', 'void', 'throws']",False
+321,6485.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.maxagepreferredoverlowersharedmaxage,1.0,"['new', 'public', 'void', 'throws']",False
+329,6494.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.cachecontrolnocache,0.0,"['new', 'public', 'void', 'throws']",False
+331,6496.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.pragmanocache,0.0,"['new', 'public', 'void', 'throws']",False
+342,6508.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestminfresh,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+364,6532.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.cachecanusecriteriabesidesvariantobeyed,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+366,6534.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.getheadersreturnsnetworkendtoendheaders,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+380,6581.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsecachecallbackapis,0.0,"['final', 'final', 'new', 'new', 'new', 'public', 'throws', 'return', 'null', 'public', 'void', 'throws']",False
+409,6618.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.maxageinthefuturewithnodateheader,0.0,"['new', 'public', 'void', 'throws']",False
+412,6621.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.maxagepreferredoverlowersharedmaxage,0.0,"['new', 'public', 'void', 'throws']",False
+430,6641.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.pragmanocache,0.0,"['new', 'public', 'void', 'throws']",False
+496,6734.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.verifysubjectaltonly,0.0,"['public', 'void', 'throws']",False
+498,6736.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.verifywilcardcn,0.0,"['public', 'void', 'throws']",False
+499,6737.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.verifywilcardcnontld,0.0,"['public', 'void', 'throws']",False
+502,6741.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.wildcardsdoesnotneedtwodots,0.0,"['public', 'void', 'throws']",False
+525,6769.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientclosesclientinputstream,0.0,"['false', 'true', 'try', 'new', 'catch', 'try', 'catch', 'public', 'void', 'throws']",False
+534,6778.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.receivegoaway,1.0,"['public', 'void', 'throws']",True
+548,6790.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.readsendswindowupdate,1.0,"['public', 'void', 'throws']",True
+553,6794.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serversendsemptydataclientdoesntsendwindowupdate,0.0,"['public', 'void', 'throws']",False
+576,6832.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromise,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+578,6833.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromise,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+584,6836.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.readrststreamframe,0.0,"['new', 'new', 'false', 'new', 'public', 'void', 'int', 'public', 'void', 'throws']",False
+591,6848.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.goawaywithoutdebugdataroundtrip,0.0,"['new', 'final', 'new', 'false', 'new', 'public', 'void', 'int', 'public', 'void', 'throws']",False
+604,6869.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.toggleindex,0.0,"['public', 'void', 'throws']",False
+613,6890.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.prefixmask,0.0,"['public', 'void', 'throws']",False
+620,6905.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdy3test.goawayroundtrip,0.0,"['new', 'final', 'new', 'byte', 'new', 'false', 'new', 'public', 'void', 'int', 'public', 'void', 'throws']",False
+628,6919.0,0.0,square-okhttp,okio.realbufferedsourcetest.inputstreamfromsourcebounds,0.0,"['new', 'new', 'try', 'new', 'byte', 'catch', 'public', 'void', 'throws']",False
+651,6943.0,0.0,square-okhttp,okio.okbuffertest.movebytesbetweenbuffersmultiplesegments,0.0,"['int', 'public', 'void', 'throws']",False
+661,6954.0,0.0,square-okhttp,okio.okbuffertest.indexofwithoffset,0.0,"['new', 'int', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'public', 'void', 'throws']",False
+674,6967.0,0.0,square-okhttp,okio.okbuffertest.getbyteofemptybuffer,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+680,6973.0,0.0,square-okhttp,okio.okbuffertest.originaldoesnotobservereadsfromclone,0.0,"['new', 'public', 'void', 'throws']",False
+693,6990.0,0.0,square-okhttp,okio.gzipsourcetest.gunzip,0.0,"['new', 'new', 'while', 'return', 'private', 'throws']",False
+717,7015.0,0.0,square-okhttp,okio.bytestringtest.encodebase64,0.0,"['this', 'public', 'void']",False
+723,7021.0,0.0,square-okhttp,okio.bytestringtest.decodehexoddnumberofchars,0.0,"['try', 'catch', 'public', 'void', 'throws']",False
+730,7029.0,0.0,square-okhttp,okio.deflatersinktest.deflatewellcompressed,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+766,7073.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testexpect100continuewithbody,0.0,"['true', 'public', 'void', 'throws', 'new', 'false', 'true', 'new', 'this', 'if']",False
+767,7074.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testexpect100continuewithnobody,0.0,"['new', 'false', 'true', 'public', 'void', 'throws']",False
+769,7076.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testredirect,0.0,"['new', 'new', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+774,7082.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.teststreamingresponsebody,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+777,7085.0,0.0,square-okhttp,com.squareup.okhttp.curl.maintest.datapost,0.0,"['public', 'void']",False
+778,7086.0,0.0,square-okhttp,com.squareup.okhttp.curl.maintest.dataput,0.0,"['public', 'void']",False
+781,7089.0,0.0,square-okhttp,com.squareup.okhttp.curl.maintest.useragent,0.0,"['public', 'void']",False
+10,6055.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.shiftleftacrossoffset_variablecapacity,0.0,"['new', 'public', 'void']",False
+22,6070.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.maxrequestsenforced,0.0,"['public', 'void', 'throws']",False
+23,6071.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.maxperhostenforced,0.0,"['public', 'void', 'throws']",False
+43,6098.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.connectionreusewhenresponsebodyconsumed,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throw', 'new', 'public', 'boolean', 'throws', 'new', 'return', 'true', 'public', 'void', 'throws']",False
+71,6131.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testillegalcharsetname,0.0,"['try', 'catch', 'public', 'void']",False
+82,6157.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_accessiblerequestinfo_post,0.0,"['final', 'new', 'new', 'public', 'throws', 'return', 'null', 'public', 'void', 'throws']",False
+91,6177.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.proxyselectorreturnsnull,0.0,"['new', 'null', 'null', 'null', 'null', 'new', 'new', 'false', 'public', 'void', 'throws']",False
+94,6180.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.proxyselectordirectconnectionsareskipped,0.0,"['new', 'null', 'null', 'null', 'new', 'new', 'false', 'public', 'void', 'throws']",False
+100,6190.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.requestheaders,0.0,"['new', 'new', 'new', 'try', 'catch', 'try', 'catch', 'try', 'null', 'catch', 'try', 'null', 'catch', 'null', 'null', 'null', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'public', 'void', 'throws']",False
+103,6193.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.serversendsinvalidresponseheaders,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+112,6203.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.geterrorstreamonunsuccessfulrequest,0.0,"['new', 'public', 'void', 'throws']",False
+114,6205.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.bug10100,0.0,"['public', 'void', 'throws']",False
+115,6206.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectionsarepooled,0.0,"['new', 'public', 'void', 'throws']",False
+146,6243.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.proxyconnectincludesproxyheadersonly,0.0,"['new', 'true', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+156,6255.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.unauthorizedresponsehandling,1.0,"['new', 'public', 'void', 'throws']",False
+218,6327.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.httpswithcustomtrustmanager,0.0,"['new', 'new', 'null', 'new', 'new', 'false', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+224,6333.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.sameconnectionredirectandreuse,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+226,6335.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.singlebytereadissigned,1.0,"['new', 'new', 'byte', 'public', 'void', 'throws']",False
+234,6344.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.responsecachereturnsnulloutputstream,1.0,"['final', 'new', 'new', 'public', 'throws', 'return', 'null', 'public', 'throws', 'return', 'new', 'public', 'void', 'true', 'public', 'throws', 'return', 'null', 'new', 'public', 'void', 'throws']",False
+236,6350.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getcontent,1.0,"['new', 'public', 'void', 'throws']",False
+243,6357.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getcontenttypeconnects,0.0,"['new', 'public', 'void', 'throws']",False
+274,6400.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.notransparentgzipfor304notmodified,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+291,6450.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsecachingandinputstreamskipwithfixedlength,0.0,"['public', 'void', 'throws']",False
+292,6451.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsecachingandinputstreamskipwithchunkedencoding,1.0,"['public', 'void', 'throws']",False
+293,6452.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsecachingandinputstreamskipwithnolengthheaders,0.0,"['public', 'void', 'throws']",False
+302,6464.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.serverdisconnectsprematurelywithchunkedencoding,0.0,"['public', 'void', 'throws']",False
+307,6471.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.defaultexpirationdatefullycachedforlessthan24hours,0.0,"['new', 'public', 'void', 'throws']",False
+309,6473.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.defaultexpirationdatefullycachedformorethan24hours,0.0,"['new', 'public', 'void', 'throws']",False
+322,6486.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.maxagepreferredoverhighermaxage,0.0,"['new', 'public', 'void', 'throws']",False
+348,6514.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestonlyifcachedwithunhelpfulresponsecached,0.0,"['new', 'public', 'void', 'throws']",False
+354,6521.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.clientsuppliedconditionwithoutcachedresult,1.0,"['new', 'public', 'void', 'throws']",False
+362,6530.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.defaultusecachessetsinitialvalueonly,0.0,"['new', 'false', 'try', 'finally', 'true', 'public', 'void', 'throws']",False
+375,6544.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsesourceheaderfetched,0.0,"['new', 'public', 'void', 'throws']",False
+378,6578.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.originserversends407,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+383,6588.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsecachingandinputstreamskipwithchunkedencoding,0.0,"['public', 'void', 'throws']",False
+389,6595.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.secureresponsecachingandredirects,0.0,"['false', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+390,6596.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.secureresponsecachingandprotocolredirects,0.0,"['false', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+393,6600.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.serverdisconnectsprematurelywithchunkedencoding,0.0,"['public', 'void', 'throws']",False
+396,6604.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.clientprematuredisconnectwithchunkedencoding,1.0,"['public', 'void', 'throws']",False
+400,6609.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.defaultexpirationdatefullycachedformorethan24hours,0.0,"['new', 'public', 'void', 'throws']",False
+408,6617.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.maxageinthefuturewithdateheader,0.0,"['new', 'public', 'void', 'throws']",False
+414,6623.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmethodoptionsisnotcached,0.0,"['false', 'public', 'void', 'throws']",False
+426,6637.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.etagandexpirationdateinthepast,0.0,"['new', 'public', 'void', 'throws']",False
+431,6642.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.pragmanocacheandexpirationdateinthefuture,0.0,"['new', 'public', 'void', 'throws']",False
+462,6676.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.defaultusecachessetsinitialvalueonly,0.0,"['new', 'false', 'try', 'finally', 'true', 'public', 'void', 'throws']",False
+468,6682.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varymatchesunchangedrequestheaderfield,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+471,6685.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varymatchesremovedrequestheaderfield,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+479,6693.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.cachepluscookies,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+481,6695.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.getheadersreturnscachedhopbyhopheaders,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+483,6697.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.getheadersretainscached200levelwarnings,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+489,6704.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsesourceheaderfetched,1.0,"['new', 'public', 'void', 'throws']",False
+490,6705.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.emptyresponseheadernamefromcacheislenient,0.0,"['new', 'public', 'void', 'throws']",False
+504,6743.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.subjectaltnamewithwildcard,0.0,"['public', 'void', 'throws']",False
+518,6762.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.peerhttp2clientdisablespush,0.0,"['boolean', 'false', 'new', 'synchronized', 'true', 'public', 'void', 'throws']",False
+535,6780.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.receivegoaway,1.0,"['public', 'void', 'throws']",True
+540,6783.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.close,0.0,"['true', 'true', 'try', 'true', 'true', 'catch', 'try', 'catch', 'try', 'new', 'catch', 'public', 'void', 'throws']",False
+557,6797.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientsendsemptydataserverdoesntsendwindowupdate,0.0,"['public', 'void', 'throws']",False
+560,6798.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.writeawaitswindowupdate,0.0,"['int', 'for', 'int', 'true', 'true', 'new', 'byte', 'for', 'int', 'public', 'void', 'throws']",False
+561,6799.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.initialsettingswithwindowsizeadjustsconnection,1.0,"['int', 'for', 'int', 'true', 'true', 'new', 'byte', 'new', 'false', 'new', 'false', 'public', 'void', 'throws']",False
+570,6825.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.unknownframetypeignored,0.0,"['new', 'new', 'false', 'new', 'public', 'void', 'throws']",False
+579,6833.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromise,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+592,6850.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.goawaywithdebugdataroundtrip,0.0,"['new', 'final', 'final', 'new', 'false', 'new', 'public', 'void', 'int', 'public', 'void', 'throws']",False
+593,6852.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.framesizeerror,0.0,"['new', 'new', 'true', 'try', 'catch', 'public', 'void', 'throws']",False
+598,6863.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.dynamicallygrowsbeyond64entries,0.0,"['new', 'for', 'int', 'public', 'void', 'throws']",False
+601,6866.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.literalheaderfieldwithoutindexingnewname,0.0,"['new', 'public', 'void', 'throws']",False
+616,6893.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.headername,0.0,"['true', 'public', 'void', 'throws']",False
+653,6946.0,0.0,square-okhttp,okio.okbuffertest.writesplitsourcebufferright,0.0,"['int', 'new', 'new', 'public', 'void', 'throws']",False
+657,6950.0,0.0,square-okhttp,okio.okbuffertest.readzerobytesfromsource,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+679,6972.0,0.0,square-okhttp,okio.okbuffertest.originaldoesnotobservewritestoclone,0.0,"['new', 'public', 'void', 'throws']",False
+690,6982.0,0.0,square-okhttp,okio.inflatersourcetest.inflatewellcompressed,0.0,"['public', 'void', 'throws']",False
+698,6993.0,0.0,square-okhttp,okio.gzipsourcetest.gunzip_withname,0.0,"['new', 'byte', 'public', 'void', 'throws']",False
+702,6998.0,0.0,square-okhttp,okio.gzipsourcetest.gunzipwhencrcincorrect,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+712,7010.0,0.0,square-okhttp,okio.bytestringtest.toasciilowercasenouppercase,0.0,"['public', 'void', 'throws']",False
+713,7011.0,0.0,square-okhttp,okio.bytestringtest.toasciialluppercase,0.0,"['public', 'void', 'throws']",False
+740,7043.0,0.0,square-okhttp,okio.realbufferedsinktest.bufferedsinkflush,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+748,7051.0,0.0,square-okhttp,okio.realbufferedsinktest.closewithexceptionwhenwritingandclosing,0.0,"['new', 'new', 'new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+758,7064.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.contentencoding,0.0,"['new', 'new', 'new', 'new', 'byte', 'new', 'byte', 'new', 'new', 'new', 'for', 'int', 'public', 'void', 'throws']",False
+760,7066.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.jsontransparentgzipresponse,0.0,"['new', 'new', 'new', 'new', 'byte', 'new', 'byte', 'new', 'new', 'for', 'int', 'public', 'void', 'throws']",False
+0,6045.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.hpackusecase,0.0,"['new', 'for', 'int', 'try', 'catch', 'public', 'void']",False
+15,6061.0,0.0,square-okhttp,com.squareup.okhttp.requesttest.stringwithdefaultcharsetadded,0.0,"['public', 'void', 'throws']",False
+17,6063.0,0.0,square-okhttp,com.squareup.okhttp.requesttest.bytearray,0.0,"['public', 'void', 'throws']",False
+20,6068.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.maxperhostzero,0.0,"['try', 'catch', 'public', 'void', 'throws']",False
+27,6075.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.oldjobfinishesnewjobwithsamehoststarts,0.0,"['public', 'void', 'throws']",False
+33,6085.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.tls,0.0,"['false', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+35,6087.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.post,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+41,6093.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.canceledbeforeresponsereadisneverdelivered,0.0,"['new', 'char', 'public', 'return', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+49,6108.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.idleconnectionnotreturned,0.0,"['new', 'public', 'void', 'throws']",False
+56,6115.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.recyclingnonaliveconnectionclosesthatconnection,0.0,"['new', 'public', 'void', 'throws']",False
+75,6141.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_uriandclass,0.0,"['final', 'new', 'new', 'public', 'throws', 'instanceof', 'instanceof', 'return', 'null', 'public', 'void', 'throws']",False
+102,6192.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.responseheaders,1.0,"['new', 'null', 'null', 'new', 'new', 'try', 'catch', 'try', 'catch', 'public', 'void', 'throws']",False
+107,6197.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectretriesuntilconnectedorfailed,1.0,"['try', 'catch', 'public', 'void', 'throws']",False
+109,6199.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.requestbodysurvivesretrieswithchunkedstreaming,1.0,"['public', 'void', 'throws']",True
+123,6215.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.chunkedupload_largebuffers,0.0,"['public', 'void', 'throws']",True
+125,6217.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.fixedlengthupload_smallbuffers,1.0,"['public', 'void', 'throws']",True
+131,6224.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpsreusingconnectionsdifferentfactories,0.0,"['false', 'new', 'this', 'new', 'new', 'this', 'null', 'try', 'catch', 'public', 'void', 'throws']",False
+151,6248.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.disconnectbeforeconnect,0.0,"['new', 'public', 'void', 'throws']",False
+159,6258.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.gzipencodingenabledbydefault,0.0,"['new', 'public', 'void', 'throws']",False
+176,6278.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.allattributessetinproxyauthenticationcallbacks,0.0,"['public', 'void', 'throws']",False
+180,6285.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.shoutcast,0.0,"['new', 'public', 'void', 'throws']",False
+181,6286.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.cannotsetnegativefixedlengthstreamingmode,1.0,"['try', 'catch', 'public', 'void', 'throws']",False
+215,6323.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.response307withpost,1.0,"['public', 'void', 'throws']",True
+217,6326.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.doesnotfollow21redirects,0.0,"['for', 'int', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+219,6328.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.readtimeouts,0.0,"['new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+232,6342.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.malformedurlthrowsunknownhostexception,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+233,6343.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getkeepalive,0.0,"['new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+235,6349.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.readafterlastbyte,1.0,"['new', 'public', 'void', 'throws']",False
+238,6352.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getoutputstreamongetfails,1.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+239,6353.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getoutputaftergetinputstreamfails,0.0,"['new', 'true', 'try', 'catch', 'public', 'void', 'throws']",False
+262,6386.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.npnsetsprotocolheader_spdy_3,0.0,"['public', 'void', 'throws']",False
+268,6393.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.zerolengthput_spdy_3,0.0,"['public', 'void', 'throws']",False
+273,6399.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.verylargefixedlengthrequest,1.0,"['new', 'true', 'long', 'byte', 'new', 'byte', 'for', 'long', 'int', 'int', 'public', 'void', 'throws']",False
+324,6488.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsecachecanignore,0.0,"['false', 'public', 'void', 'throws']",False
+327,6492.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.etagandexpirationdateinthepast,0.0,"['new', 'public', 'void', 'throws']",False
+328,6493.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.etagandexpirationdateinthefuture,0.0,"['new', 'public', 'void', 'throws']",False
+335,6500.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.partialrangeresponsesdonotcorruptcache,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+343,6509.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestmaxstale,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+356,6523.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.authorizationresponsecachedwithsmaxage,0.0,"['new', 'public', 'void', 'throws']",True
+361,6529.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.usecachesfalsedoesnotreadfromcache,0.0,"['new', 'new', 'false', 'public', 'void', 'throws']",False
+404,6613.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.expirationdateinthefuture,0.0,"['new', 'public', 'void', 'throws']",False
+418,6627.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmethodputisnotcached,0.0,"['false', 'public', 'void', 'throws']",False
+423,6633.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.deletemethodinvalidatescache,0.0,"['public', 'void', 'throws']",False
+454,6667.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.clientsuppliedconditionwithoutcachedresult,0.0,"['new', 'public', 'void', 'throws']",False
+457,6670.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.authorizationresponsecachedwithpublic,0.0,"['new', 'public', 'public', 'void', 'throws']",False
+460,6674.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.usecachesfalsedoesnotwritetocache,0.0,"['new', 'new', 'false', 'public', 'void', 'throws']",False
+463,6677.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.connectionisreturnedtopoolafterconditionalsuccess,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+493,6730.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.verifycn,0.0,"['public', 'void', 'throws']",False
+508,6750.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientcreatesstreamandserverreplieswithfin,0.0,"['true', 'true', 'false', 'true', 'public', 'void', 'throws']",False
+519,6763.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serversendssettingstoclient,0.0,"['new', 'false', 'synchronized', 'public', 'void', 'throws']",False
+530,6775.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.remotesendsdataafterinfinished,1.0,"['false', 'true', 'new', 'true', 'new', 'false', 'true', 'true', 'public', 'void', 'throws']",False
+531,6776.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientdoesnotlimitflowcontrol,0.0,"['false', 'false', 'new', 'new', 'byte', 'false', 'true', 'true', 'public', 'void', 'throws']",False
+543,6786.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.headers,0.0,"['false', 'true', 'true', 'true', 'public', 'void', 'throws']",False
+546,6788.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.readsendswindowupdate,1.0,"['public', 'void', 'throws']",True
+580,6835.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromise,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+589,6845.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.windowupdateroundtrip,0.0,"['new', 'final', 'long', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'long', 'public', 'void', 'throws']",False
+596,6861.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.toolargetohpackisstillemitted,0.0,"['new', 'public', 'void', 'throws']",False
+608,6885.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.readsinglebyteint,0.0,"['public', 'void', 'throws']",False
+612,6889.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.max31bitvalue,0.0,"['public', 'void', 'throws']",False
+625,6916.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.settingstest.persistvalue,0.0,"['new', 'public', 'void']",False
+629,6920.0,0.0,square-okhttp,okio.realbufferedsourcetest.requiretracksbufferfirst,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+632,6923.0,0.0,square-okhttp,okio.realbufferedsourcetest.requirereadsonesegmentatatime,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+638,6930.0,0.0,square-okhttp,okio.okbuffertest.completesegmentbytecountonemptybuffer,0.0,"['new', 'public', 'void', 'throws']",False
+642,6934.0,0.0,square-okhttp,okio.okbuffertest.readutf8entirebuffer,0.0,"['new', 'public', 'void', 'throws']",False
+652,6945.0,0.0,square-okhttp,okio.okbuffertest.writesplitsourcebufferleft,0.0,"['int', 'new', 'new', 'public', 'void', 'throws']",False
+662,6955.0,0.0,square-okhttp,okio.okbuffertest.writebytes,0.0,"['new', 'public', 'void', 'throws']",False
+666,6959.0,0.0,square-okhttp,okio.okbuffertest.writelastintegerinsegment,0.0,"['new', 'public', 'void', 'throws']",False
+670,6963.0,0.0,square-okhttp,okio.okbuffertest.readshortsplitacrossmultiplesegments,0.0,"['new', 'new', 'byte', 'byte', 'byte', 'short', 'public', 'void', 'throws']",False
+683,6976.0,0.0,square-okhttp,okio.okbuffertest.testequalsandhashcode,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+703,6999.0,0.0,square-okhttp,okio.gzipsourcetest.gunzipwhenlengthincorrect,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+707,7005.0,0.0,square-okhttp,okio.bytestringtest.utf8,0.0,"['public', 'void', 'throws']",False
+711,7009.0,0.0,square-okhttp,okio.bytestringtest.readlowercase,0.0,"['new', 'public', 'void', 'throws']",False
+724,7022.0,0.0,square-okhttp,okio.bytestringtest.decodehexinvalidchar,0.0,"['try', 'catch', 'public', 'void', 'throws']",False
+734,7036.0,0.0,square-okhttp,okio.okiotest.sourcefrominputstreambounds,0.0,"['new', 'new', 'byte', 'try', 'new', 'catch', 'public', 'void', 'throws']",False
+745,7048.0,0.0,square-okhttp,okio.realbufferedsinktest.closeemitsbufferedbytes,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+754,7060.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.noentity,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+772,7080.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testresponsetimeout,0.0,"['new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+779,7087.0,0.0,square-okhttp,com.squareup.okhttp.curl.maintest.contenttypeheader,0.0,"['public', 'void']",False
+1,6046.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.setexpandsdata_fixedcapacity,0.0,"['new', 'public', 'void']",False
+2,6047.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.togglebit_fixedcapacity,0.0,"['new', 'public', 'void']",False
+3,6048.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.shiftleft_fixedcapacity,0.0,"['new', 'public', 'void']",False
+13,6058.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.bigintegersanitycheck_variablecapacity,0.0,"['new', 'public', 'void']",False
+19,6067.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.maxrequestszero,0.0,"['try', 'catch', 'public', 'void', 'throws']",False
+24,6072.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.increasingmaxrequestspromotesjobsimmediately,0.0,"['public', 'void', 'throws']",False
+28,6076.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.oldjobfinishesnewjobcantrunduetohostlimit,0.0,"['public', 'void', 'throws']",False
+32,6084.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.connectionpooling,0.0,"['new', 'new', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+34,6086.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.recoverfromtlshandshakefailure,0.0,"['false', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+36,6088.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.cache,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+60,6119.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.validateidlehttpconnectiontimeout,0.0,"['new', 'int', 'int', 'public', 'void', 'throws']",False
+74,6139.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.get_allparameters,0.0,"['final', 'new', 'new', 'public', 'throws', 'return', 'null', 'public', 'void', 'throws']",False
+84,6161.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_https_uriandclass,0.0,"['final', 'new', 'new', 'public', 'throws', 'instanceof', 'return', 'null', 'public', 'void', 'throws']",False
+92,6178.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.proxyselectorreturnsnoproxies,0.0,"['new', 'null', 'null', 'null', 'new', 'new', 'false', 'false', 'public', 'void', 'throws']",False
+99,6185.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.failedroutesarelast,0.0,"['new', 'new', 'new', 'new', 'while', 'new', 'new', 'while', 'public', 'void', 'throws']",False
+104,6194.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.serversendsinvalidcodetoolarge,1.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+121,6213.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.chunkedupload_bytebybyte,1.0,"['public', 'void', 'throws']",False
+127,6220.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getresponsecodenoresponsebody,0.0,"['new', 'false', 'try', 'catch', 'public', 'void', 'throws']",False
+128,6221.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttps,0.0,"['false', 'new', 'this', 'new', 'this', 'public', 'void', 'throws']",False
+182,6287.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.cansetnegativechunkedstreamingmode,1.0,"['public', 'void', 'throws']",False
+184,6289.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.cannotsetchunkedstreamingmodeafterconnect,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+188,6293.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.securechunkedstreaming,0.0,"['public', 'void', 'throws']",False
+194,6300.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirectedwithnolengthheaders,1.0,"['false', 'public', 'void', 'throws']",False
+196,6303.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.notredirectedfromhttpstohttp,0.0,"['false', 'new', 'false', 'new', 'public', 'void', 'throws']",False
+208,6315.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.response302movedtemporarilywithpost,1.0,"['public', 'void', 'throws']",False
+225,6334.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.responsecodedisagreeswithheaders,0.0,"['new', 'public', 'void', 'throws']",False
+237,6351.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getcontentoftype,0.0,"['new', 'try', 'null', 'catch', 'try', 'new', 'null', 'catch', 'new', 'public', 'void', 'throws']",False
+240,6354.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.setdooutputordoinputafterconnectfails,0.0,"['new', 'try', 'true', 'catch', 'try', 'true', 'catch', 'public', 'void', 'throws']",False
+251,6366.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.postfailswithchunkedrequestforsmallrequest,1.0,"['public', 'void', 'throws']",True
+252,6367.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.postfailswithchunkedrequestforlargerequest,1.0,"['public', 'void', 'throws']",True
+257,6378.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.emptyrequestheadervalueisallowed,0.0,"['new', 'public', 'void', 'throws']",False
+265,6390.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.zerolengthpost_spdy_3,0.0,"['public', 'void', 'throws']",False
+272,6398.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.setprotocolswithnull,0.0,"['try', 'null', 'catch', 'public', 'void', 'throws']",False
+276,6431.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.statuslinetest.parse,0.0,"['int', 'int', 'new', 'public', 'void', 'throws']",False
+285,6441.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.headerstest.parsenamevalueblock,0.0,"['new', 'public', 'void', 'throws']",False
+296,6456.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsecachingandredirects,1.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+297,6457.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.redirecttocachedresult,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+308,6472.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.defaultexpirationdateconditionallycached,0.0,"['new', 'public', 'void', 'throws']",False
+341,6507.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestmaxage,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+344,6510.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestmaxstalenothonoredwithmustrevalidate,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+346,6512.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestonlyifcachedwithfullresponsecached,0.0,"['new', 'public', 'void', 'throws']",False
+359,6527.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.contentlocationdoesnotpopulatecache,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+370,6539.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.cacheplusrange,0.0,"['new', 'public', 'void', 'throws']",False
+372,6541.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsesourceheadercached,0.0,"['new', 'public', 'void', 'throws']",False
+376,6545.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.emptyresponseheadernamefromcacheislenient,0.0,"['new', 'public', 'void', 'throws']",False
+397,6605.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.clientprematuredisconnectwithnolengthheaders,0.0,"['public', 'void', 'throws']",True
+405,6614.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.maxagepreferredwithmaxageandexpires,0.0,"['new', 'public', 'void', 'throws']",False
+407,6616.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.maxageinthepastwithdateheaderbutnolastmodifiedheader,0.0,"['new', 'public', 'void', 'throws']",False
+411,6620.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.maxageinthefuturewithdateandlastmodifiedheaders,0.0,"['new', 'public', 'void', 'throws']",False
+415,6624.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmethodgetiscached,0.0,"['true', 'public', 'void', 'throws']",False
+419,6628.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmethoddeleteisnotcached,0.0,"['false', 'public', 'void', 'throws']",False
+422,6632.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.putinvalidatescache,0.0,"['public', 'void', 'throws']",False
+432,6643.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.cachecontrolnostore,0.0,"['new', 'public', 'void', 'throws']",False
+449,6661.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestpragmanocache,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+450,6662.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.clientsuppliedifmodifiedsincewithcachedresult,0.0,"['new', 'public', 'void', 'throws']",False
+452,6665.0,1.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.setifmodifiedsince,0.0,"['public', 'void', 'throws', 'new']",False
+482,6696.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.getheadersdeletescached100levelwarnings,0.0,"['new', 'new', 'null', 'public', 'void', 'throws']",False
+507,6749.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.headersonlystreamisclosedafterreplyheaders,1.0,"['false', 'false', 'false', 'public', 'void', 'throws']",False
+520,6764.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.multiplesettingsframesaremerged,0.0,"['new', 'new', 'false', 'synchronized', 'public', 'void', 'throws']",False
+533,6778.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.receivegoaway,1.0,"['public', 'void', 'throws']",True
+538,6781.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.sendgoaway,0.0,"['false', 'false', 'true', 'true', 'true', 'public', 'void', 'throws']",False
+556,6795.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientsendsemptydataserverdoesntsendwindowupdate,0.0,"['public', 'void', 'throws']",False
+574,6832.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromise,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+586,6840.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pingroundtrip,0.0,"['new', 'final', 'int', 'final', 'int', 'true', 'new', 'false', 'new', 'public', 'void', 'boolean', 'int', 'int', 'public', 'void', 'throws']",False
+587,6842.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.maxlengthdataframe,0.0,"['new', 'final', 'byte', 'new', 'byte', 'byte', 'new', 'new', 'false', 'new', 'public', 'void', 'boolean', 'int', 'int', 'throws', 'for', 'byte', 'public', 'void', 'throws']",False
+588,6844.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.toolargedataframe,0.0,"['try', 'new', 'new', 'byte', 'catch', 'public', 'void', 'throws']",False
+595,6860.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.largeheadervalue,0.0,"['char', 'new', 'char', 'new', 'public', 'void', 'throws']",False
+634,6925.0,0.0,square-okhttp,okio.realbufferedsourcetest.skipreadsonesegmentatatime,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+639,6931.0,0.0,square-okhttp,okio.okbuffertest.completesegmentbytecountonbufferwithfullsegments,0.0,"['new', 'public', 'void', 'throws']",False
+686,6980.0,0.0,square-okhttp,okio.inflatersourcetest.inflate,0.0,"['public', 'void', 'throws']",False
+705,7001.0,0.0,square-okhttp,okio.gzipsourcetest.gunzipthrowsifsourceisnotexhausted,0.0,"['new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+706,7004.0,0.0,square-okhttp,okio.bytestringtest.equals,0.0,"['new', 'public', 'void', 'throws']",False
+736,7039.0,0.0,square-okhttp,okio.realbufferedsinktest.outputstreamfromsinkbounds,0.0,"['new', 'new', 'try', 'new', 'byte', 'catch', 'public', 'void', 'throws']",False
+739,7042.0,0.0,square-okhttp,okio.realbufferedsinktest.bufferedsinkemitmultiplesegments,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+756,7062.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.postinputstreamentity,0.0,"['new', 'final', 'new', 'byte', 'new', 'new', 'public', 'void', 'throws']",False
+759,7065.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.jsongzipresponse,0.0,"['new', 'new', 'new', 'new', 'byte', 'new', 'byte', 'new', 'new', 'new', 'for', 'int', 'public', 'void', 'throws']",False
+765,7072.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testmockresponsesetheader,0.0,"['new', 'public', 'void']",False
+771,7079.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testnonhexadecimalchunksize,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+46,6105.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.poolprefersmostrecentlyrecycled,0.0,"['new', 'public', 'void', 'throws']",False
+47,6106.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.getspdyconnection,0.0,"['new', 'public', 'void', 'throws']",False
+48,6107.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.gethttpconnection,0.0,"['new', 'public', 'void', 'throws']",False
+51,6110.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.expiredconnectionsareevicted,0.0,"['new', 'public', 'void', 'throws']",False
+61,6120.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.maxconnections,0.0,"['new', 'public', 'void', 'throws']",False
+66,6126.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testinvalidparse,0.0,"['public', 'void', 'throws']",False
+80,6151.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_responseheadersok,0.0,"['final', 'final', 'new', 'new', 'public', 'throws', 'null', 'null', 'new', 'new', 'null', 'try', 'catch', 'try', 'catch', 'null', 'int', 'while', 'while', 'null', 'return', 'null', 'public', 'void', 'throws']",False
+86,6165.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_https_forbiddenfields,0.0,"['final', 'new', 'new', 'public', 'throws', 'try', 'catch', 'try', 'catch', 'return', 'null', 'public', 'void', 'throws']",False
+88,6174.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.singleroutereturnsfailedroute,0.0,"['new', 'null', 'null', 'null', 'new', 'new', 'new', 'new', 'false', 'try', 'catch', 'public', 'void', 'throws']",False
+95,6181.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.proxydnsfailurecontinuestonextproxy,0.0,"['new', 'null', 'null', 'null', 'new', 'new', 'false', 'null', 'try', 'catch', 'false', 'false', 'public', 'void', 'throws']",False
+101,6191.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getrequestpropertyreturnslastvalue,1.0,"['public', 'void', 'throws']",False
+106,6196.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.serversendsunnecessarywhitespace,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+117,6208.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.serverclosessocket,0.0,"['public', 'void', 'throws']",True
+119,6210.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.servershutdownoutput,1.0,"['public', 'void', 'throws']",True
+138,6232.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.contentdisagreeswithcontentlengthheader,0.0,"['new', 'public', 'void', 'throws']",False
+160,6259.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.clientconfiguredgzipcontentencoding,0.0,"['byte', 'new', 'new', 'public', 'void', 'throws']",False
+166,6266.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.earlydisconnectdoesntharmpoolingwithchunkedencoding,0.0,"['public', 'void', 'throws']",False
+167,6267.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.earlydisconnectdoesntharmpoolingwithfixedlengthencoding,1.0,"['public', 'void', 'throws']",False
+170,6271.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.authenticatewithfixedlengthstreaming,0.0,"['public', 'void', 'throws']",True
+175,6277.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.allattributessetinserverauthenticationcallbacks,0.0,"['public', 'void', 'throws']",False
+178,6282.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.setinvalidrequestmethodlowercase,1.0,"['public', 'void', 'throws']",False
+201,6307.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirecttoanotheroriginserver,1.0,"['false', 'public', 'void', 'throws']",True
+207,6314.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.response301movedpermanentlywithpost,0.0,"['public', 'void', 'throws']",True
+212,6320.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.response307withget,0.0,"['public', 'void', 'throws']",True
+282,6437.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.statuslinetest.nonthreedigitcode,0.0,"['public', 'void', 'throws']",False
+283,6438.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.statuslinetest.truncated,0.0,"['public', 'void', 'throws']",False
+298,6458.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.secureresponsecachingandredirects,0.0,"['false', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+299,6459.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.secureresponsecachingandprotocolredirects,0.0,"['false', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+312,6476.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.expirationdateinthepastwithnolastmodifiedheader,0.0,"['new', 'public', 'void', 'throws']",False
+317,6481.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.maxageinthefuturewithdateheader,1.0,"['new', 'public', 'void', 'throws']",False
+318,6482.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.maxageinthefuturewithnodateheader,0.0,"['new', 'public', 'void', 'throws']",False
+319,6483.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.maxagewithlastmodifiedbutnoserveddate,0.0,"['new', 'public', 'void', 'throws']",False
+339,6505.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.notmodifiedspecifiesencoding,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+350,6516.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestpragmanocache,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+368,6536.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.getheadersdeletescached100levelwarnings,1.0,"['new', 'new', 'null', 'public', 'void', 'throws']",False
+384,6589.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsecachingandinputstreamskipwithnolengthheaders,0.0,"['public', 'void', 'throws']",False
+391,6597.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsecacherequestheaders,0.0,"['new', 'final', 'new', 'new', 'public', 'throws', 'return', 'null', 'public', 'void', 'throws']",False
+402,6611.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.expirationdateinthepastwithlastmodifiedheader,1.0,"['new', 'public', 'void', 'throws']",False
+421,6631.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.postinvalidatescache,0.0,"['public', 'void', 'throws']",False
+429,6640.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.cachecontrolnocacheandexpirationdateinthefuture,0.0,"['new', 'public', 'void', 'throws']",False
+439,6651.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.expiresdatebeforemodifieddate,0.0,"['new', 'public', 'void', 'throws']",False
+459,6673.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.contentlocationdoesnotpopulatecache,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+466,6680.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.statisticsfullcachehit,0.0,"['new', 'public', 'void', 'throws']",False
+467,6681.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varymatcheschangedrequestheaderfield,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+485,6700.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.conditionalhitupdatescache,0.0,"['new', 'new', 'new', 'null', 'public', 'void', 'throws']",False
+486,6701.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsesourceheadercached,0.0,"['new', 'public', 'void', 'throws']",False
+505,6744.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.verifyasipaddress,0.0,"['public', 'void']",False
+523,6767.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientclosesclientoutputstream,0.0,"['false', 'true', 'true', 'false', 'try', 'catch', 'public', 'void', 'throws']",False
+549,6789.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.readsendswindowupdatehttp2,1.0,"['public', 'void', 'throws']",True
+550,6792.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serversendsemptydataclientdoesntsendwindowupdate,0.0,"['public', 'void', 'throws']",False
+558,6797.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientsendsemptydataserverdoesntsendwindowupdate,0.0,"['public', 'void', 'throws']",False
+564,6802.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.maxframesizehonored,1.0,"['false', 'byte', 'new', 'byte', 'byte', 'false', 'true', 'true', 'public', 'void', 'throws']",False
+572,6828.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.headerswithpriority,0.0,"['new', 'final', 'int', 'new', 'false', 'new', 'public', 'void', 'boolean', 'boolean', 'int', 'int', 'int', 'public', 'void', 'throws']",False
+581,6835.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromise,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+585,6838.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.readsettingsframe,0.0,"['new', 'final', 'int', 'final', 'new', 'false', 'new', 'public', 'void', 'boolean', 'false', 'true', 'public', 'void', 'throws']",False
+590,6847.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.badwindowsizeincrement,0.0,"['try', 'catch', 'try', 'catch', 'public', 'void', 'throws']",False
+605,6870.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.readindexedheaderfieldfromstatictablewithoutbuffering,0.0,"['public', 'void', 'throws']",False
+610,6887.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.writesinglebyteint,0.0,"['public', 'void', 'throws']",False
+622,6913.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.settingstest.unsetfield,0.0,"['new', 'public', 'void']",False
+631,6922.0,0.0,square-okhttp,okio.realbufferedsourcetest.requireinsufficientdata,0.0,"['new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+637,6929.0,0.0,square-okhttp,okio.okbuffertest.readandwriteutf8,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+640,6932.0,0.0,square-okhttp,okio.okbuffertest.completesegmentbytecountonbufferwithincompletetailsegment,0.0,"['new', 'public', 'void', 'throws']",False
+641,6933.0,0.0,square-okhttp,okio.okbuffertest.readutf8spanssegments,0.0,"['new', 'public', 'void', 'throws']",False
+646,6938.0,0.0,square-okhttp,okio.okbuffertest.tostringonmultiplesegmentbuffer,0.0,"['new', 'public', 'void', 'throws']",False
+667,6960.0,0.0,square-okhttp,okio.okbuffertest.writeintegerdoesntquitefitinsegment,0.0,"['new', 'public', 'void', 'throws']",False
+668,6961.0,0.0,square-okhttp,okio.okbuffertest.readbyte,0.0,"['new', 'new', 'byte', 'byte', 'byte', 'public', 'void', 'throws']",False
+685,6980.0,0.0,square-okhttp,okio.inflatersourcetest.inflate,0.0,"['public', 'void', 'throws']",False
+688,6987.0,0.0,square-okhttp,okio.inflatersourcetest.inflate,0.0,"['public', 'void', 'throws']",False
+701,6997.0,0.0,square-okhttp,okio.gzipsourcetest.gunzipwhenheadercrcincorrect,0.0,"['new', 'byte', 'short', 'try', 'catch', 'public', 'void', 'throws']",False
+715,7013.0,0.0,square-okhttp,okio.bytestringtest.write,0.0,"['new', 'new', 'byte', 'public', 'void', 'throws']",False
+719,7017.0,0.0,square-okhttp,okio.bytestringtest.decodebase64,0.0,"['null', 'public', 'void']",False
+729,7028.0,0.0,square-okhttp,okio.deflatersinktest.deflatewithsyncflush,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+731,7030.0,0.0,square-okhttp,okio.deflatersinktest.deflatepoorlycompressed,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+733,7035.0,0.0,square-okhttp,okio.okiotest.sourcefrominputstream,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+738,7041.0,0.0,square-okhttp,okio.realbufferedsinktest.bufferedsinkemitzero,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+761,7068.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testrecordedrequestaccessors,0.0,"['byte', 'new', 'null', 'public', 'void']",False
+764,7071.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testmockresponseaddheader,0.0,"['new', 'public', 'void']",False
+768,7075.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testregularresponse,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+7,6052.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.togglebit_variablecapacity,0.0,"['new', 'public', 'void']",False
+42,6095.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.canceledafterresponseisdelivereddoesnothing,0.0,"['new', 'final', 'new', 'final', 'new', 'new', 'new', 'public', 'void', 'throw', 'new', 'public', 'boolean', 'throws', 'return', 'true', 'public', 'void', 'throws']",False
+89,6175.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.explicitproxytriesthatproxiesaddressesonly,0.0,"['new', 'null', 'null', 'new', 'new', 'false', 'false', 'public', 'void', 'throws']",False
+111,6202.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.geterrorstreamonsuccessfulrequest,0.0,"['new', 'public', 'void', 'throws']",False
+132,6225.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpswithsslfallback,0.0,"['false', 'new', 'new', 'this', 'new', 'this', 'public', 'void', 'throws']",False
+134,6227.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpstountrustedserver,0.0,"['false', 'new', 'try', 'catch', 'instanceof', 'public', 'void', 'throws']",False
+139,6233.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.contentdisagreeswithchunkedheader,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+140,6234.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpproxytohttpsusingproxyargwithnoproxy,0.0,"['public', 'void', 'throws']",False
+148,6245.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.proxywithconnectionclose,0.0,"['true', 'new', 'new', 'this', 'new', 'new', 'this', 'public', 'void', 'throws']",False
+157,6256.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.nonhexchunksize,1.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+186,6291.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.cannotsetchunkedstreamingmodeafterfixedlengthstreamingmode,0.0,"['try', 'catch', 'public', 'void', 'throws']",False
+206,6313.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.response300multiplechoicewithpost,1.0,"['public', 'void', 'throws']",True
+211,6319.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.response305useproxy,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+242,6356.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getcontentlengthconnects,1.0,"['new', 'public', 'void', 'throws']",False
+244,6358.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getcontentencodingconnects,0.0,"['new', 'public', 'void', 'throws']",False
+247,6361.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.inputstreamavailablewithcontentlengthheader,1.0,"['public', 'void', 'throws']",False
+250,6365.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.postfailswithbufferedrequestforlargerequest,0.0,"['public', 'void', 'throws']",True
+253,6368.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.postfailswithfixedlengthrequestforsmallrequest,1.0,"['public', 'void', 'throws']",True
+258,6379.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.emptyresponseheadervalueisallowed,0.0,"['new', 'public', 'void', 'throws']",False
+266,6391.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.zerolengthpost_http_2,0.0,"['public', 'void', 'throws']",False
+269,6394.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.zerolengthput_http_2,0.0,"['public', 'void', 'throws']",False
+275,6401.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.gzipwithredirectandconnectionreuse,1.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+340,6506.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.expiresdatebeforemodifieddate,0.0,"['new', 'public', 'void', 'throws']",False
+347,6513.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestonlyifcachedwithconditionalresponsecached,0.0,"['new', 'public', 'void', 'throws']",False
+349,6515.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestcachecontrolnocache,0.0,"['new', 'new', 'public', 'void', 'throws']",True
+351,6517.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.clientsuppliedifmodifiedsincewithcachedresult,0.0,"['new', 'public', 'void', 'throws']",False
+355,6522.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.authorizationrequestheaderpreventscaching,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+367,6535.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.getheadersreturnscachedhopbyhopheaders,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+401,6610.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.nodefaultexpirationforurlswithquerystring,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+406,6615.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.maxageinthepastwithdateandlastmodifiedheaders,0.0,"['new', 'public', 'void', 'throws']",False
+413,6622.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.maxagepreferredoverhighermaxage,0.0,"['new', 'public', 'void', 'throws']",False
+417,6626.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmethodpostisnotcached,0.0,"['false', 'public', 'void', 'throws']",False
+427,6638.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.etagandexpirationdateinthefuture,0.0,"['new', 'public', 'void', 'throws']",False
+434,6645.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.partialrangeresponsesdonotcorruptcache,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+435,6646.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.serverreturnsdocumentolderthancache,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+470,6684.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varymatchesaddedrequestheaderfield,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+474,6688.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varymultiplefieldswithnomatch,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+480,6694.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.getheadersreturnsnetworkendtoendheaders,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+484,6699.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.cacheplusrange,0.0,"['new', 'public', 'void', 'throws']",False
+487,6702.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsesourceheaderconditionalcachefetched,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+488,6703.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsesourceheaderconditionalcachenotfetched,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+492,6729.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.verify,0.0,"['new', 'public', 'void', 'throws']",False
+494,6731.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.verifynonasciicn,0.0,"['public', 'void', 'throws']",False
+500,6739.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.subjectaltuseslocaldomainandip,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+509,6751.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.servercreatesstreamandclientreplies,0.0,"['final', 'false', 'false', 'final', 'new', 'new', 'public', 'void', 'throws', 'null', 'true', 'new', 'true', 'public', 'void', 'throws']",False
+510,6753.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.replywithnodata,1.0,"['false', 'false', 'final', 'new', 'new', 'public', 'void', 'throws', 'false', 'public', 'void', 'throws']",False
+512,6756.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serverpingsclienthttp2,0.0,"['false', 'false', 'public', 'void', 'throws']",False
+526,6770.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientclosesclientinputstreamifoutputstreamisclosed,0.0,"['true', 'true', 'try', 'new', 'catch', 'public', 'void', 'throws']",False
+528,6772.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.remotedoublesynreply,0.0,"['false', 'false', 'true', 'true', 'true', 'try', 'new', 'catch', 'public', 'void', 'throws']",False
+539,6782.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.nopingsaftershutdown,0.0,"['try', 'catch', 'public', 'void', 'throws']",False
+541,6784.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.closecancelspings,0.0,"['public', 'void', 'throws']",False
+542,6785.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.readtimeoutexpires,0.0,"['false', 'true', 'true', 'true', 'long', 'try', 'new', 'catch', 'long', 'public', 'void', 'throws']",False
+547,6790.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.readsendswindowupdate,1.0,"['public', 'void', 'throws']",True
+554,6793.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serversendsemptydataclientdoesntsendwindowupdatehttp2,0.0,"['public', 'void', 'throws']",False
+555,6795.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientsendsemptydataserverdoesntsendwindowupdate,0.0,"['public', 'void', 'throws']",False
+562,6800.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.testtruncateddataframe,0.0,"['false', 'false', 'true', 'true', 'try', 'catch', 'public', 'void', 'throws']",False
+566,6804.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.headerblockhastrailingcompressedbytes2048,0.0,"['public', 'void', 'throws']",False
+568,6811.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.doublepushpromise,0.0,"['false', 'false', 'true', 'public', 'void', 'throws']",False
+573,6830.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.headersframethencontinuation,0.0,"['new', 'int', 'int', 'new', 'false', 'new', 'public', 'void', 'boolean', 'boolean', 'int', 'int', 'int', 'public', 'void', 'throws']",False
+582,6835.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromise,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+594,6853.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.streamidhasreservedbit,0.0,"['new', 'new', 'true', 'try', 'int', 'catch', 'public', 'void', 'throws']",False
+597,6862.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.testeviction,0.0,"['new', 'public', 'void', 'throws']",False
+618,6903.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdy3test.toolargedataframe,0.0,"['try', 'new', 'new', 'byte', 'catch', 'public', 'void', 'throws']",False
+626,6917.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.settingstest.merge,0.0,"['new', 'new', 'public', 'void']",False
+635,6926.0,0.0,square-okhttp,okio.realbufferedsourcetest.skiptracksbufferfirst,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+663,6956.0,0.0,square-okhttp,okio.okbuffertest.writelastbyteinsegment,0.0,"['new', 'public', 'void', 'throws']",False
+675,6968.0,0.0,square-okhttp,okio.okbuffertest.skip,0.0,"['new', 'public', 'void', 'throws']",False
+687,6987.0,0.0,square-okhttp,okio.inflatersourcetest.inflate,0.0,"['public', 'void', 'throws']",False
+692,6990.0,0.0,square-okhttp,okio.gzipsourcetest.gunzip,0.0,"['new', 'new', 'while', 'return', 'private', 'throws']",False
+708,7006.0,0.0,square-okhttp,okio.bytestringtest.equalsascii,0.0,"['byte', 'null', 'public', 'void', 'throws']",False
+709,7007.0,0.0,square-okhttp,okio.bytestringtest.testhashcode,0.0,"['public', 'void', 'throws']",False
+727,7025.0,0.0,square-okhttp,okio.bytestringtest.tostringonlargebytestringincludesmd5,0.0,"['public', 'void']",False
+728,7027.0,0.0,square-okhttp,okio.deflatersinktest.deflatewithclose,0.0,"['new', 'do', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+757,7063.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.contenttype,0.0,"['new', 'new', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+762,7069.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testdefaultmockresponse,0.0,"['new', 'public', 'void']",False
+770,7077.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testdispatchblockswaitingforenqueue,0.0,"['new', 'public', 'void', 'try', 'catch', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+773,7081.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testdisconnectatstart,0.0,"['new', 'new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+780,7088.0,0.0,square-okhttp,com.squareup.okhttp.curl.maintest.referer,0.0,"['public', 'void']",False
+6,6051.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.setexpandsdata_variablecapacity,0.0,"['new', 'public', 'void']",False
+11,6056.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.multipleshiftsleftacrossoffset_variablecapacity,0.0,"['new', 'public', 'void']",False
+25,6073.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.increasingmaxperhostpromotesjobsimmediately,0.0,"['public', 'void', 'throws']",False
+38,6090.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.redirectwithredirectsdisabled,0.0,"['false', 'new', 'new', 'public', 'void', 'throws']",False
+62,6121.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.connectioncleanup,0.0,"['new', 'public', 'void', 'throws']",False
+79,6149.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_responsechangesforbidden,0.0,"['final', 'new', 'new', 'public', 'throws', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'return', 'null', 'public', 'void', 'throws']",False
+81,6155.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.put_accessiblerequestinfo_get,0.0,"['final', 'new', 'new', 'public', 'throws', 'return', 'null', 'public', 'void', 'throws']",False
+118,6209.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.servershutdowninput,1.0,"['public', 'void', 'throws']",True
+137,6230.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviaproxyusinghttpproxysystemproperty,0.0,"['public', 'void', 'throws']",False
+153,6251.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.markandresetwithcontentlengthheader,0.0,"['public', 'void', 'throws']",False
+162,6261.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.gzipandconnectionreusewithchunkedencoding,0.0,"['false', 'public', 'void', 'throws']",False
+163,6262.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.gzipandconnectionreusewithfixedlengthandtls,0.0,"['true', 'public', 'void', 'throws']",False
+171,6272.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.authenticatewithchunkedstreaming,1.0,"['public', 'void', 'throws']",False
+179,6283.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.setinvalidrequestmethodconnect,1.0,"['public', 'void', 'throws']",False
+187,6292.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.securefixedlengthstreaming,0.0,"['public', 'void', 'throws']",False
+203,6309.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirecttoanotheroriginserver,1.0,"['false', 'public', 'void', 'throws']",True
+210,6318.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirectedpoststripsrequestbodyheaders,0.0,"['new', 'new', 'true', 'public', 'void', 'throws']",False
+214,6322.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.response307withoptions,1.0,"['public', 'void', 'throws']",True
+216,6325.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.follow20redirects,0.0,"['for', 'int', 'new', 'new', 'public', 'void', 'throws']",False
+230,6340.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.getheadersthrows,0.0,"['for', 'new', 'try', 'catch', 'try', 'catch', 'public', 'void', 'throws']",False
+263,6387.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.npnsetsprotocolheader_http_2,0.0,"['public', 'void', 'throws']",False
+270,6396.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.setprotocols,1.0,"['new', 'public', 'void', 'throws']",False
+278,6433.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.statuslinetest.emptymessageandnoleadingspace,0.0,"['int', 'int', 'new', 'public', 'void', 'throws']",False
+279,6434.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.statuslinetest.shoutcast,0.0,"['new', 'public', 'void', 'throws']",False
+290,6446.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.headerstest.tonamevalueblockdropsforbiddenheadershttp2,0.0,"['new', 'public', 'void']",False
+305,6468.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.clientprematuredisconnectwithchunkedencoding,0.0,"['public', 'void', 'throws']",False
+306,6469.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.clientprematuredisconnectwithnolengthheaders,1.0,"['public', 'void', 'throws']",False
+315,6479.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.maxageinthepastwithdateandlastmodifiedheaders,0.0,"['new', 'public', 'void', 'throws']",False
+320,6484.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.maxageinthefuturewithdateandlastmodifiedheaders,0.0,"['new', 'public', 'void', 'throws']",False
+332,6497.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.pragmanocacheandexpirationdateinthefuture,0.0,"['new', 'public', 'void', 'throws']",False
+334,6499.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.cachecontrolnostoreandexpirationdateinthefuture,1.0,"['new', 'public', 'void', 'throws']",False
+357,6524.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.authorizationresponsecachedwithpublic,0.0,"['new', 'public', 'public', 'void', 'throws']",False
+369,6537.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.getheadersretainscached200levelwarnings,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+371,6540.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.conditionalhitdoesnotupdatecache,0.0,"['for', 'public', 'void', 'throws', 'new', 'new', 'new', 'new', 'null']",False
+381,6583.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsecachereturnsnulloutputstream,0.0,"['final', 'new', 'new', 'public', 'throws', 'return', 'new', 'public', 'void', 'true', 'public', 'throws', 'return', 'null', 'new', 'public', 'void', 'throws']",False
+387,6593.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsecachingandredirects,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+399,6608.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.defaultexpirationdateconditionallycached,0.0,"['new', 'public', 'void', 'throws']",False
+410,6619.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.maxagewithlastmodifiedbutnoserveddate,0.0,"['new', 'public', 'void', 'throws']",False
+433,6644.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.cachecontrolnostoreandexpirationdateinthefuture,0.0,"['new', 'public', 'void', 'throws']",False
+436,6647.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.nonidentityencodingandconditionalcache,0.0,"['new', 'public', 'void', 'throws']",False
+440,6652.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestmaxage,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+448,6660.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestcachecontrolnocache,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+451,6663.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.clientsuppliedifnonematchsincewithcachedresult,0.0,"['new', 'public', 'void', 'throws']",False
+453,6666.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.retainserveddateformat,0.0,"['new', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+456,6669.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.authorizationresponsecachedwithsmaxage,0.0,"['new', 'public', 'void', 'throws']",False
+478,6692.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varyandhttps,0.0,"['false', 'new', 'new', 'public', 'void', 'throws']",False
+497,6735.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.verifymultiplecn,0.0,"['public', 'void', 'throws']",False
+515,6759.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.peerhttp2serverlowersinitialwindowsize,0.0,"['false', 'new', 'new', 'false', 'true', 'public', 'void', 'throws']",False
+517,6761.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.peerhttp2serverzeroscompressiontable,1.0,"['boolean', 'false', 'new', 'synchronized', 'public', 'void', 'throws']",False
+521,6765.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.bogusdataframedoesnotdisruptconnection,0.0,"['true', 'new', 'false', 'public', 'void', 'throws']",False
+522,6766.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.bogusreplyframedoesnotdisruptconnection,0.0,"['false', 'false', 'public', 'void', 'throws']",False
+537,6779.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.receivegoawayhttp2,1.0,"['public', 'void', 'throws']",True
+545,6788.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.readsendswindowupdate,1.0,"['public', 'void', 'throws']",True
+565,6803.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.headerblockhastrailingcompressedbytes512,0.0,"['public', 'void', 'throws']",False
+571,6826.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.onlyoneliteralheadersframe,0.0,"['final', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'boolean', 'boolean', 'int', 'int', 'int', 'public', 'void', 'throws']",False
+575,6832.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromise,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+606,6871.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.readrequestexampleswithouthuffman,0.0,"['public', 'void', 'throws']",False
+619,6904.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdy3test.badwindowsizeincrement,0.0,"['try', 'catch', 'try', 'catch', 'public', 'void', 'throws']",False
+621,6910.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.huffmantest.roundtripforrequestandresponse,0.0,"['for', 'int', 'new', 'byte', 'new', 'byte', 'public', 'void', 'throws']",False
+624,6915.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.settingstest.ispersisted,0.0,"['new', 'public', 'void']",False
+627,6918.0,0.0,square-okhttp,okio.realbufferedsourcetest.inputstreamfromsource,0.0,"['new', 'new', 'byte', 'new', 'byte', 'new', 'public', 'void', 'throws']",False
+633,6924.0,0.0,square-okhttp,okio.realbufferedsourcetest.skipinsufficientdata,0.0,"['new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+645,6937.0,0.0,square-okhttp,okio.okbuffertest.tostringonlargebufferincludesmd5,0.0,"['new', 'public', 'void', 'throws']",False
+647,6939.0,0.0,square-okhttp,okio.okbuffertest.multiplesegmentbuffers,0.0,"['new', 'public', 'void', 'throws']",False
+654,6947.0,0.0,square-okhttp,okio.okbuffertest.writeprefixdoesntsplit,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+676,6969.0,0.0,square-okhttp,okio.okbuffertest.testwriteprefixtoemptybuffer,0.0,"['new', 'new', 'public', 'void']",False
+684,6977.0,0.0,square-okhttp,okio.okbuffertest.testequalsandhashcodespanningsegments,0.0,"['byte', 'new', 'byte', 'new', 'public', 'void', 'throws']",False
+689,6981.0,0.0,square-okhttp,okio.inflatersourcetest.inflatetruncated,0.0,"['try', 'catch', 'public', 'void', 'throws']",False
+695,7003.0,0.0,square-okhttp,okio.gzipsourcetest.gunzip,0.0,"['new', 'new', 'while', 'return', 'private', 'throws']",False
+700,6995.0,0.0,square-okhttp,okio.gzipsourcetest.gunzip_withall,0.0,"['public', 'void', 'throws', 'new', 'byte', 'short', 'try']",False
+716,7014.0,0.0,square-okhttp,okio.bytestringtest.concat,0.0,"['public', 'void']",False
+726,7024.0,0.0,square-okhttp,okio.bytestringtest.tostringonsmallbytestringincludescontents,0.0,"['public', 'void']",False
+742,7045.0,0.0,square-okhttp,okio.realbufferedsinktest.bytesnotemittedtosinkwithoutflush,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+744,7047.0,0.0,square-okhttp,okio.realbufferedsinktest.incompletesegmentsnotemitted,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+749,7052.0,0.0,square-okhttp,okio.realbufferedsinktest.operationsafterclose,0.0,"['new', 'new', 'try', 'catch', 'try', 'new', 'byte', 'catch', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'try', 'new', 'byte', 'catch', 'public', 'void', 'throws']",False
+750,7056.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.success,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+752,7058.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.sessionexpired,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+763,7070.0,0.0,square-okhttp,com.squareup.okhttp.mockwebserver.mockwebservertest.testsetbodyadjustsheaders,0.0,"['new', 'public', 'void', 'throws']",False
+9,6054.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.shiftleftfromzero_variablecapacity,0.0,"['new', 'public', 'void']",False
+31,6083.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.get,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+55,6114.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.gettingconnectionreturnsoldestfirst,0.0,"['new', 'public', 'void', 'throws']",False
+57,6116.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.sharehttpconnectionfails,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+58,6117.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.recyclespdyconnectiondoesnothing,0.0,"['new', 'public', 'void', 'throws']",False
+59,6118.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.validateidlespdyconnectiontimeout,0.0,"['new', 'int', 'int', 'public', 'void', 'throws']",False
+83,6159.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.get_https_allparameters,0.0,"['final', 'new', 'new', 'public', 'throws', 'return', 'null', 'public', 'void', 'throws']",False
+96,6182.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.routeselectortest.nonsslerroraddsalltlsmodestofailedroute,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+136,6229.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviaproxyusingproxysystemproperty,1.0,"['public', 'void', 'throws']",False
+147,6244.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.proxyauthenticateonconnect,0.0,"['new', 'true', 'new', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+164,6263.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.gzipandconnectionreusewithchunkedencodingandtls,0.0,"['true', 'public', 'void', 'throws']",False
+168,6269.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.streamdiscardingistimely,0.0,"['new', 'new', 'byte', 'new', 'long', 'long', 'long', 'public', 'void', 'throws']",False
+169,6270.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.setchunkedstreamingmode,0.0,"['new', 'true', 'new', 'public', 'void', 'throws']",False
+172,6274.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.nonstandardauthenticationscheme,0.0,"['public', 'void', 'throws']",False
+185,6290.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.cannotsetfixedlengthstreamingmodeafterchunkedstreamingmode,0.0,"['try', 'catch', 'public', 'void', 'throws']",False
+191,6297.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.authenticaterealmuppercase,1.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+195,6302.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirectedonhttps,0.0,"['false', 'new', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+197,6304.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.notredirectedfromhttptohttps,0.0,"['new', 'false', 'public', 'void', 'throws']",False
+202,6309.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirecttoanotheroriginserver,1.0,"['false', 'public', 'void', 'throws']",True
+213,6321.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.response307withhead,1.0,"['public', 'void', 'throws']",True
+227,6336.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.flushafterstreamtransmittedwithchunkedencoding,0.0,"['public', 'void', 'throws']",False
+231,6341.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.dnsfailurethrowsioexception,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+241,6355.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.clientsendscontentlength,0.0,"['new', 'true', 'new', 'byte', 'public', 'void', 'throws']",False
+249,6364.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.postfailswithbufferedrequestforsmallrequest,1.0,"['public', 'void', 'throws']",True
+254,6369.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.postfailswithfixedlengthrequestforlargerequest,1.0,"['public', 'void', 'throws']",True
+271,6397.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.setprotocolswithouthttp11,1.0,"['try', 'catch', 'public', 'void', 'throws']",False
+288,6444.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.headerstest.tonamevalueblock,0.0,"['new', 'public', 'void']",False
+294,6454.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.secureresponsecaching,0.0,"['false', 'new', 'public', 'void', 'throws']",False
+303,6465.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.serverdisconnectsprematurelywithnolengthheaders,0.0,"['public', 'void', 'throws']",False
+310,6474.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.nodefaultexpirationforurlswithquerystring,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+314,6478.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.maxagepreferredwithmaxageandexpires,1.0,"['new', 'public', 'void', 'throws']",False
+330,6495.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.cachecontrolnocacheandexpirationdateinthefuture,0.0,"['new', 'public', 'void', 'throws']",False
+333,6498.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.cachecontrolnostore,0.0,"['new', 'public', 'void', 'throws']",False
+336,6501.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.serverreturnsdocumentolderthancache,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+373,6542.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsesourceheaderconditionalcachefetched,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+382,6587.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsecachingandinputstreamskipwithfixedlength,0.0,"['public', 'void', 'throws']",False
+385,6591.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.secureresponsecaching,0.0,"['false', 'new', 'public', 'void', 'throws']",False
+403,6612.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.expirationdateinthepastwithnolastmodifiedheader,0.0,"['new', 'public', 'void', 'throws']",False
+428,6639.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.cachecontrolnocache,0.0,"['new', 'public', 'void', 'throws']",False
+441,6653.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestminfresh,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+447,6659.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestonlyifcachedwithunhelpfulresponsecached,0.0,"['new', 'public', 'void', 'throws']",False
+469,6683.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varymatchesabsentrequestheaderfield,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+472,6686.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varyfieldsarecaseinsensitive,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+473,6687.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varymultiplefieldswithmatch,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+476,6690.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varymultiplefieldvalueswithnomatch,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+495,6732.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.verifysubjectalt,0.0,"['public', 'void', 'throws']",False
+513,6757.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientpingsserver,0.0,"['true', 'public', 'void', 'throws']",False
+529,6773.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.remotedoublesynstream,0.0,"['false', 'false', 'false', 'false', 'final', 'new', 'new', 'public', 'void', 'throws', 'null', 'true', 'new', 'true', 'public', 'void', 'throws']",False
+536,6780.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.receivegoaway,1.0,"['public', 'void', 'throws']",True
+544,6787.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.headersbeforereply,0.0,"['true', 'true', 'true', 'try', 'catch', 'public', 'void', 'throws']",False
+551,6792.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serversendsemptydataclientdoesntsendwindowupdate,0.0,"['public', 'void', 'throws']",False
+559,6796.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientsendsemptydataserverdoesntsendwindowupdatehttp2,0.0,"['public', 'void', 'throws']",False
+569,6812.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.pushpromisestreamsautomaticallycancel,0.0,"['false', 'new', 'new', 'new', 'new', 'true', 'new', 'public', 'void', 'throws']",False
+577,6833.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromise,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+583,6834.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.http20draft09test.pushpromisethencontinuation,0.0,"['new', 'final', 'int', 'final', 'new', 'new', 'new', 'new', 'int', 'int', 'new', 'false', 'new', 'public', 'void', 'int', 'int', 'public', 'void', 'throws']",False
+599,6864.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.huffmandecodingsupported,0.0,"['new', 'byte', 'new', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'public', 'void', 'throws']",False
+602,6867.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.literalheaderfieldwithoutindexingindexedname,0.0,"['new', 'public', 'void', 'throws']",False
+607,6878.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.readrequestexampleswithhuffman,0.0,"['public', 'void', 'throws']",False
+609,6886.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.readmultibyteint,0.0,"['public', 'void', 'throws']",False
+630,6921.0,0.0,square-okhttp,okio.realbufferedsourcetest.requireincludesbufferbytes,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+644,6936.0,0.0,square-okhttp,okio.okbuffertest.tostringonsmallbufferincludescontents,0.0,"['new', 'public', 'void', 'throws']",False
+650,6942.0,0.0,square-okhttp,okio.okbuffertest.movebytesbetweenbuffersreassignsegment,0.0,"['int', 'public', 'void', 'throws']",False
+656,6949.0,0.0,square-okhttp,okio.okbuffertest.readexhaustedsource,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+658,6951.0,0.0,square-okhttp,okio.okbuffertest.moveallrequestedbyteswithread,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+664,6957.0,0.0,square-okhttp,okio.okbuffertest.writeshort,0.0,"['new', 'public', 'void', 'throws']",False
+665,6958.0,0.0,square-okhttp,okio.okbuffertest.writeint,0.0,"['new', 'public', 'void', 'throws']",False
+669,6962.0,0.0,square-okhttp,okio.okbuffertest.readshort,0.0,"['new', 'new', 'byte', 'byte', 'byte', 'byte', 'byte', 'short', 'short', 'public', 'void', 'throws']",False
+672,6965.0,0.0,square-okhttp,okio.okbuffertest.readintsplitacrossmultiplesegments,0.0,"['new', 'new', 'byte', 'byte', 'byte', 'byte', 'byte', 'public', 'void', 'throws']",False
+673,6966.0,0.0,square-okhttp,okio.okbuffertest.byteat,0.0,"['new', 'public', 'void', 'throws']",False
+682,6975.0,0.0,square-okhttp,okio.okbuffertest.testequalsandhashcodeempty,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+714,7012.0,0.0,square-okhttp,okio.bytestringtest.toasciistartslowercaseendsuppercase,0.0,"['public', 'void', 'throws']",False
+718,7016.0,0.0,square-okhttp,okio.bytestringtest.ignoreunnecessarypadding,0.0,"['public', 'void']",False
+722,7020.0,0.0,square-okhttp,okio.bytestringtest.decodehex,0.0,"['byte', 'byte', 'byte', 'public', 'void', 'throws']",False
+732,7034.0,0.0,square-okhttp,okio.okiotest.sinkfromoutputstream,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+737,7040.0,0.0,square-okhttp,okio.realbufferedsinktest.bufferedsinkemitstailwhenitiscomplete,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+746,7049.0,0.0,square-okhttp,okio.realbufferedsinktest.closewithexceptionwhenwriting,0.0,"['new', 'new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+747,7050.0,0.0,square-okhttp,okio.realbufferedsinktest.closewithexceptionwhenclosing,0.0,"['new', 'new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+753,7059.0,0.0,square-okhttp,com.squareup.okhttp.apache.okapacheclienttest.headers,0.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+4,6049.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.multipleshifts_fixedcapacity,0.0,"['new', 'public', 'void']",False
+5,6050.0,0.0,square-okhttp,com.squareup.okhttp.internal.bitarraytest.clearbits_fixedcapacity,0.0,"['new', 'public', 'void']",False
+30,6078.0,0.0,square-okhttp,com.squareup.okhttp.dispatchertest.cancelingrunningjobtakesnoeffectuntiljobfinishes,0.0,"['public', 'void', 'throws']",False
+37,6089.0,0.0,square-okhttp,com.squareup.okhttp.asyncapitest.redirect,1.0,"['new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+50,6109.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.maxidleconnectionlimitisenforced,0.0,"['new', 'public', 'void', 'throws']",False
+52,6111.0,0.0,square-okhttp,com.squareup.okhttp.connectionpooltest.nonaliveconnectionnotreturned,0.0,"['new', 'public', 'void', 'throws']",False
+65,6125.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testvalidparse,0.0,"['public', 'void', 'throws']",False
+68,6128.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testcharsetisoneofmanyparameters,0.0,"['public', 'void', 'throws']",False
+69,6129.0,0.0,square-okhttp,com.squareup.okhttp.mediatypetest.testcharsetandquoting,0.0,"['public', 'void', 'throws']",False
+78,6147.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecacheadaptertest.connectionchangesforbidden,0.0,"['final', 'new', 'new', 'public', 'throws', 'try', 'catch', 'try', 'catch', 'return', 'null', 'public', 'void', 'throws']",False
+108,6198.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.requestbodysurvivesretrieswithfixedlength,1.0,"['public', 'void', 'throws']",True
+110,6200.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.requestbodysurvivesretrieswithbufferedbody,1.0,"['public', 'void', 'throws']",True
+113,6204.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.bug2939,0.0,"['new', 'public', 'void', 'throws']",False
+122,6214.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.chunkedupload_smallbuffers,1.0,"['public', 'void', 'throws']",True
+126,6218.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.fixedlengthupload_largebuffers,1.0,"['public', 'void', 'throws']",True
+129,6222.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.inspecthandshakethroughoutrequestlifecycle,0.0,"['false', 'new', 'new', 'try', 'catch', 'public', 'void', 'throws']",False
+135,6228.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviaproxyusingproxyarg,0.0,"['public', 'void', 'throws']",False
+142,6237.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.connectviahttpproxytohttpsusingproxyarg,0.0,"['public', 'void', 'throws']",False
+149,6246.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.proxywithconnectionreuse,0.0,"['new', 'true', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+154,6252.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.markandresetwithchunkedencoding,0.0,"['public', 'void', 'throws']",False
+155,6253.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.markandresetwithnolengthheaders,0.0,"['public', 'void', 'throws']",False
+173,6275.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.nonstandardauthenticationschemewithrealm,0.0,"['public', 'void', 'throws']",False
+177,6280.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.setvalidrequestmethod,0.0,"['public', 'void', 'throws']",True
+183,6288.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.cannotsetfixedlengthstreamingmodeafterconnect,0.0,"['new', 'try', 'catch', 'public', 'void', 'throws']",False
+189,6295.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.authenticatewithpost,0.0,"['new', 'protected', 'new', 'new', 'true', 'byte', 'for', 'int', 'public', 'void', 'throws']",False
+198,6305.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirectedfromhttpstohttpfollowingprotocolredirects,0.0,"['new', 'new', 'false', 'new', 'new', 'true', 'public', 'void', 'throws']",False
+205,6310.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.redirectwithproxyselector,0.0,"['final', 'new', 'new', 'public', 'return', 'public', 'void', 'throw', 'new', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+245,6359.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.urlcontainsquerybutnopath,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+260,6381.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.emptyresponseheadernameislenient,1.0,"['new', 'public', 'void', 'throws']",False
+264,6389.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.urlconnectiontest.zerolengthpost,1.0,"['public', 'void', 'throws']",True
+284,6439.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.statuslinetest.wrongmessagedelimiter,0.0,"['public', 'void', 'throws']",False
+287,6443.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.headerstest.readnamevalueblockdropsforbiddenheadershttp2,0.0,"['new', 'public', 'void', 'throws']",False
+289,6445.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.headerstest.tonamevalueblockdropsforbiddenheadersspdy3,0.0,"['new', 'public', 'void']",False
+300,6460.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsecacherequestheaders,0.0,"['new', 'final', 'new', 'new', 'public', 'throws', 'return', 'null', 'public', 'throws', 'return', 'null', 'public', 'void', 'throws']",False
+325,6490.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.postinvalidatescachewithuncacheableresponse,0.0,"['for', 'public', 'void', 'throws', 'new', 'new']",False
+338,6503.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.nonidentityencodingandfullcache,0.0,"['new', 'public', 'void', 'throws']",False
+345,6511.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.requestonlyifcachedwithnoresponsecached,1.0,"['public', 'void', 'throws']",False
+352,6518.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.clientsuppliedifnonematchsincewithcachedresult,0.0,"['new', 'public', 'void', 'throws']",False
+353,6520.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.setifmodifiedsince,1.0,"['new', 'new', 'public', 'void', 'throws']",False
+363,6531.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.connectionisreturnedtopoolafterconditionalsuccess,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+365,6533.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.cachepluscookies,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+374,6543.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.responsecachetest.responsesourceheaderconditionalcachenotfetched,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+377,6577.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.responsecachingbyresponsecode,1.0,"['false', 'false', 'true', 'false', 'false', 'true', 'false', 'false', 'false', 'false', 'true', 'true', 'for', 'int', 'false', 'for', 'int', 'false', 'false', 'false', 'for', 'int', 'false', 'for', 'int', 'false', 'public', 'void', 'throws']",False
+386,6592.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.cachereturnsinsecureresponseforsecurerequest,0.0,"['false', 'new', 'new', 'new', 'public', 'void', 'throws']",False
+388,6594.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.redirecttocachedresult,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+394,6601.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.serverdisconnectsprematurelywithnolengthheaders,0.0,"['public', 'void', 'throws']",False
+424,6635.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.postinvalidatescachewithuncacheableresponse,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+425,6636.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.etag,0.0,"['new', 'public', 'void', 'throws']",False
+444,6656.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestonlyifcachedwithnoresponsecached,0.0,"['public', 'void', 'throws']",False
+445,6657.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.requestonlyifcachedwithfullresponsecached,0.0,"['new', 'public', 'void', 'throws']",False
+465,6679.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.statisticsconditionalcachehit,0.0,"['new', 'new', 'new', 'public', 'void', 'throws']",False
+475,6689.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.varymultiplefieldvalueswithmatch,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+491,6706.0,0.0,square-okhttp,com.squareup.okhttp.internal.http.httpresponsecachetest.testgoldencacheresponse,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+501,6740.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.wildcardscannotmatchipaddresses,0.0,"['public', 'void', 'throws']",False
+503,6742.0,0.0,square-okhttp,com.squareup.okhttp.internal.tls.hostnameverifiertest.subjectaltname,0.0,"['public', 'void', 'throws']",False
+506,6748.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.clientcreatesstreamandserverreplies,0.0,"['false', 'true', 'new', 'true', 'true', 'public', 'void', 'throws']",False
+511,6755.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.serverpingsclient,0.0,"['false', 'public', 'void', 'throws']",False
+532,6777.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.remotesendsrefusedstreambeforereplyheaders,0.0,"['false', 'true', 'true', 'try', 'catch', 'public', 'void', 'throws']",False
+563,6801.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.blockedstreamdoesntstarvenewstream,0.0,"['int', 'for', 'int', 'true', 'true', 'new', 'byte', 'true', 'true', 'public', 'void', 'throws']",False
+567,6806.0,1.0,square-okhttp,com.squareup.okhttp.internal.spdy.spdyconnectiontest.pushpromisestream,1.0,"['false', 'false', 'final', 'new', 'new', 'new', 'new', 'final', 'new', 'true', 'true', 'final', 'new', 'new', 'public', 'boolean', 'int', 'return', 'false', 'public', 'boolean', 'int', 'boolean', 'return', 'false', 'public', 'boolean', 'int', 'int', 'boolean', 'throws', 'new', 'return', 'false', 'public', 'void', 'int', 'new', 'false', 'true', 'new', 'public', 'void', 'throws']",False
+600,6865.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.readliteralheaderfieldwithindexing,0.0,"['new', 'public', 'void', 'throws']",False
+603,6868.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.readindexedheaderfield,0.0,"['public', 'void', 'throws']",False
+614,6891.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.prefixmaskminusone,0.0,"['public', 'void', 'throws']",False
+615,6892.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.zero,0.0,"['public', 'void', 'throws']",False
+617,6894.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.hpackdraft05test.emptyheadername,0.0,"['true', 'false', 'public', 'void', 'throws']",False
+623,6914.0,0.0,square-okhttp,com.squareup.okhttp.internal.spdy.settingstest.setfields,0.0,"['new', 'true', 'true', 'false', 'true', 'public', 'void']",False
+636,6927.0,0.0,square-okhttp,okio.realbufferedsourcetest.operationsafterclose,0.0,"['new', 'new', 'try', 'byte', 'catch', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'try', 'catch', 'try', 'new', 'byte', 'catch', 'public', 'void', 'throws']",False
+643,6935.0,0.0,square-okhttp,okio.okbuffertest.tostringonemptybuffer,0.0,"['new', 'public', 'void', 'throws']",False
+648,6940.0,0.0,square-okhttp,okio.okbuffertest.fillanddrainpool,0.0,"['new', 'new', 'byte', 'int', 'new', 'byte', 'int', 'new', 'byte', 'int', 'new', 'byte', 'int', 'public', 'void', 'throws']",False
+649,6941.0,0.0,square-okhttp,okio.okbuffertest.movebytesbetweenbufferssharesegment,0.0,"['int', 'public', 'void', 'throws']",False
+659,6952.0,0.0,square-okhttp,okio.okbuffertest.movefewerthanrequestedbyteswithread,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+660,6953.0,0.0,square-okhttp,okio.okbuffertest.indexof,0.0,"['new', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'byte', 'public', 'void', 'throws']",False
+694,7003.0,0.0,square-okhttp,okio.gzipsourcetest.gunzip,0.0,"['new', 'new', 'while', 'return', 'private', 'throws']",False
+710,7008.0,0.0,square-okhttp,okio.bytestringtest.read,0.0,"['new', 'public', 'void', 'throws']",False
+721,7019.0,0.0,square-okhttp,okio.bytestringtest.encodehex,0.0,"['byte', 'byte', 'byte', 'public', 'void', 'throws']",False
+741,7044.0,0.0,square-okhttp,okio.realbufferedsinktest.bytesemittedtosinkwithflush,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+743,7046.0,0.0,square-okhttp,okio.realbufferedsinktest.completesegmentsemitted,0.0,"['new', 'new', 'public', 'void', 'throws']",False
+775,7083.0,0.0,square-okhttp,com.squareup.okhttp.curl.maintest.simple,0.0,"['public', 'void']",False

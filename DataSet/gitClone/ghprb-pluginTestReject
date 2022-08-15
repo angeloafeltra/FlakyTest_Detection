@@ -1,0 +1,11 @@
+idProject,nameProject,testCase
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkClassForGetters
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkTriggerForGetters
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkTriggerDescriptorForGetters
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkPullRequestMergeForGetters
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkBuildLogForGetters
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkBuildResultMessageForGetters
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkBuildStatusForGetters
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkCommentFileForGetters
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkSimpleStatusForGetters
+40,ghprb-plugin,org.jenkinsci.plugins.ghprb.GeneralTest.checkCancelBuildsOnUpdateForGetters

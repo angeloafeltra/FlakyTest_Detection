@@ -1,0 +1,3 @@
+idProject,nameProject,testCase
+41,GoodData-CL,com.gooddata.connector.FacebookConnnectorTest.testGuessSourceSchema
+41,GoodData-CL,com.gooddata.processor.parser.TestDIScriptParser.testParseCmd

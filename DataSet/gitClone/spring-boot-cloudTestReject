@@ -1,0 +1,5 @@
+idProject,nameProject,testCase
+51,spring-boot-cloud,cn.zhangxd.config.ApplicationTests.configurationAvailable
+51,spring-boot-cloud,cn.zhangxd.config.ApplicationTests.envPostAvailable
+51,spring-boot-cloud,cn.zhangxd.registry.ApplicationTests.catalogLoads
+51,spring-boot-cloud,cn.zhangxd.registry.ApplicationTests.adminLoads

@@ -1,0 +1,6 @@
+idProject,nameProject,testCase
+14,graphbuilder,com.intel.hadoop.graphbuilder.test.experimental.javassist.RuntimeKeyValueTest.modifySelfTest
+14,graphbuilder,com.intel.hadoop.graphbuilder.test.experimental.javassist.RuntimeKeyValueTest.subClassTest
+14,graphbuilder,com.intel.hadoop.graphbuilder.test.experimental.javassist.RuntimeKeyValueTest.ingressKeyValFactoryTest
+14,graphbuilder,com.intel.hadoop.graphbuilder.test.experimental.javassist.RuntimeKeyValueTest.preproessKeyValFactoryTest
+14,graphbuilder,com.intel.hadoop.graphbuilder.test.experimental.javassist.RuntimeKeyValueTest.edgeTransformKeyValFactoryTest

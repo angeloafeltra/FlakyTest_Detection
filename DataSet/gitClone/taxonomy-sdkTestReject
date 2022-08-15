@@ -1,0 +1,3 @@
+idProject,nameProject,testCase
+89,taxonomy-sdk,com.ebay.commerce.taxonomy.AspectsSDKCoreTest.testAspectsDelta
+89,taxonomy-sdk,com.ebay.commerce.taxonomy.AspectsSDKCoreTest.getIndexedData

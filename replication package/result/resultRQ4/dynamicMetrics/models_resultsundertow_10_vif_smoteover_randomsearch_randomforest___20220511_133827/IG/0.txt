@@ -1,0 +1,9 @@
+                       assertion-roulette  0.022728
+                               eager-test       0.0
+                          fire-and-forget  0.014732
+                         indirect-testing  0.090257
+                        resource-optimism   0.00354
+                             test-run-war   0.01468
+                               numAsserts  0.287746
+hIndexModificationsPerCoveredLine_window5  0.009226
+                     num_third_party_libs  0.341249

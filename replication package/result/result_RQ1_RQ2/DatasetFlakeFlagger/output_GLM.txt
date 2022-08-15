@@ -1,0 +1,45 @@
+
+Call:
+glm(formula = (flakeFlagger$isFlaky ~ flakeFlagger$tloc + flakeFlagger$tmcCabe + 
+    flakeFlagger$assertionDensity + flakeFlagger$assertionRoulette + 
+    flakeFlagger$mysteryGuest + flakeFlagger$eagerTest + flakeFlagger$sensitiveEquality + 
+    flakeFlagger$resourceOptimism + flakeFlagger$conditionalTestLogic + 
+    flakeFlagger$fireAndForget + flakeFlagger$lcom5 + flakeFlagger$cbo + 
+    flakeFlagger$halsteadVocabulary + flakeFlagger$classDataShouldBePrivate + 
+    flakeFlagger$functionalDecomposition + flakeFlagger$godClass), 
+    family = binomial(link = "logit"))
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.2514  -0.3436  -0.2775  -0.2246   2.9835  
+
+Coefficients:
+                                       Estimate Std. Error z value             Pr(>|z|)    
+(Intercept)                            -11.6364   168.7739  -0.069              0.94503    
+flakeFlagger$tloc                        4.9510     0.7897   6.269     0.00000000036248 ***
+flakeFlagger$tmcCabe                     2.5807     0.4042   6.384     0.00000000017243 ***
+flakeFlagger$assertionDensity            0.5347     0.4454   1.201              0.22994    
+flakeFlagger$assertionRoulette           0.2917     0.8544   0.341              0.73280    
+flakeFlagger$mysteryGuest                6.5513     0.5588  11.724 < 0.0000000000000002 ***
+flakeFlagger$eagerTest                  -7.1649     1.1216  -6.388     0.00000000016807 ***
+flakeFlagger$sensitiveEquality          -1.3337     1.1365  -1.174              0.24057    
+flakeFlagger$resourceOptimism           -6.6334     1.4214  -4.667     0.00000306156506 ***
+flakeFlagger$conditionalTestLogic       -2.2295     1.1448  -1.948              0.05147 .  
+flakeFlagger$fireAndForget               3.1040     0.9783   3.173              0.00151 ** 
+flakeFlagger$lcom5                     -19.0892     2.7880  -6.847     0.00000000000755 ***
+flakeFlagger$cbo                         0.6137     0.2625   2.338              0.01937 *  
+flakeFlagger$halsteadVocabulary          5.5895     0.5795   9.645 < 0.0000000000000002 ***
+flakeFlagger$classDataShouldBePrivate   -1.7494     0.8419  -2.078              0.03772 *  
+flakeFlagger$functionalDecomposition    -0.1625     0.2049  -0.793              0.42785    
+flakeFlagger$godClass                  176.3318  3657.5707   0.048              0.96155    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 5042.8  on 10913  degrees of freedom
+Residual deviance: 4282.9  on 10897  degrees of freedom
+AIC: 4316.9
+
+Number of Fisher Scoring iterations: 14
+

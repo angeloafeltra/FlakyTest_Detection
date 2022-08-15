@@ -1,0 +1,22 @@
+                           assertion-roulette  0.012101
+                       conditional-test-logic  0.000014
+                                   eager-test  0.000439
+                              fire-and-forget  0.000097
+                             indirect-testing  0.000971
+                                mystery-guest       0.0
+                            resource-optimism       0.0
+                                 test-run-war  0.017897
+                                   testLength  0.022809
+                                   numAsserts  0.029203
+                              numCoveredLines  0.024818
+                                ExecutionTime  0.031664
+                  projectSourceClassesCovered  0.011358
+    hIndexModificationsPerCoveredLine_window5       0.0
+   hIndexModificationsPerCoveredLine_window10       0.0
+   hIndexModificationsPerCoveredLine_window25       0.0
+   hIndexModificationsPerCoveredLine_window50       0.0
+   hIndexModificationsPerCoveredLine_window75       0.0
+  hIndexModificationsPerCoveredLine_window100       0.0
+  hIndexModificationsPerCoveredLine_window500       0.0
+hIndexModificationsPerCoveredLine_window10000       0.0
+                         num_third_party_libs  0.015616

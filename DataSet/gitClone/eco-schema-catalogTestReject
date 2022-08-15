@@ -1,0 +1,2 @@
+idProject,nameProject,testCase
+32,eco-schema-catalog,com.epam.eco.schemacatalog.domain.schema.SubjectUpdateCompatibilityParamsTest.testSerializedToJsonAndBack

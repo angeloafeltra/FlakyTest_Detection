@@ -1,0 +1,16 @@
+idProject,nameProject,testCase
+24,jboot,io.jboot.test.cache.caffeine.CaffeineTester.testPut
+24,jboot,io.jboot.test.cache.caffeine.CaffeineTester.testGet
+24,jboot,io.jboot.test.cache.caffeine.CaffeineTester.testTtl
+24,jboot,io.jboot.test.cache.caffeine.CaffeineTester.testDue
+24,jboot,io.jboot.test.cache.caffeine.CaffeineTester.config
+24,jboot,io.jboot.test.cache.ehcache.EhCacheTester.testPut
+24,jboot,io.jboot.test.cache.ehcache.EhCacheTester.testGet
+24,jboot,io.jboot.test.cache.ehcache.EhCacheTester.config
+24,jboot,io.jboot.test.cache.j2cache.J2CacheTester.testPut
+24,jboot,io.jboot.test.cache.j2cache.J2CacheTester.testGet
+24,jboot,io.jboot.test.cache.j2cache.J2CacheTester.config
+24,jboot,io.jboot.test.cache.redis.RedisCacheTester.config
+24,jboot,io.jboot.test.cache.redis.RedisCacheTester.testCacheType
+24,jboot,io.jboot.test.cache.redis.RedisCacheTester.testPut
+24,jboot,io.jboot.test.cache.redis.RedisCacheTester.testGet

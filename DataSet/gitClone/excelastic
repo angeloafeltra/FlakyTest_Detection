@@ -1,0 +1,8 @@
+idProject,nameProject,testCase,tloc,tmcCabe,assertionDensity,assertionRoulette,mysteryGuest,eagerTest,sensitiveEquality,resourceOptimism,conditionalTestLogic,fireAndForget,testRunWar,loc,lcom2,lcom5,cbo,wmc,rfc,mpc,halsteadVocabulary,halsteadLength,halsteadVolume,classDataShouldBePrivate,complexClass,functionalDecomposition,godClass,spaghettiCode
+36,excelastic,com.codingchili.TestConfiguration.shouldLoadConfiguration,5.0,1.0,0.4,3.0,0.0,3,0.0,0,0.0,0.0,0.0,133.0,58.0,1.0,9.0,32.0,29.0,17.0,486.0,145.0,897.0002504655715,0,0,0,0.0,0.0
+36,excelastic,com.codingchili.TestWebsite.setUp,4.0,2.0,0.0,0.0,0.0,0,0.0,0,1.0,0.0,0.0,222.0,53.0,1.0,20.0,16.0,21.0,10.0,409.0,164.0,986.2492855910195,0,0,0,0.0,0.0
+36,excelastic,com.codingchili.TestWebsite.tearDown,3.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,222.0,53.0,1.0,20.0,16.0,21.0,10.0,409.0,164.0,986.2492855910195,0,0,0,0.0,0.0
+36,excelastic,com.codingchili.TestWebsite.shouldGetStartPage,2.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,222.0,53.0,1.0,20.0,16.0,21.0,10.0,409.0,164.0,986.2492855910195,0,0,0,0.0,0.0
+36,excelastic,com.codingchili.TestWebsite.shouldSucceedUpload,2.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,222.0,53.0,1.0,20.0,16.0,21.0,10.0,409.0,164.0,986.2492855910195,0,0,0,0.0,0.0
+36,excelastic,com.codingchili.TestWebsite.getFileBytes,3.0,3.0,0.0,0.0,2.0,0,0.0,0,0.0,0.0,0.0,222.0,53.0,1.0,20.0,16.0,21.0,10.0,409.0,164.0,986.2492855910195,0,0,0,0.0,0.0
+36,excelastic,com.codingchili.TestWebsite.shouldFailUpload,2.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,222.0,53.0,1.0,20.0,16.0,21.0,10.0,409.0,164.0,986.2492855910195,0,0,0,0.0,0.0

@@ -1,0 +1,23 @@
+                 tmcCabe  0.079492
+        assertionDensity  0.270928
+       assertionRoulette  0.103443
+            mysteryGuest  0.003234
+               eagerTest  0.179456
+       sensitiveEquality  0.001783
+    conditionalTestLogic  0.095246
+           fireAndForget       0.0
+                     loc       0.0
+                   lcom2       0.0
+                   lcom5       0.0
+                     cbo       0.0
+                     wmc       0.0
+                     rfc       0.0
+                     mpc       0.0
+      halsteadVocabulary       0.0
+          halsteadLength       0.0
+          halsteadVolume       0.0
+classDataShouldBePrivate       0.0
+            complexClass       0.0
+ functionalDecomposition       0.0
+                godClass       0.0
+           spaghettiCode       0.0

@@ -1,0 +1,7 @@
+idProject,nameProject,testCase
+39,fluent-logger-java,org.fluentd.logger.TestFluentLogFactory.setup
+39,fluent-logger-java,org.fluentd.logger.TestFluentLogFactory.testGetLogger
+39,fluent-logger-java,org.fluentd.logger.TestFluentLogFactory.testItHoldsLoggersOverGC
+39,fluent-logger-java,org.fluentd.logger.sender.TestSenderFluentdDownOperation.testFluentdDownOperation01
+39,fluent-logger-java,org.fluentd.logger.sender.TestSenderFluentdDownOperation.testFluentdDownOperation02
+39,fluent-logger-java,org.fluentd.logger.sender.TestSenderFluentdDownOperation.process

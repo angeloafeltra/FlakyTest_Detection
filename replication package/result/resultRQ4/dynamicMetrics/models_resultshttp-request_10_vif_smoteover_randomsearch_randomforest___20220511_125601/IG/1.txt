@@ -1,0 +1,12 @@
+                     conditional-test-logic  0.001733
+                           indirect-testing   0.02696
+                              mystery-guest  0.008008
+                          resource-optimism       0.0
+                               test-run-war  0.000057
+                                 numAsserts  0.094066
+                              ExecutionTime  0.140116
+  hIndexModificationsPerCoveredLine_window5       0.0
+ hIndexModificationsPerCoveredLine_window10  0.000863
+ hIndexModificationsPerCoveredLine_window25  0.004381
+hIndexModificationsPerCoveredLine_window100  0.032503
+                       num_third_party_libs  0.087665

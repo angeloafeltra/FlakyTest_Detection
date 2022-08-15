@@ -1,0 +1,9 @@
+   conditional-test-logic  0.036961
+               eager-test  0.000005
+          fire-and-forget  0.108241
+         indirect-testing  0.038125
+        resource-optimism   0.07851
+             test-run-war  0.007585
+               numAsserts  0.209023
+            ExecutionTime  0.641905
+projectSourceLinesCovered  0.641905

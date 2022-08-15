@@ -1,0 +1,16 @@
+idProject,nameProject,testCase
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.admin.MQAdminPoolTest.init
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.admin.MQAdminPoolTest.testMakeObject
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.admin.MQAdminPoolTest.testDestroyObject
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.admin.MQAdminPoolTest.testValidateObject
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.controller.BaseControllerTest.getTestController
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.controller.BaseControllerTest.beforeInit
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.controller.BaseControllerTest.mockRmqConfigure
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.controller.BaseControllerTest.performOkExpect
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.controller.BaseControllerTest.performErrorExpect
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.controller.BaseControllerTest.createMockMvc
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.web.WebStaticApplicationTests.testHome
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.web.WebStaticApplicationTests.testCss
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.web.WebStaticApplicationTests.testResources
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.web.WebStaticApplicationTests.resourcesMap
+65,rocketmq-dashboard,org.apache.rocketmq.dashboard.web.WebStaticApplicationTests.resources

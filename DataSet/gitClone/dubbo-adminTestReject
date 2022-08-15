@@ -1,0 +1,6 @@
+idProject,nameProject,testCase
+24,dubbo-admin,org.apache.dubbo.admin.registry.config.impl.ZookeeperConfigurationTest.setup
+24,dubbo-admin,org.apache.dubbo.admin.registry.config.impl.ZookeeperConfigurationTest.testGetSetConfig
+24,dubbo-admin,org.apache.dubbo.admin.registry.config.impl.ZookeeperConfigurationTest.testDeleteConfig
+24,dubbo-admin,org.apache.dubbo.admin.registry.config.impl.ZookeeperConfigurationTest.tearDown
+24,dubbo-admin,org.apache.dubbo.admin.service.DirectConnectTest.testDirectService

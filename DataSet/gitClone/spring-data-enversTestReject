@@ -1,0 +1,16 @@
+idProject,nameProject,testCase
+62,spring-data-envers,org.springframework.data.envers.repository.support.DefaultRevisionMetadataUnitTests.createsLocalDateTimeFromTimestamp
+62,spring-data-envers,org.springframework.data.envers.repository.support.EnversRevisionRepositoryImplUnitTests.mockHibernateInfrastructure
+62,spring-data-envers,org.springframework.data.envers.repository.support.EnversRevisionRepositoryImplUnitTests.findRevisionShortCircuitsOnEmptyRevisionList
+62,spring-data-envers,org.springframework.data.envers.repository.support.EnversRevisionRepositoryImplUnitTests.failOnEmptyRevisions
+62,spring-data-envers,org.springframework.data.envers.repository.support.QueryDslRepositoryIntegrationTests.setUp
+62,spring-data-envers,org.springframework.data.envers.repository.support.QueryDslRepositoryIntegrationTests.testWithQueryDsl
+62,spring-data-envers,org.springframework.data.envers.repository.support.QueryDslRepositoryIntegrationTests.testWithRevisions
+62,spring-data-envers,org.springframework.data.envers.repository.support.RepositoryIntegrationTests.setUp
+62,spring-data-envers,org.springframework.data.envers.repository.support.RepositoryIntegrationTests.testLifeCycle
+62,spring-data-envers,org.springframework.data.envers.repository.support.RepositoryIntegrationTests.returnsEmptyRevisionsForUnrevisionedEntity
+62,spring-data-envers,org.springframework.data.envers.repository.support.RepositoryIntegrationTests.returnsParticularRevisionForAnEntity
+62,spring-data-envers,org.springframework.data.envers.repository.support.RepositoryIntegrationTests.considersRevisionNumberSortOrder
+62,spring-data-envers,org.springframework.data.envers.repository.support.RepositoryIntegrationTests.findsDeletedRevisions
+62,spring-data-envers,org.springframework.data.envers.repository.support.RepositoryIntegrationTests.shortCurcuitingWhenOffsetIsToLarge
+62,spring-data-envers,org.springframework.data.envers.repository.support.RepositoryIntegrationTests.check

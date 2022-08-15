@@ -1,0 +1,6 @@
+idProject,nameProject,testCase
+8,catalog-api-demo,com.squareup.catalog.demo.util.ErrorTest.setUp
+8,catalog-api-demo,com.squareup.catalog.demo.util.ErrorTest.checkAndLogErrors_hasCodeAndCategory
+8,catalog-api-demo,com.squareup.catalog.demo.util.ErrorTest.checkAndLogErrors_hasCodeOnly
+8,catalog-api-demo,com.squareup.catalog.demo.util.ErrorTest.checkAndLogErrors_hasCategoryOnly
+8,catalog-api-demo,com.squareup.catalog.demo.util.ErrorTest.checkAndLogErrors_noCodeOrCategory

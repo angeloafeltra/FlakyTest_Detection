@@ -1,0 +1,17 @@
+idProject,nameProject,testCase
+70,testable-mock,com.alibaba.demo.basic.DemoOmniMethodsTest.should_construct_any_class
+70,testable-mock,com.alibaba.demo.basic.DemoOmniMethodsTest.should_get_any_member
+70,testable-mock,com.alibaba.demo.basic.DemoOmniMethodsTest.should_set_any_member
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateAccessorTest.should_access_private_method
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateAccessorTest.should_access_private_field
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateAccessorTest.should_access_private_static_method
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateAccessorTest.should_access_private_static_field
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateAccessorTest.should_update_final_field
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateAccessorTest.should_use_null_parameter
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateProcessorTest.should_access_private_method
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateProcessorTest.should_access_private_field
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateProcessorTest.should_access_private_static_method
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateProcessorTest.should_access_private_static_field
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateProcessorTest.should_update_final_field
+70,testable-mock,com.alibaba.demo.basic.DemoPrivateProcessorTest.should_use_null_parameter
+70,testable-mock,com.alibaba.demo.one2multi.OneToMultiSvcTest.should_test_multi_class_together
