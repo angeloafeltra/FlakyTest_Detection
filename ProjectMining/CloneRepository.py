@@ -4,6 +4,7 @@ from git import Repo
 import os
 import pandas
 from Project import Project
+import Function
 
 
 DATASET_NAME = 'Flaky Tests_All Projects_Tabella.csv'
@@ -15,49 +16,6 @@ def loadingDataSet(datasetname):
     return pandas.read_csv(csv_path)
 
 
-
-def extractProjectsToDataFrame(dataset):
-    list_projects=[]
-    for projectUrl,SHA,test in zip(dataset['Project URL'], dataset['SHA Detected'],dataset['Fully-Qualified Test Name (packageName.ClassName.methodName)']):
-        projectName=projectUrl.split('/')[-1]
-        if len(list_projects)==0: #La lista dei progetti e vuota, quindi inserisco un progetto
-            list_projects.append(Project(projectName,projectUrl,SHA,[test]))
-        else:
-            project=checkAddNewProject(projectName,projectUrl,SHA,test,list_projects) #La lista dei progetti non è vuota, quindi controllo se iniserire il progetto
-            if not project is None:
-                list_projects.append(project)
-
-    return list_projects
-
-
-
-def checkAddNewProject(projectName,projectURL,SHA,test,list_projects):
-
-    progettoPresente=False
-    for project in list_projects:
-        if project.getUrlProject() == projectURL: #Progetto presente
-            progettoPresente=True
-            if project.getSHA() == SHA: #Commit presente
-                project.addTestFlaky(test)
-                return None
-
-    if progettoPresente: #Progetto presente ma con commit differente
-        return Project(projectName+'('+SHA+')',projectURL,SHA,[test])
-    else: #Progetto non presente
-        return Project(projectName,projectURL,SHA,[test])
-
-
-def convertStringToList(str):
-    list_test=[]
-    for char in "[]' ":
-        str=str.replace(char,"")
-
-
-    str_split=str.split(',')
-    for test in str_split:
-        list_test.append(test)
-    return list_test
-
 if __name__ == '__main__':
 
     ##############################################
@@ -65,7 +23,7 @@ if __name__ == '__main__':
     ##############################################
     dataset = loadingDataSet(DATASET_NAME)
     dataset = dataset[['Project URL', 'SHA Detected', 'Fully-Qualified Test Name (packageName.ClassName.methodName)']]
-    list_projects=extractProjectsToDataFrame(dataset)
+    list_projects=Function.extractProjectsToDataFrame(dataset)
 
 
 
@@ -73,18 +31,18 @@ if __name__ == '__main__':
     # Eseguo un analisi dei dati esportati
     ##############################################
     print("Numero Progetti:{}".format(len(list_projects)))
+
     numero_testFlaky=0
     for project in list_projects:
         numero_testFlaky=numero_testFlaky+len(project.getListTestFlaky())
-
     print("Numero Test Flaky:{}".format(numero_testFlaky))
-    print("Test Flaky Duplicati:")
+
+    print("\nTest Flaky Duplicati:")
     df_testFlaky = dataset[['Fully-Qualified Test Name (packageName.ClassName.methodName)','Project URL']]
     duplicati = df_testFlaky[df_testFlaky.duplicated()]
 
     for test, url in zip(duplicati['Fully-Qualified Test Name (packageName.ClassName.methodName)'],duplicati['Project URL']):
         print('{} : {}'.format(test,url))
-
 
 
     ##############################################
@@ -128,7 +86,7 @@ if __name__ == '__main__':
     for row in fileNonClonatiCorrettamente:
         splits = row.split(';')
         numero_repositoryPerse=numero_repositoryPerse+1
-        numero_testFlakyPersi=numero_testFlakyPersi+len(convertStringToList(splits[4]))
+        numero_testFlakyPersi=numero_testFlakyPersi+len(Function.convertStringToList(splits[4]))
 
     print("Repository non clonate correttamente:{}".format(numero_repositoryPerse))
     print("Test Flaky Persti:{}".format(numero_testFlakyPersi))

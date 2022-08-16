@@ -1,0 +1,16 @@
+idProject,nameProject,testCase,tloc,tmcCabe,assertionDensity,assertionRoulette,mysteryGuest,eagerTest,sensitiveEquality,resourceOptimism,conditionalTestLogic,fireAndForget,testRunWar,loc,lcom2,lcom5,cbo,wmc,rfc,mpc,halsteadVocabulary,halsteadLength,halsteadVolume,classDataShouldBePrivate,complexClass,functionalDecomposition,godClass,spaghettiCode,isFlaky
+18,FluentJPA,co.streamx.fluent.JPA.EmployeeManagerRepoTest.test1,2.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,48.0,0.0,0.0,15.0,1.0,1.0,0.0,32.0,22.0,76.24618986159399,0,0,1,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.EmployeeRepositoryTest.init,3.0,2.0,0.0,0.0,0.0,0,0.0,0,1.0,0.0,0.0,92.0,10.0,0.0,17.0,5.0,5.0,0.0,51.0,29.0,114.02294334900544,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.EmployeeRepositoryTest.test1,33.0,1.0,0.2121212121212121,7.0,0.0,5,0.0,0,0.0,0.0,0.0,92.0,10.0,0.0,17.0,5.0,5.0,0.0,51.0,29.0,114.02294334900544,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.EmployeeRepositoryTest.test2,25.0,1.0,0.16,5.0,0.0,0,0.0,0,0.0,0.0,0.0,92.0,10.0,0.0,17.0,5.0,5.0,0.0,51.0,29.0,114.02294334900544,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.NetworkObjectRepoTest.testBasicNativeQuery,3.0,1.0,0.0,1.0,0.0,1,0.0,0,0.0,0.0,0.0,110.0,3.0,0.0,27.0,4.0,12.0,9.0,63.0,36.0,149.15285015009516,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.NetworkObjectRepoTest.testFindInRange,3.0,1.0,0.0,0.0,0.0,1,0.0,0,0.0,0.0,0.0,110.0,3.0,0.0,27.0,4.0,12.0,9.0,63.0,36.0,149.15285015009516,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.PersonRepositoryTest.init,3.0,2.0,0.0,0.0,0.0,0,0.0,0,1.0,0.0,0.0,83.0,6.0,0.0,16.0,5.0,7.0,3.0,51.0,29.0,114.02294334900544,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.PersonRepositoryTest.testPersonRepo,3.0,1.0,0.0,1.0,0.0,0,0.0,0,0.0,0.0,0.0,83.0,6.0,0.0,16.0,5.0,7.0,3.0,51.0,29.0,114.02294334900544,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.PersonRepositoryTest.testEntityManagerProviderIntegration,3.0,1.0,0.0,1.0,0.0,1,0.0,0,0.0,0.0,0.0,83.0,6.0,0.0,16.0,5.0,7.0,3.0,51.0,29.0,114.02294334900544,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.PersonRepositoryTest.testBasicNativeQuery,3.0,1.0,0.0,1.0,0.0,1,0.0,0,0.0,0.0,0.0,83.0,6.0,0.0,16.0,5.0,7.0,3.0,51.0,29.0,114.02294334900544,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.PersonRepositoryTest.testPassArguments,3.0,1.0,0.0,0.0,0.0,1,0.0,0,0.0,0.0,0.0,83.0,6.0,0.0,16.0,5.0,7.0,3.0,51.0,29.0,114.02294334900544,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.PersonRepositoryTest.testInsertDefault,3.0,1.0,0.0,0.0,0.0,1,0.0,0,0.0,0.0,0.0,83.0,6.0,0.0,16.0,5.0,7.0,3.0,51.0,29.0,114.02294334900544,0,0,0,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.UserRepositoryTest.init,3.0,2.0,0.0,0.0,0.0,0,0.0,0,1.0,0.0,0.0,43.0,0.0,0.0,8.0,1.0,1.0,0.0,17.0,15.0,42.49820016084324,0,0,1,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.UserRepositoryTest.test1,4.0,1.0,0.0,1.0,0.0,1,0.0,0,0.0,0.0,0.0,43.0,0.0,0.0,8.0,1.0,1.0,0.0,17.0,15.0,42.49820016084324,0,0,1,0.0,0.0,0
+18,FluentJPA,co.streamx.fluent.JPA.UserRepositoryTest.setup,13.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,43.0,0.0,0.0,8.0,1.0,1.0,0.0,17.0,15.0,42.49820016084324,0,0,1,0.0,0.0,0

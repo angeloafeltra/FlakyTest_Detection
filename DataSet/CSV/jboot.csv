@@ -1,0 +1,17 @@
+idProject,nameProject,testCase,tloc,tmcCabe,assertionDensity,assertionRoulette,mysteryGuest,eagerTest,sensitiveEquality,resourceOptimism,conditionalTestLogic,fireAndForget,testRunWar,loc,lcom2,lcom5,cbo,wmc,rfc,mpc,halsteadVocabulary,halsteadLength,halsteadVolume,classDataShouldBePrivate,complexClass,functionalDecomposition,godClass,spaghettiCode,isFlaky
+24,jboot,io.jboot.wechat.controller.JbootWechatController.getApiConfig,3.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.wechat.controller.JbootWechatController.wechatCallback,39.0,5.0,0.0,0.0,0.0,1,0.0,0,6.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.wechat.controller.JbootWechatController.doRedirect,9.0,3.0,0.0,0.0,0.0,0,0.0,0,1.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.wechat.controller.JbootWechatController.clearWechatSession,5.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.wechat.controller.JbootWechatController.initJsSdkConfig,28.0,3.0,0.0,0.0,0.0,1,0.0,0,2.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.wechat.controller.JbootWechatController.isAllowVisit,7.0,3.0,0.0,0.0,0.0,0,0.0,0,1.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.wechat.controller.JbootWechatController.doNotAlloVisitRedirect,3.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.wechat.controller.JbootWechatController.getCurrentUser,3.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.wechat.controller.JbootWechatController.doGetUserByOpenId,7.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.wechat.controller.JbootWechatController.doSaveOrUpdateUserByApiResult,29.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,249.0,41.0,2.0,19.0,24.0,58.0,48.0,651.0,183.0,1185.5672645241682,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.test.HelloWorld.index,3.0,2.0,0.0,0.0,0.0,0,0.0,0,1.0,0.0,0.0,65.0,6.0,0.0,6.0,7.0,7.0,3.0,109.0,51.0,239.25874199368636,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.test.HelloWorld.ex,3.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,65.0,6.0,0.0,6.0,7.0,7.0,3.0,109.0,51.0,239.25874199368636,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.test.HelloWorld.abc,3.0,2.0,0.0,0.0,0.0,0,0.0,0,1.0,0.0,0.0,65.0,6.0,0.0,6.0,7.0,7.0,3.0,109.0,51.0,239.25874199368636,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.test.HelloWorld.main,3.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,65.0,6.0,0.0,6.0,7.0,7.0,3.0,109.0,51.0,239.25874199368636,0,0,0,0.0,0.0,0
+24,jboot,io.jboot.test.rpc.dubbo.DubboClient.main,7.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,59.0,1.0,0.0,6.0,3.0,7.0,5.0,63.0,33.0,136.72344597092058,0,0,2,0.0,0.0,0
+24,jboot,io.jboot.test.rpc.dubbo.DubboClient.index,4.0,2.0,0.0,0.0,0.0,0,0.0,0,1.0,0.0,0.0,59.0,1.0,0.0,6.0,3.0,7.0,5.0,63.0,33.0,136.72344597092058,0,0,2,0.0,0.0,0

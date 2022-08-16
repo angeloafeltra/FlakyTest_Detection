@@ -1,0 +1,17 @@
+idProject,nameProject,testCase,tloc,tmcCabe,assertionDensity,assertionRoulette,mysteryGuest,eagerTest,sensitiveEquality,resourceOptimism,conditionalTestLogic,fireAndForget,testRunWar,loc,lcom2,lcom5,cbo,wmc,rfc,mpc,halsteadVocabulary,halsteadLength,halsteadVolume,classDataShouldBePrivate,complexClass,functionalDecomposition,godClass,spaghettiCode,isFlaky
+85,redpipe,net.redpipe.cdi.AppTest.before,2.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.cdi.AppTest.after,2.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.cdi.AppTest.testCdi,2.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.cdi.AppTest.testCdiInjection,2.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.example.helloworld.AppTest.AppTest,7.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.example.helloworld.AppTest.suite,6.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.example.helloworld.AppTest.testApp,6.0,1.0,0.0,1.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.example.kafka.AppTest.AppTest,7.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.example.kafka.AppTest.suite,6.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.example.kafka.AppTest.testApp,6.0,1.0,0.0,1.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.fastclasspathscanner.AppTest.AppTest,7.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.fastclasspathscanner.AppTest.suite,6.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.fastclasspathscanner.AppTest.testApp,6.0,1.0,0.0,1.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.router.AppTest.AppTest,7.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.router.AppTest.suite,6.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0
+85,redpipe,net.redpipe.router.AppTest.testApp,6.0,1.0,0.0,1.0,0.0,0,0.0,0,0.0,0.0,0.0,13.0,0.0,0.0,0.0,1.0,2.0,1.0,24.0,19.0,60.38302277661097,0,0,1,0.0,0.0,0

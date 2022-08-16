@@ -1,0 +1,12 @@
+idProject,nameProject,testCase,tloc,tmcCabe,assertionDensity,assertionRoulette,mysteryGuest,eagerTest,sensitiveEquality,resourceOptimism,conditionalTestLogic,fireAndForget,testRunWar,loc,lcom2,lcom5,cbo,wmc,rfc,mpc,halsteadVocabulary,halsteadLength,halsteadVolume,classDataShouldBePrivate,complexClass,functionalDecomposition,godClass,spaghettiCode,isFlaky
+57,one,com.lcw.one.codegen.PomUtilsTest.before,2.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,28.0,0.0,0.0,7.0,3.0,4.0,3.0,98.0,33.0,151.30392679612888,0,0,1,0.0,0.0,0
+57,one,com.lcw.one.codegen.PomUtilsTest.testGetPackageFromModule,5.0,1.0,1.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,28.0,0.0,0.0,7.0,3.0,4.0,3.0,98.0,33.0,151.30392679612888,0,0,1,0.0,0.0,0
+57,one,com.lcw.one.main.LocalFileStoreImplTest.before,4.0,2.0,0.0,0.0,3.0,0,0.0,0,2.0,0.0,0.0,105.0,34.0,0.0,8.0,22.0,25.0,16.0,439.0,84.0,511.0979506983144,0,0,0,0.0,0.0,0
+57,one,com.lcw.one.main.LocalFileStoreImplTest.testLocalFileStore,18.0,2.0,0.5,5.0,11.0,5,0.0,0,0.0,0.0,0.0,105.0,34.0,0.0,8.0,22.0,25.0,16.0,439.0,84.0,511.0979506983144,0,0,0,0.0,0.0,0
+57,one,com.lcw.one.main.EmailServiceTest.before,5.0,2.0,0.0,0.0,0.0,0,0.0,0,2.0,0.0,0.0,78.0,0.0,0.0,11.0,9.0,24.0,20.0,319.0,69.0,397.7981860921543,0,0,0,0.0,0.0,0
+57,one,com.lcw.one.main.EmailServiceTest.sendEmail,4.0,1.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,78.0,0.0,0.0,11.0,9.0,24.0,20.0,319.0,69.0,397.7981860921543,0,0,0,0.0,0.0,0
+57,one,com.lcw.one.main.EmailServiceTest.sendEmailList,5.0,1.0,0.0,0.0,0.0,2,0.0,0,0.0,0.0,0.0,78.0,0.0,0.0,11.0,9.0,24.0,20.0,319.0,69.0,397.7981860921543,0,0,0,0.0,0.0,1
+57,one,com.lcw.one.main.EmailServiceTest.javaMailSender,18.0,2.0,0.0,0.0,0.0,0,0.0,0,0.0,0.0,0.0,78.0,0.0,0.0,11.0,9.0,24.0,20.0,319.0,69.0,397.7981860921543,0,0,0,0.0,0.0,0
+57,one,com.lcw.one.utils.cipher.PasswordUtilsTest.testPassword,5.0,1.0,0.2,1.0,0.0,2,0.0,0,0.0,0.0,0.0,43.0,3.0,0.0,0.0,8.0,8.0,5.0,143.0,55.0,272.9564546642949,0,0,0,0.0,0.0,0
+57,one,com.lcw.one.utils.cipher.PasswordUtilsTest.testMd5Password,6.0,1.0,0.1666666666666666,1.0,0.0,2,0.0,0,0.0,0.0,0.0,43.0,3.0,0.0,0.0,8.0,8.0,5.0,143.0,55.0,272.9564546642949,0,0,0,0.0,0.0,0
+57,one,com.lcw.one.utils.cipher.PasswordUtilsTest.testSha1Password,6.0,1.0,0.1666666666666666,1.0,0.0,2,0.0,0,0.0,0.0,0.0,43.0,3.0,0.0,0.0,8.0,8.0,5.0,143.0,55.0,272.9564546642949,0,0,0,0.0,0.0,0
