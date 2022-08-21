@@ -1,6 +1,7 @@
 from Project import Project
 import pandas
-
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import Normalizer
 
 def convertStringToList(str):
     list_test=[]
@@ -183,4 +184,12 @@ def getListaTestReject(pathFile):
             i = i + 1
     fp2.close()
     return list_project_testReject
+
+
+def get_object_colum(dataset):
+    drop_col = []
+    for col in dataset.columns:
+        if dataset[col].dtypes == 'object':
+            drop_col.append(col)
+    return drop_col
 

@@ -3,6 +3,7 @@ from Project import Project
 from colorama import Fore
 from colorama import Style
 import Function
+from sklearn.preprocessing import Normalizer
 
 if __name__ == '__main__':
 
@@ -91,6 +92,13 @@ if __name__ == '__main__':
 
 
     print("Test Non Flaky:{},Test Flaky:{}".format((df_globale['isFlaky'] == 0).sum(),(df_globale['isFlaky'] == 1).sum()))
+
+    ######################################################
+    # Normalizzo il dataset generale
+    ######################################################
+    colums_norm=df_globale.columns[3:29]
+    norm = Normalizer(norm='max')
+    df_globale[colums_norm] = norm.fit_transform(X=df_globale[colums_norm])
     df_globale.to_csv('D:\\Universita\\FlakyPaper\\DataSet\\DatasetGenerale.csv', index=None)
     print("Numero totale test flaky persi:{}".format(numeroTotale_TestFlakyPersi))
     fp.close()
@@ -100,7 +108,7 @@ if __name__ == '__main__':
     # 1. Ogni repository che compone il dataset possiede almeno un test flaky
     # 2. Per le repository con test flaky su piu commit è mantenuto solamente
     # il commit con piu test flaky
-    # 3. Il dataset non contiene esempi di test di startup e teardown
+    # 3. Il dataset non contiene esempi di test di setup e teardown
     ######################################################################
 
     # Genero una lista dei progetti con piu di un commit
@@ -140,6 +148,12 @@ if __name__ == '__main__':
     print("Test Non Flaky:{},Test Flaky:{}".format((datasetGenerale['isFlaky'] == 0).sum(),
                                                    (datasetGenerale['isFlaky'] == 1).sum()))
 
+
+    ########################################
+    # Normalizzo il dataset
+    ########################################
+    colums_norm =  datasetGenerale.columns[3:29]
+    datasetGenerale[colums_norm] = norm.fit_transform(X= datasetGenerale[colums_norm])
     datasetGenerale.to_csv('D:\\Universita\\FlakyPaper\\DataSet\\DatasetGenerale2.csv', index=None)
     print(conteggioRepository)
 
