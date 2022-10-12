@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Universita/FlakyTest_Detection/Classifier_Estimators/mlruns/0/4eb03ccf78f44dee8b9c059f50c9deb3/artifacts
+end_time: 1665314668837
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 4eb03ccf78f44dee8b9c059f50c9deb3
+run_uuid: 4eb03ccf78f44dee8b9c059f50c9deb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1665314593356
+status: 3
+tags: []
+user_id: angel
