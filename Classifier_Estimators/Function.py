@@ -12,6 +12,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import StratifiedKFold
 from sklearn.model_selection import GridSearchCV
+from Plot import Plot
 
 
 def print_scores_cv(scores,name_model,n_iteration):
@@ -20,6 +21,7 @@ def print_scores_cv(scores,name_model,n_iteration):
     recall_mean=np.mean(scores['recall'])
     f1_mean=np.mean(scores['f1'])
 
+    plt.subplots(figsize=(6.4, 4.8))
     plt.plot(range(n_iteration), scores['accuracy'], color='r', marker='o', label="accuracy")
     plt.plot(range(n_iteration), scores['precision'],color='orange', marker='o', label="precision")
     plt.plot(range(n_iteration), scores['recall'],color='g', marker='o', label="recall")
@@ -34,6 +36,7 @@ def print_scores_cv(scores,name_model,n_iteration):
     plt.legend(loc="lower left")
     plt.xlabel(str(n_iteration)+'-Fold Iteration')
     plt.ylabel('Performance')
+
     mlflow.log_metric('Accuracy Train Set',accuracy_mean)
     mlflow.log_metric('Precision Train Set',precision_mean)
     mlflow.log_metric('Recall Train Set',recall_mean)
@@ -75,8 +78,22 @@ def nested_cross_validation(estimator,gridSearch_param,cv1,cv2,X,y):
         scores['precision'].append(precision_score(y_true=y_test, y_pred=y_predict))
         scores['recall'].append(recall_score(y_true=y_test, y_pred=y_predict))
         scores['f1'].append(f1_score(y_true=y_test, y_pred=y_predict))
-    print_scores_cv(scores=scores,name_model=estimator.__class__.__name__,n_iteration=cv1)
 
+    title='Nested Cross Validation '+ estimator.__class__.__name__
+    xLable=str(cv1)+'-Fold Iteration'
+    yLable='Performance'
+    xAxMinValue=0
+    xAxMaxValue=cv1-1
+    yAxMinValue=0.0
+    yAxMaxValue=1
+    generatePlot=Plot()
+    plot=generatePlot.print_CartesianDiagramWithMean(title=title,xLable=xLable,yLable=yLable,xAxMinValue=xAxMinValue,xAxMaxValue=xAxMaxValue,yAxMinValue=yAxMinValue,yAxMaxValue=yAxMaxValue,dicValue=scores)
+    #print_scores_cv(scores=scores,name_model=estimator.__class__.__name__,n_iteration=cv1)
+    mlflow.log_figure(plot,title+".png")
+    mlflow.log_metric('Accuracy Train Set',np.mean(scores['accuracy']))
+    mlflow.log_metric('Precision Train Set',np.mean(scores['precision']))
+    mlflow.log_metric('Recall Train Set',np.mean(scores['recall']))
+    mlflow.log_metric('F1-Score Train Set',np.mean(scores['f1']))
 
 def print_plot_dataset(plot_title,X,y):
     ds = pandas.DataFrame(X)
@@ -84,6 +101,7 @@ def print_plot_dataset(plot_title,X,y):
     plt.title(plot_title)
     plt.xlabel('x')
     plt.ylabel('y')
+    plt.subplots(figsize=(6.4, 4.8))
     plt.scatter(ds.iloc[:, 0], ds.iloc[:, 1], marker='o', c=y,s=25, edgecolor='k', cmap=plt.cm.coolwarm)
     mlflow.log_figure(plt.gcf(),plot_title+".png")
 
