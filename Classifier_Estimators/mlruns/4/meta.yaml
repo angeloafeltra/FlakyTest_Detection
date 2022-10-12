@@ -1,0 +1,6 @@
+artifact_location: file:///D:/Universita/FlakyTest_Detection/Classifier_Estimators/mlruns/4
+creation_time: 1665477660120
+experiment_id: '4'
+last_update_time: 1665477660120
+lifecycle_stage: active
+name: Logistic Regression
