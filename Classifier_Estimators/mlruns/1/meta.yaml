@@ -1,0 +1,6 @@
+artifact_location: file:///D:/Universita/FlakyTest_Detection/Classifier_Estimators/mlruns/1
+creation_time: 1665316524236
+experiment_id: '1'
+last_update_time: 1665316524236
+lifecycle_stage: active
+name: KNN
