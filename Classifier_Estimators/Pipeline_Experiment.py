@@ -9,7 +9,6 @@ from Plot import Plot
 from Data_PreProcessing import Data_PreProcessing
 import numpy as np
 
-
 class Pipeline_Experiment:
 
     def __init__(self, classifier, list_preProcessing_Pipeline, list_evaluated_method):
@@ -45,7 +44,6 @@ class Pipeline_Experiment:
     def setX_Test_set(self,X_Test_set): self.X_test_set=X_Test_set
     def setY_Test_set(self,y_Test_set): self.y_test_set=y_Test_set
     '''
-
 
     def run_experiment(self,mlflow_experiment,mlflow_run_name,X_train_set,y_train_set,X_test_set,y_test_set):
 

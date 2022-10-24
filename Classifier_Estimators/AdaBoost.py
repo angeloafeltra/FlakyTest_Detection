@@ -120,7 +120,7 @@ if __name__ == "__main__":
                             y_test_set=copy.copy(y_test_set),
                             y_train_set=copy.copy(y_train_set)
                             )
-    '''
+    
     ##############################################################
     # Pipeline 4 con PCA
     ##############################################################
@@ -129,16 +129,16 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -157,16 +157,16 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     accuracy,precision,recall,f1_score_norm=pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -189,16 +189,16 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -219,16 +219,16 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -248,16 +248,16 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -281,16 +281,16 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -301,7 +301,7 @@ if __name__ == "__main__":
                             y_train_set=copy.copy(y_train_set)
                             )
 
-
+    
     ##############################################################
     # Pipeline 10 con Normalizzazione,PCA e SMOTE
     ##############################################################
@@ -316,16 +316,15 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+    
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -350,16 +349,16 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -369,7 +368,7 @@ if __name__ == "__main__":
                             y_test_set=copy.copy(y_test_set),
                             y_train_set=copy.copy(y_train_set)
                             )
-
+    
     ##############################################################
     # Pipeline 12 con Standardizzazion e PCA
     ##############################################################
@@ -379,16 +378,16 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -408,16 +407,16 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -441,16 +440,16 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -461,7 +460,7 @@ if __name__ == "__main__":
                             y_train_set=copy.copy(y_train_set)
                             )
 
-
+    
     ##############################################################
     # Pipeline 15 con Standardizzazione,PCA e SMOTE
     ##############################################################
@@ -476,16 +475,16 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -510,16 +509,16 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
 
-    '''
+
     clf=AdaBoostClassifier()
     #best_params=pipeline.getBestParams()
     clf.set_params(**best_params)
-    '''
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -529,7 +528,7 @@ if __name__ == "__main__":
                             y_test_set=copy.copy(y_test_set),
                             y_train_set=copy.copy(y_train_set)
                             )
-
+    '''
     ##############################################################
     # Pipeline 17 con PCA e SMOTE
     ##############################################################
@@ -543,7 +542,7 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')
@@ -576,7 +575,7 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
     dt=DecisionTreeClassifier(criterion='entropy',splitter='best')
     clf=AdaBoostClassifier(base_estimator=dt,learning_rate=0.1,n_estimators=150,algorithm='SAMME.R')

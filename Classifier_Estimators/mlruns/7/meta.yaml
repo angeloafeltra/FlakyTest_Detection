@@ -1,0 +1,6 @@
+artifact_location: file:///D:/Universita/FlakyTest_Detection/Classifier_Estimators/mlruns/7
+creation_time: 1666282982915
+experiment_id: '7'
+last_update_time: 1666282982915
+lifecycle_stage: active
+name: SVM

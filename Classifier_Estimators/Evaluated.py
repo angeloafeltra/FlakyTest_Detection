@@ -5,6 +5,7 @@ import numpy as np
 import mlflow
 from Plot import Plot
 
+
 class Evaluated:
 
     def __int__(self):
@@ -15,6 +16,7 @@ class Evaluated:
         self.X_train=X_train
         self.y_train=y_train
         self.generatePlot=Plot()
+
 
     def nested_cross_validation(self,gridSearch_param,cv1,cv2):
         scores = {
@@ -60,6 +62,7 @@ class Evaluated:
         mlflow.log_metric('F1-Score Train Set',np.mean(scores['f1']))
 
         return scores
+
 
     def cross_validation(self,cv):
         scores = {

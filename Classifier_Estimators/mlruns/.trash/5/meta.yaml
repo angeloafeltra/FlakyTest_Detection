@@ -1,7 +1,0 @@
-artifact_location: file:///D:/Universita/FlakyTest_Detection/Classifier_Estimators/mlruns/5
-creation_time: 1665487701521
-experiment_id: '5'
-last_update_time: 1665488025941
-lifecycle_stage: active
-name: Test Pipeline KNN
-tags: {}
