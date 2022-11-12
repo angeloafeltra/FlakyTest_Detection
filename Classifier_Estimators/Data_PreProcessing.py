@@ -2,6 +2,11 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import Normalizer
 from sklearn.decomposition import PCA
 from imblearn.over_sampling import SMOTE
+from imblearn.over_sampling import BorderlineSMOTE
+from imblearn.over_sampling import SMOTENC
+from imblearn.over_sampling import SVMSMOTE
+from imblearn.over_sampling import ADASYN
+from imblearn.over_sampling import KMeansSMOTE
 from sklearn.ensemble import RandomForestClassifier
 from Plot import Plot
 import numpy as np
@@ -103,6 +108,54 @@ class Data_PreProcessing:
         mlflow.log_figure(plot,"Dataset Bilanciato.png")
         mlflow.log_param("SMOTE_Strategy",strategy)
         mlflow.log_param("SMOTE_K", k_neighbors)
+
+    def Bordeline_SMOTE(self, strategy, k_neighbors, random_state):
+        plot=self.generatorePlot.print_DataFrame(title="Dataset Non Bilanciato",X=self.X,y=self.y)
+        mlflow.log_figure(plot,"Dataset Non Bilanciato.png")
+        smote=BorderlineSMOTE(sampling_strategy=strategy,k_neighbors=k_neighbors,random_state=random_state)
+        self.X,self.y=smote.fit_resample(X=self.__getNumpyX(),y=self.__getNumpyY())
+        #self.X=pandas.DataFrame(self.X,columns=self.columnsName_X)
+        #self.y=pandas.Series(self.y,name=self.columnsName_Y)
+        plot=self.generatorePlot.print_DataFrame(title="Dataset Bilanciato",X=self.X,y=self.y)
+        mlflow.log_figure(plot,"Dataset Bilanciato.png")
+        mlflow.log_param("SMOTE_Strategy",strategy)
+        mlflow.log_param("SMOTE_K", k_neighbors)
+
+    def SMOTENC(self, strategy, k_neighbors, random_state):
+        plot=self.generatorePlot.print_DataFrame(title="Dataset Non Bilanciato",X=self.X,y=self.y)
+        mlflow.log_figure(plot,"Dataset Non Bilanciato.png")
+        smote=SMOTENC(sampling_strategy=strategy,k_neighbors=k_neighbors,random_state=random_state)
+        self.X,self.y=smote.fit_resample(X=self.__getNumpyX(),y=self.__getNumpyY())
+        #self.X=pandas.DataFrame(self.X,columns=self.columnsName_X)
+        #self.y=pandas.Series(self.y,name=self.columnsName_Y)
+        plot=self.generatorePlot.print_DataFrame(title="Dataset Bilanciato",X=self.X,y=self.y)
+        mlflow.log_figure(plot,"Dataset Bilanciato.png")
+        mlflow.log_param("SMOTE_Strategy",strategy)
+        mlflow.log_param("SMOTE_K", k_neighbors)
+
+    def SVMSMOTE(self, strategy, k_neighbors, random_state):
+        plot=self.generatorePlot.print_DataFrame(title="Dataset Non Bilanciato",X=self.X,y=self.y)
+        mlflow.log_figure(plot,"Dataset Non Bilanciato.png")
+        smote=SVMSMOTE(sampling_strategy=strategy,k_neighbors=k_neighbors,random_state=random_state)
+        self.X,self.y=smote.fit_resample(X=self.__getNumpyX(),y=self.__getNumpyY())
+        #self.X=pandas.DataFrame(self.X,columns=self.columnsName_X)
+        #self.y=pandas.Series(self.y,name=self.columnsName_Y)
+        plot=self.generatorePlot.print_DataFrame(title="Dataset Bilanciato",X=self.X,y=self.y)
+        mlflow.log_figure(plot,"Dataset Bilanciato.png")
+        mlflow.log_param("SMOTE_Strategy",strategy)
+        mlflow.log_param("SMOTE_K", k_neighbors)
+
+    def ADASYN(self, strategy, n_neighbors, random_state):
+        plot=self.generatorePlot.print_DataFrame(title="Dataset Non Bilanciato",X=self.X,y=self.y)
+        mlflow.log_figure(plot,"Dataset Non Bilanciato.png")
+        smote=ADASYN(sampling_strategy=strategy,n_neighbors=n_neighbors,random_state=random_state)
+        self.X,self.y=smote.fit_resample(X=self.__getNumpyX(),y=self.__getNumpyY())
+        #self.X=pandas.DataFrame(self.X,columns=self.columnsName_X)
+        #self.y=pandas.Series(self.y,name=self.columnsName_Y)
+        plot=self.generatorePlot.print_DataFrame(title="Dataset Bilanciato",X=self.X,y=self.y)
+        mlflow.log_figure(plot,"Dataset Bilanciato.png")
+        mlflow.log_param("SMOTE_Strategy",strategy)
+        mlflow.log_param("SMOTE_K", n_neighbors)
 
     def __getNumpyX(self):
         if not isinstance(self.X, np.ndarray):
