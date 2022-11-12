@@ -9,8 +9,7 @@ DATASET_PATH = 'D:\\Universita\\FlakyTest_Detection\\DataSet\\DatasetGenerale2.c
 
 
 if __name__ == "__main__":
-
-    nome_classificatore='Decision Tree2'
+    nome_classificatore='Decision Tree'
     best_params=None
     list_evaluated_method=[]
     list_preProcessing_Pipeline=[]
@@ -29,8 +28,13 @@ if __name__ == "__main__":
     y_test_set=test_set[['idProject','nameProject','testCase','isFlaky']]
     print(X_train_set.info())
 
-    # Creo un nuovo esperimento su mlflow
-    experiment_id=mlflow.create_experiment(nome_classificatore)
+    # Creo un nuovo esperimento su mlflow se non esiste
+    experiment=mlflow.get_experiment_by_name(nome_classificatore)
+    if not experiment:
+        experiment_id=mlflow.create_experiment(nome_classificatore)
+    else:
+        experiment_id=experiment.experiment_id
+
 
 
     ##############################################################
@@ -504,6 +508,782 @@ if __name__ == "__main__":
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
                             mlflow_run_name='Pipeline con Information Gain e SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+    
+    
+
+    ##############################################################
+    # Pipeline 19 con Borderline-SMOTE
+    ##############################################################
+    print('Pipeline 19')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('Bordeline_SMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Boredeline-SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 20 con Borderline-SMOTE SVM
+    ##############################################################
+    print('Pipeline 20')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con SVMSMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+    
+    ##############################################################
+    # Pipeline 21 con Adaptive Synthetic Sampling (ADASYN)
+    ##############################################################
+    print('Pipeline 21')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('ADASYN',{
+        'strategy':'auto',
+        'n_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con ADASYN',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 22 con Normalizzazione e Bordeline-SMOTE
+    ##############################################################
+    print('Pipeline 22')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('normalization',{'norm':'max'}))
+    list_preProcessing_Pipeline.append(('Bordeline_SMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Normalizzazione e Bordeline-SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+
+    ##############################################################
+    # Pipeline 23 con Normalizzazione,PCA e Bordeline-SMOTE
+    ##############################################################
+    print('Pipeline 23')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('normalization',{'norm':'max'}))
+    list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
+    list_preProcessing_Pipeline.append(('Bordeline_SMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Normalizzazione, PCA e Bordeline-SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 24 con Normalizzazione,Information Gain e Bordeline-SMOTE
+    ##############################################################
+    print('Pipeline 24')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('normalization',{'norm':'max'}))
+    list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
+    list_preProcessing_Pipeline.append(('Bordeline_SMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Normalizzazione, Information Gain e Bordeline_SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+
+    ##############################################################
+    # Pipeline 25 con Standardizzazione e Bordeline-SMOTE
+    ##############################################################
+    print('Pipeline 25')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('standardization',None))
+    list_preProcessing_Pipeline.append(('Bordeline_SMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Standardizzazione e Bordeline-SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+
+    ##############################################################
+    # Pipeline 26 con Standardizzazione,PCA e Bordeline-SMOTE
+    ##############################################################
+    print('Pipeline 26')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('standardization',None))
+    list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
+    list_preProcessing_Pipeline.append(('Bordeline_SMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Standardizzazione, PCA e Bordeline-SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 27 con Standardizzazione,Information Gain e Bordeline-SMOTE
+    ##############################################################
+    print('Pipeline 27')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('standardization',None))
+    list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
+    list_preProcessing_Pipeline.append(('Bordeline_SMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Standardizzazione, Information Gain e Bordeline-SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 28 con PCA e Bordeline-SMOTE
+    ##############################################################
+    print('Pipeline 28')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
+    list_preProcessing_Pipeline.append(('Bordeline_SMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con PCA e Bordeline-SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 29 con Information Gain e Bordeline-SMOTE
+    ##############################################################
+    print('Pipeline 29')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
+    list_preProcessing_Pipeline.append(('Bordeline_SMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Information Gain e Bordeline-SMOTE',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 30 con Normalizzazione e SMOTESVM
+    ##############################################################
+    print('Pipeline 30')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('normalization',{'norm':'max'}))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Normalizzazione e SMOTESVM',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+
+    ##############################################################
+    # Pipeline 31 con Normalizzazione,PCA e SMOTESVM
+    ##############################################################
+    print('Pipeline 31')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('normalization',{'norm':'max'}))
+    list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Normalizzazione, PCA e SMOTESVM',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 32 con Normalizzazione,Information Gain e SMOTESVM
+    ##############################################################
+    print('Pipeline 32')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('normalization',{'norm':'max'}))
+    list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Normalizzazione, Information Gain e SMOTESVM',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+
+    ##############################################################
+    # Pipeline 33 con Standardizzazione e SMOTESVM
+    ##############################################################
+    print('Pipeline 33')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('standardization',None))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Standardizzazione e SMOTESVM',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+
+    ##############################################################
+    # Pipeline 34 con Standardizzazione,PCA e SMOTESVM
+    ##############################################################
+    print('Pipeline 34')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('standardization',None))
+    list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Standardizzazione, PCA e SMOTESVM',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 35 con Standardizzazione,Information Gain e SMOTESVM
+    ##############################################################
+    print('Pipeline 35')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('standardization',None))
+    list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Standardizzazione, Information Gain e SMOTESVM',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 36 con PCA e SMOTESVM
+    ##############################################################
+    print('Pipeline 36')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con PCA e SMOTESVM',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 37 con Information Gain e SMOTESVM
+    ##############################################################
+    print('Pipeline 37')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Information Gain e SMOTESVM',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 38 con Normalizzazione e ADASYN
+    ##############################################################
+    print('Pipeline 38')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('normalization',{'norm':'max'}))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Normalizzazione e ADASYN',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+
+    ##############################################################
+    # Pipeline 39 con Normalizzazione,PCA e ADASYN
+    ##############################################################
+    print('Pipeline 39')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('normalization',{'norm':'max'}))
+    list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
+    list_preProcessing_Pipeline.append(('SVMSMOTE',{
+        'strategy':'auto',
+        'k_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Normalizzazione, PCA e ADASYN',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 40 con Normalizzazione,Information Gain e ADASYN
+    ##############################################################
+    print('Pipeline 32')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('normalization',{'norm':'max'}))
+    list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
+    list_preProcessing_Pipeline.append(('ADASYN',{
+        'strategy':'auto',
+        'n_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Normalizzazione, Information Gain e ADASYN',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+
+    ##############################################################
+    # Pipeline 41 con Standardizzazione e ADASYN
+    ##############################################################
+    print('Pipeline 41')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('standardization',None))
+    list_preProcessing_Pipeline.append(('ADASYN',{
+        'strategy':'auto',
+        'n_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Standardizzazione e ADASYN',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+
+    ##############################################################
+    # Pipeline 42 con Standardizzazione,PCA e SMOTESVM
+    ##############################################################
+    print('Pipeline 42')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('standardization',None))
+    list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
+    list_preProcessing_Pipeline.append(('ADASYN',{
+        'strategy':'auto',
+        'n_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Standardizzazione, PCA e ADASYN',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 43 con Standardizzazione,Information Gain e ADASYN
+    ##############################################################
+    print('Pipeline 43')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('standardization',None))
+    list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
+    list_preProcessing_Pipeline.append(('ADASYN',{
+        'strategy':'auto',
+        'n_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Standardizzazione, Information Gain e ADASYN',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 44 con PCA e ADASYN
+    ##############################################################
+    print('Pipeline 44')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
+    list_preProcessing_Pipeline.append(('ADASYN',{
+        'strategy':'auto',
+        'n_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con PCA e ADASYN',
+                            X_train_set=copy.copy(X_train_set),
+                            X_test_set=copy.copy(X_test_set),
+                            y_test_set=copy.copy(y_test_set),
+                            y_train_set=copy.copy(y_train_set)
+                            )
+
+    ##############################################################
+    # Pipeline 45 con Information Gain e ADASYN
+    ##############################################################
+    print('Pipeline 45')
+    list_preProcessing_Pipeline.clear()
+    list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
+    list_preProcessing_Pipeline.append(('ADASYN',{
+        'strategy':'auto',
+        'n_neighbors':5,
+        'random_state':42
+    }))
+
+    list_evaluated_method.clear()
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
+
+    clf=DecisionTreeClassifier()
+    #best_params=pipeline.getBestParams()
+    clf.set_params(**best_params)
+
+    pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
+    pipeline.run_experiment(mlflow_experiment=experiment_id,
+                            mlflow_run_name='Pipeline con Information Gain e ADASYN',
                             X_train_set=copy.copy(X_train_set),
                             X_test_set=copy.copy(X_test_set),
                             y_test_set=copy.copy(y_test_set),
