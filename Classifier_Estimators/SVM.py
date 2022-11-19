@@ -30,10 +30,10 @@ if __name__ == "__main__":
     print(X_train_set.info())
 
     # Creo un nuovo esperimento su mlflow
-    #experiment_id=mlflow.create_experiment(nome_classificatore)
-    experiment_id=7
+    experiment_id=mlflow.create_experiment(nome_classificatore)
 
-    '''
+
+
     ##############################################################
     # Pipeline 1 senza data pre processing
     ##############################################################
@@ -159,7 +159,7 @@ if __name__ == "__main__":
                                                                     y_test_set=copy.copy(y_test_set),
                                                                     y_train_set=copy.copy(y_train_set)
                                                                     )
-    '''
+
     ##############################################################
     # Pipeline 6 con SMOTE
     ##############################################################
@@ -172,11 +172,11 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -197,11 +197,11 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -221,11 +221,11 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -249,11 +249,11 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -279,11 +279,11 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -308,11 +308,11 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -332,11 +332,10 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('PCA',{'varianza_comulativa':0.95}))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -356,11 +355,11 @@ if __name__ == "__main__":
     list_preProcessing_Pipeline.append(('information_gain',{'threshold':0.05}))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -384,11 +383,11 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -414,11 +413,11 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -443,11 +442,11 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -471,11 +470,11 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
@@ -499,11 +498,11 @@ if __name__ == "__main__":
     }))
 
     list_evaluated_method.clear()
-    #list_evaluated_method.append(('cross_validation',{'cv':10,}))
+    list_evaluated_method.append(('cross_validation',{'cv':10,}))
 
-    #clf=SVC()
-    #clf.set_params(**best_params)
-    clf=SVC(C=1.0,kernel='rbf',class_weight=None)
+    clf=SVC()
+    clf.set_params(**best_params)
+
 
     pipeline=Pipeline_Experiment(classifier=clf, list_preProcessing_Pipeline=list_preProcessing_Pipeline, list_evaluated_method=list_evaluated_method)
     pipeline.run_experiment(mlflow_experiment=experiment_id,
