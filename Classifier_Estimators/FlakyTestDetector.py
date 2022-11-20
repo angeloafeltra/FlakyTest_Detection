@@ -25,7 +25,6 @@ class FlakyTestDetector:
         self.rf=RF_Detector(k_neighbors)
         self.knn=Knn_Detector(k_neighbors)
         self.ada=AdaBoost_Detector(k_neighbors)
-        self.dataset_predict=pd.DataFrame() #Dataset che conterra le predizioni di ogni test set
         self.generatorePlot=Plot()
 
 
@@ -41,13 +40,14 @@ class FlakyTestDetector:
     def predict(self,dataset):
         X_test_set=dataset.drop(['idProject','nameProject','testCase','isFlaky'],axis=1)
         y_test_set=dataset[['idProject','nameProject','testCase','isFlaky']]
-        self.dataset_predict['predict0']=self.dt.predict(X_set=copy.copy(X_test_set))
-        self.dataset_predict['predict1']=self.rf.predict(X_set=copy.copy(X_test_set))
-        self.dataset_predict['predict2']=self.knn.predict(X_set=copy.copy(X_test_set))
-        self.dataset_predict['predict3']=self.ada.predict(X_set=copy.copy(X_test_set))
+        dataset_predict=pd.DataFrame() #Dataset che conterra le predizioni di ogni test set
+        dataset_predict['predict0']=self.dt.predict(X_set=copy.copy(X_test_set))
+        dataset_predict['predict1']=self.rf.predict(X_set=copy.copy(X_test_set))
+        dataset_predict['predict2']=self.knn.predict(X_set=copy.copy(X_test_set))
+        dataset_predict['predict3']=self.ada.predict(X_set=copy.copy(X_test_set))
         #Ensamble predict
         predict = ['predict{}'.format(i) for i in range(4)]
-        arr=self.dataset_predict[predict].to_numpy()
+        arr=dataset_predict[predict].to_numpy()
         predict_ensamble=st.mode(arr,axis=1).mode
         accuracy=accuracy_score(y_true=y_test_set['isFlaky'], y_pred=predict_ensamble)
         precision=precision_score(y_true=y_test_set['isFlaky'], y_pred=predict_ensamble)

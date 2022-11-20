@@ -63,12 +63,13 @@ if __name__ == "__main__":
         else:
             experiment_id=experiment.experiment_id
         #Verifico se è stata eseguita gia una run per il progetto
-        experiment=mlflow.get_experiment_by_name("Validazione with-in project (Ensamble)") #Ottengo un object experiment
-        all_run=mlflow.search_runs(experiment_ids=[experiment.experiment_id])
-        if all_run.empty:
-            run_presente=False
-        else:
-            run_presente=(all_run['tags.mlflow.runName']==project).any()
+        run_presente=False
+        if not experiment_id is None:
+            all_run=mlflow.search_runs(experiment_ids=[experiment_id])
+            if all_run.empty:
+                run_presente=False
+            else:
+                run_presente=(all_run['tags.mlflow.runName']==project).any()
 
         if not run_presente:
             test_set=dataset_flaky.loc[dataset_flaky['nameProject'] == project]
